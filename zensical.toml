@@ -52,18 +52,18 @@ nav = [
     "03-estandares-metricas-e-inversion-responsable.md",
     "04-retos-ambientales-y-sociales-sector-informatico.md",
   ] },
-  { "Economía circular y sostenibilidad en TI" = [
-    "05-economia-circular-verde-y-ecodisenio.md",
-    "06-actividades-sostenibles-en-ti.md",
-    "07-plan-sostenibilidad-e-informe.md",
-  ] },
-  { "Prácticas y casos" = [
-    "08-practicas-y-trabajos-sector-informatico.md",
-    "09-casos-empresas-sector-informatico.md",
-  ] },
-  { "Recursos" = [
-    "10-glosario-recursos-bibliografia.md",
-  ] },
+  #{ "Economía circular y sostenibilidad en TI" = [
+  #  "05-economia-circular-verde-y-ecodisenio.md",
+  #  "06-actividades-sostenibles-en-ti.md",
+  #  "07-plan-sostenibilidad-e-informe.md",
+  #] },
+  #{ "Prácticas y casos" = [
+  #  "08-practicas-y-trabajos-sector-informatico.md",
+  #  "09-casos-empresas-sector-informatico.md",
+  #] },
+  #{ "Recursos" = [
+  #  "10-glosario-recursos-bibliografia.md",
+  #] },
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
