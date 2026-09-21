@@ -1,0 +1,1848 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A new project generated from the default template project.">
+      
+      
+        <meta name="author" content="<your name here>">
+      
+      
+      
+        <link rel="prev" href="../01-fundamentos-sostenibilidad/">
+      
+      
+        <link rel="next" href="../03-estandares-metricas-e-inversion-responsable/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.0.44">
+    
+    
+      
+        <title>02 · Aspectos ASG y grupos de interés - Documentation</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../assets/stylesheets/modern/main.fba56155.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../assets/stylesheets/modern/palette.dfe2e883.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="Navigation"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#02-aspectos-asg-y-grupos-de-interes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="./.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Navigation">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              02 · Aspectos ASG y grupos de interés
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="Search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+  <button type="button" class="md-search__button">
+    Search
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="./.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="./.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Inicio
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Fundamentos y marcos
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Fundamentos y marcos
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-fundamentos-sostenibilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  01 · Fundamentos de sostenibilidad y marcos internacionales
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  02 · Aspectos ASG y grupos de interés
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  02 · Aspectos ASG y grupos de interés
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-que-es-un-aspecto-asg" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1. ¿Qué es un "aspecto ASG"?
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. ¿Qué es un &quot;aspecto ASG&quot;?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-aspectos-ambientales-e" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.1 Aspectos ambientales (E)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-aspectos-sociales-s" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.2 Aspectos sociales (S)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-aspectos-de-gobernanza-g" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.3 Aspectos de gobernanza (G)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-grupos-de-interes-stakeholders" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2. Grupos de interés (stakeholders)
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Grupos de interés (stakeholders)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-clasificacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2.1 Clasificación
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-mapa-de-stakeholders-matriz-poderinteres" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2.2 Mapa de stakeholders (matriz poder/interés)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-materialidad-que-aspectos-asg-son-los-mas-relevantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3. Materialidad: qué aspectos ASG son "los más relevantes"
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Materialidad: qué aspectos ASG son &quot;los más relevantes&quot;">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-matriz-de-materialidad-eje-doble" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.1 Matriz de materialidad (eje doble)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-ejemplo-de-aspectos-materiales-tipicos-en-una-empresa-tic-grande" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.2 Ejemplo de aspectos materiales típicos en una empresa TIC grande
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-riesgos-y-oportunidades-asg" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4. Riesgos y oportunidades ASG
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Riesgos y oportunidades ASG">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-tipos-de-riesgo-asg" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4.1 Tipos de riesgo ASG
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-oportunidades-asg" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4.2 Oportunidades ASG
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-matriz-riesgo-oportunidad-por-aspecto-plantilla" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4.3 Matriz riesgo-oportunidad por aspecto (plantilla)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-del-diagnostico-asg-a-la-accion-flujo-de-trabajo-sugerido" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        5. Del diagnóstico ASG a la acción: flujo de trabajo sugerido
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-sintesis-ficha-resumen" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        6. Síntesis (ficha resumen)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-cuestionario-de-autoevaluacion-ra1bd" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7. Cuestionario de autoevaluación (RA1b–d)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-estandares-metricas-e-inversion-responsable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  03 · Estándares, métricas e inversión socialmente responsable
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-retos-ambientales-y-sociales-sector-informatico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  04 · Retos ambientales y sociales del sector informático
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Economía circular y sostenibilidad en TI
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Economía circular y sostenibilidad en TI
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-economia-circular-verde-y-ecodisenio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  05 · Economía circular, economía verde, ecodiseño y ciclo de vida
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-actividades-sostenibles-en-ti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  06 · Actividades sostenibles en TI y normativa ambiental
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-plan-sostenibilidad-e-informe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  07 · Plan de sostenibilidad e informe de sostenibilidad
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Prácticas y casos
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Prácticas y casos
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-practicas-y-trabajos-sector-informatico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  08 · Prácticas y trabajos centrados en el sector informático
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-casos-empresas-sector-informatico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  09 · Fichas de empresas del sector informático
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Recursos
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Recursos
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-glosario-recursos-bibliografia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  10 · Glosario, recursos y bibliografía
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-que-es-un-aspecto-asg" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1. ¿Qué es un "aspecto ASG"?
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. ¿Qué es un &quot;aspecto ASG&quot;?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-aspectos-ambientales-e" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.1 Aspectos ambientales (E)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-aspectos-sociales-s" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.2 Aspectos sociales (S)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-aspectos-de-gobernanza-g" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.3 Aspectos de gobernanza (G)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-grupos-de-interes-stakeholders" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2. Grupos de interés (stakeholders)
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Grupos de interés (stakeholders)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-clasificacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2.1 Clasificación
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-mapa-de-stakeholders-matriz-poderinteres" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2.2 Mapa de stakeholders (matriz poder/interés)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-materialidad-que-aspectos-asg-son-los-mas-relevantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3. Materialidad: qué aspectos ASG son "los más relevantes"
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Materialidad: qué aspectos ASG son &quot;los más relevantes&quot;">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-matriz-de-materialidad-eje-doble" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.1 Matriz de materialidad (eje doble)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-ejemplo-de-aspectos-materiales-tipicos-en-una-empresa-tic-grande" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.2 Ejemplo de aspectos materiales típicos en una empresa TIC grande
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-riesgos-y-oportunidades-asg" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4. Riesgos y oportunidades ASG
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Riesgos y oportunidades ASG">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-tipos-de-riesgo-asg" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4.1 Tipos de riesgo ASG
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-oportunidades-asg" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4.2 Oportunidades ASG
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-matriz-riesgo-oportunidad-por-aspecto-plantilla" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4.3 Matriz riesgo-oportunidad por aspecto (plantilla)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-del-diagnostico-asg-a-la-accion-flujo-de-trabajo-sugerido" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        5. Del diagnóstico ASG a la acción: flujo de trabajo sugerido
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-sintesis-ficha-resumen" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        6. Síntesis (ficha resumen)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-cuestionario-de-autoevaluacion-ra1bd" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7. Cuestionario de autoevaluación (RA1b–d)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="./.." class="md-path__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-path__item">
+        <a href="../01-fundamentos-sostenibilidad/" class="md-path__link">
+          
+  
+  <span class="md-ellipsis">
+    Fundamentos y marcos
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<h1 id="02-aspectos-asg-y-grupos-de-interes">02 · Aspectos ASG y grupos de interés<a class="headerlink" href="#02-aspectos-asg-y-grupos-de-interes" title="Permanent link">&para;</a></h1>
+<p><strong>Resultados de aprendizaje que cubre:</strong> RA1 (criterios b, d) · apoyo a RA6 (a, b)</p>
+<blockquote>
+<p><strong>Objetivo didáctico:</strong> identificar los asuntos ambientales, sociales y de gobernanza que
+influyen en el desarrollo sostenible de las organizaciones empresariales, relacionarlos con
+los grupos de interés y analizar los riesgos y oportunidades que suponen.</p>
+</blockquote>
+<hr />
+<h2 id="1-que-es-un-aspecto-asg">1. ¿Qué es un "aspecto ASG"?<a class="headerlink" href="#1-que-es-un-aspecto-asg" title="Permanent link">&para;</a></h2>
+<p>Un <strong>aspecto ASG</strong> (también llamado <em>tema</em> o <em>cuestión material</em>) es cualquier elemento de la
+actividad, producto o servicio de una empresa —o de su entorno— que puede:</p>
+<ul>
+<li>Generar un <strong>impacto positivo o negativo</strong> sobre el medio ambiente, las personas o la gobernanza.</li>
+<li>Afectar a la <strong>creación de valor</strong> económico (riesgo u oportunidad).</li>
+</ul>
+<p>Se clasifican en tres familias:</p>
+<h3 id="11-aspectos-ambientales-e">1.1 Aspectos ambientales (E)<a class="headerlink" href="#11-aspectos-ambientales-e" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Aspecto</th>
+<th>Ejemplo en sector TIC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Emisiones GEI (Alcance 1, 2 y 3)</td>
+<td>Electricidad de data centers, logística, fabricación de componentes.</td>
+</tr>
+<tr>
+<td>Consumo energético</td>
+<td>PUE de centros de datos, eficiencia de servidores, terminales.</td>
+</tr>
+<tr>
+<td>Consumo hídrico</td>
+<td>Refrigeración de data centers en zonas de estrés hídrico.</td>
+</tr>
+<tr>
+<td>Residuos electrónicos (RAEE)</td>
+<td>Fin de vida de PCs, servidores, móviles, baterías.</td>
+</tr>
+<tr>
+<td>Uso de materiales/minerales críticos</td>
+<td>Litio, cobalto, tierras raras, oro, cobre en electrónica.</td>
+</tr>
+<tr>
+<td>Contaminación y vertidos</td>
+<td>Procesos de fabricación de chips y placas.</td>
+</tr>
+<tr>
+<td>Pérdida de biodiversidad</td>
+<td>Ocupación del suelo por infraestructuras.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="12-aspectos-sociales-s">1.2 Aspectos sociales (S)<a class="headerlink" href="#12-aspectos-sociales-s" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Aspecto</th>
+<th>Ejemplo en sector TIC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Condiciones laborales</td>
+<td>Fábricas de componentes (cadena de suministro), horas, salarios.</td>
+</tr>
+<tr>
+<td>Igualdad y diversidad</td>
+<td>Brecha de género en el sector TIC, inclusión, accesibilidad.</td>
+</tr>
+<tr>
+<td>Salud y seguridad</td>
+<td>Ergonomía, teletrabajo, bienestar del personal técnico.</td>
+</tr>
+<tr>
+<td>Privacidad y protección de datos</td>
+<td>Manejo de datos personales (RGPD), ciberseguridad.</td>
+</tr>
+<tr>
+<td>Ética de la IA</td>
+<td>Sesgos algorítmicos, transparencia, impacto social de la automatización.</td>
+</tr>
+<tr>
+<td>Brecha digital / inclusión</td>
+<td>Acceso a tecnología en poblaciones vulnerables.</td>
+</tr>
+<tr>
+<td>Derechos humanos en cadena de suministro</td>
+<td>Trabajo infantil o forzado en minería de minerales.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="13-aspectos-de-gobernanza-g">1.3 Aspectos de gobernanza (G)<a class="headerlink" href="#13-aspectos-de-gobernanza-g" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Aspecto</th>
+<th>Ejemplo en sector TIC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Transparencia y rendición de cuentas</td>
+<td>Informes ASG, divulgación ESG, CSRD.</td>
+</tr>
+<tr>
+<td>Ética corporativa y cumplimiento</td>
+<td>Códigos de conducta, anticorrupción, lobby.</td>
+</tr>
+<tr>
+<td>Gobierno corporativo</td>
+<td>Composición del consejo, comités de sostenibilidad, retribución vinculada a KPIs ESG.</td>
+</tr>
+<tr>
+<td>Ciberseguridad y resiliencia</td>
+<td>Gobernanza de la seguridad informática (NIS2).</td>
+</tr>
+<tr>
+<td>Cadena de suministro responsable</td>
+<td>Política de proveedores, auditorías, trazabilidad.</td>
+</tr>
+<tr>
+<td>Gestión de conflictos de interés</td>
+<td>Uso ético de datos, IA generativa, propiedad intelectual.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Clave didáctica:</strong> en el sector TIC los aspectos <strong>G</strong> (gobernanza) y algunos <strong>S</strong>
+(privacidad, ética de la IA) son especialmente distintivos frente a otros sectores. El
+alumnado debe saber argumentar por qué la gobernanza tecnológica es un pilar propio del sector.</p>
+</blockquote>
+<hr />
+<h2 id="2-grupos-de-interes-stakeholders">2. Grupos de interés (stakeholders)<a class="headerlink" href="#2-grupos-de-interes-stakeholders" title="Permanent link">&para;</a></h2>
+<p>Criterio RA1.d: <em>"identificar los aspectos ASG más relevantes para los grupos de interés de
+las organizaciones relacionándolos con los riesgos y oportunidades."</em></p>
+<h3 id="21-clasificacion">2.1 Clasificación<a class="headerlink" href="#21-clasificacion" title="Permanent link">&para;</a></h3>
+<p><strong>Stakeholders internos:</strong></p>
+<ul>
+<li>Empleados y personal técnico.</li>
+<li>Accionistas / propietarios.</li>
+<li>Dirección y consejo.</li>
+</ul>
+<p><strong>Stakeholders externos:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Stakeholder</th>
+<th>Qué le preocupa (aspectos ASG típicos)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clientes / usuarios</td>
+<td>Privacidad, ciberseguridad, huella de carbono del producto, precio, accesibilidad.</td>
+</tr>
+<tr>
+<td>Inversores y analistas financieros</td>
+<td>Rendimiento ESG, riesgos reputacionales, retorno a largo plazo.</td>
+</tr>
+<tr>
+<td>Proveedores (cadena de suministro)</td>
+<td>Condiciones laborales, trazabilidad de materiales, estándares ambientales.</td>
+</tr>
+<tr>
+<td>Comunidad local</td>
+<td>Empleo, impacto ambiental de instalaciones, programas de inclusión digital.</td>
+</tr>
+<tr>
+<td>Administración pública / reguladores</td>
+<td>Cumplimiento normativo (CSRD, RGPD, NIS2, RAEE), impuestos.</td>
+</tr>
+<tr>
+<td>ONG y sociedad civil</td>
+<td>Compromisos climáticos, derechos humanos, ética de la IA.</td>
+</tr>
+<tr>
+<td>Competidores y sector</td>
+<td>Estándares comunes, innovación abierta, alianzas.</td>
+</tr>
+<tr>
+<td>Medios de comunicación</td>
+<td>Reputación, escándalos, comunicación ESG (greenwashing).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="22-mapa-de-stakeholders-matriz-poderinteres">2.2 Mapa de stakeholders (matriz poder/interés)<a class="headerlink" href="#22-mapa-de-stakeholders-matriz-poderinteres" title="Permanent link">&para;</a></h3>
+<p>Herramienta básica para priorizar:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>                ALTO INTERÉS
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>                       │
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>     COLABORAR         │        GESTIONAR DE CERCA
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>   (satisfacer y       │      (informar e implicar,
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    implicar)          │       mayor atención)
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>                       │
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>  BAJO PODER ──────────┼────────── ALTO PODER
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>                       │
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>     MANTENER          │        SUPERVIGILAR
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>   (información        │      (monitoreo continuo,
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    básica)            │       riesgo si se descuidan)
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>                       │
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>                BAJO INTERÉS
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>Ejemplo: clientes potenciales → &quot;gestionar de cerca&quot;;
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>prensa → &quot;supervigilar&quot;; comunidad lejana → &quot;mantener&quot;.
+</span></code></pre></div>
+<blockquote>
+<p><strong>Actividad (RA1.d / RA6.a):</strong> cada grupo elabora el mapa de stakeholders de su empresa TIC
+colocando al menos 8 grupos en la matriz y justificando su posición.</p>
+</blockquote>
+<hr />
+<h2 id="3-materialidad-que-aspectos-asg-son-los-mas-relevantes">3. Materialidad: qué aspectos ASG son "los más relevantes"<a class="headerlink" href="#3-materialidad-que-aspectos-asg-son-los-mas-relevantes" title="Permanent link">&para;</a></h2>
+<p>No todos los aspectos ASG tienen el mismo peso para una empresa concreta. La <strong>materialidad</strong>
+determina cuáles son prioritarios.</p>
+<h3 id="31-matriz-de-materialidad-eje-doble">3.1 Matriz de materialidad (eje doble)<a class="headerlink" href="#31-matriz-de-materialidad-eje-doble" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>IMPACTO EN LA EMPRESA (financiero/estratégico)
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>        ALTO │  ZONA CRÍTICA: temas que
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>             │  afectan al valor y a la
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>   ─────────┼─────────── reputación. Prioridad máxima.
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>             │
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>             │
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>        BAJO │  Temas de menor peso relativo,
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>             │  pero no despreciables.
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>   ─────────┴────────────
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>          BAJO        ALTO
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>IMPACTO EN PERSONAS/PLANETA (temático)
+</span></code></pre></div>
+<p>Los temas que caen en la <strong>zona crítica</strong> (alto impacto en ambas direcciones) son los
+<strong>aspectos ASG materiales</strong>. Son los que se gestionan con más detalle y se reportan.</p>
+<h3 id="32-ejemplo-de-aspectos-materiales-tipicos-en-una-empresa-tic-grande">3.2 Ejemplo de aspectos materiales típicos en una empresa TIC grande<a class="headerlink" href="#32-ejemplo-de-aspectos-materiales-tipicos-en-una-empresa-tic-grande" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Emisiones GEI Alcance 1, 2 y 3 (clima).</li>
+<li>Consumo y origen de la energía eléctrica (renovable vs fósil).</li>
+<li>Residuos electrónicos y economía circular.</li>
+<li>Privacidad y ciberseguridad de datos.</li>
+<li>Ética y transparencia de la IA.</li>
+<li>Condiciones laborales en la cadena de suministro de componentes.</li>
+<li>Transparencia y gobernanza (CSRD, comité de sostenibilidad).</li>
+</ul>
+<blockquote>
+<p><strong>Nota:</strong> cada empresa es distinta. Un fabricante de hardware (HP, Dell) pondrá más peso en
+residuos electrónicos y materiales; un proveedor de cloud (Microsoft, Google) en energía y
+agua de data centers; una consultora (Indra/Minsait) en la huella de sus proyectos y del
+personal. El alumnado debe <strong>justificar</strong> esta diferencia.</p>
+</blockquote>
+<hr />
+<h2 id="4-riesgos-y-oportunidades-asg">4. Riesgos y oportunidades ASG<a class="headerlink" href="#4-riesgos-y-oportunidades-asg" title="Permanent link">&para;</a></h2>
+<p>Criterio RA1.d exige relacionar los aspectos con <strong>riesgos y oportunidades</strong>. En sostenibilidad
+se usa el marco <strong>TRL</strong> (Threats and Risks / Opportunities), a menudo alineado con la norma
+<strong>ISO 31000</strong> (gestión de riesgos) y el informe del TCFD.</p>
+<h3 id="41-tipos-de-riesgo-asg">4.1 Tipos de riesgo ASG<a class="headerlink" href="#41-tipos-de-riesgo-asg" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Descripción</th>
+<th>Ejemplo TIC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Físico agudo</strong></td>
+<td>Daño puntual por eventos climáticos.</td>
+<td>Inundación que daña un data center.</td>
+</tr>
+<tr>
+<td><strong>Físico crónico</strong></td>
+<td>Cambio gradual del clima.</td>
+<td>Aumento de temperaturas que obliga a refrigerar más (mayor consumo).</td>
+</tr>
+<tr>
+<td><strong>De transición</strong></td>
+<td>Riesgo por el cambio hacia la economía baja en carbono.</td>
+<td>Obsolescencia de equipos no eficientes, nuevos impuestos al carbono, pérdida de clientes por ineficiencia.</td>
+</tr>
+<tr>
+<td><strong>Reputacional</strong></td>
+<td>Daño a la imagen por percepción ESG.</td>
+<td>Greenwashing detectado, escándalo de privacidad.</td>
+</tr>
+<tr>
+<td><strong>Legal / regulatorio</strong></td>
+<td>Incumplimiento de normativa ASG.</td>
+<td>Multas por CSRD, RGPD o RAEE.</td>
+</tr>
+<tr>
+<td><strong>De mercado</strong></td>
+<td>Pérdida de competitividad.</td>
+<td>Competidores con producto más sostenible y eficiente.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="42-oportunidades-asg">4.2 Oportunidades ASG<a class="headerlink" href="#42-oportunidades-asg" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Eficiencia energética</strong> que reduce costes (menor factura eléctrica).</li>
+<li><strong>Nuevos mercados verdes:</strong> software de descarbonización, hardware circular, servicios ESG.</li>
+<li><strong>Acceso a capital:</strong> inversión responsable, bonos verdes, mejores condiciones de financiación.</li>
+<li><strong>Retención y atracción de talento</strong> (los profesionales valoran la misión sostenible).</li>
+<li><strong>Resiliencia operativa</strong> ante escasez de recursos o regulación.</li>
+</ul>
+<h3 id="43-matriz-riesgo-oportunidad-por-aspecto-plantilla">4.3 Matriz riesgo-oportunidad por aspecto (plantilla)<a class="headerlink" href="#43-matriz-riesgo-oportunidad-por-aspecto-plantilla" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Aspecto ASG</th>
+<th>Riesgo (tipo)</th>
+<th>Probabilidad</th>
+<th>Impacto</th>
+<th>Oportunidad asociada</th>
+<th>Acción propuesta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Emisiones Alcance 2</td>
+<td>De transición</td>
+<td>Alta</td>
+<td>Alto</td>
+<td>Reducir costes energéticos</td>
+<td>Comprometer energía 100 % renovable en data centers</td>
+</tr>
+<tr>
+<td>Residuos electrónicos</td>
+<td>Legal (RAEE)</td>
+<td>Media</td>
+<td>Medio</td>
+<td>Modelo de reventa/reciclaje con ingresos</td>
+<td>Programa de recogida y reacondicionado</td>
+</tr>
+<tr>
+<td>Ética de la IA</td>
+<td>Reputacional</td>
+<td>Media</td>
+<td>Alto</td>
+<td>Diferenciación por IA confiable</td>
+<td>Auditorías de sesgo y transparencia</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Actividad (RA1.d):</strong> para los 3–5 aspectos materiales elegidos, el grupo completa esta
+matriz identificando al menos un riesgo y una oportunidad por aspecto.</p>
+</blockquote>
+<hr />
+<h2 id="5-del-diagnostico-asg-a-la-accion-flujo-de-trabajo-sugerido">5. Del diagnóstico ASG a la acción: flujo de trabajo sugerido<a class="headerlink" href="#5-del-diagnostico-asg-a-la-accion-flujo-de-trabajo-sugerido" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>1. Elegir empresa TIC → 2. Listar aspectos E, S y G (≥3 E, ≥3 S, ≥2 G)
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>   → 3. Mapear stakeholders (matriz poder/interés)
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>   → 4. Priorizar por materialidad (qué afecta a la empresa y qué la afecta)
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>   → 5. Relacionar con ODS prioritarios
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>   → 6. Analizar riesgos y oportunidades por aspecto material
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>   → 7. Proponer acciones iniciales (se desarrolla en RA6 / T3)
+</span></code></pre></div>
+<p>Este flujo es exactamente el que se ejecuta en el <strong>Trimestre 1</strong> del trabajo grupal
+(ver <a href="../08-practicas-y-trabajos-sector-informatico/"><code>08-practicas-y-trabajos-sector-informatico.md</code></a>).</p>
+<hr />
+<h2 id="6-sintesis-ficha-resumen">6. Síntesis (ficha resumen)<a class="headerlink" href="#6-sintesis-ficha-resumen" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>ASPECTO ASG = elemento que genera impacto E/S/G o afecta al valor económico.
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  E: emisiones, energía, agua, residuos, materiales críticos.
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>  S: laboral, igualdad, privacidad, ética IA, brecha digital.
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>  G: transparencia, ética, ciberseguridad, cadena de suministro, gobernanza.
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>STAKEHOLDERS = internos (empleados, accionistas) + externos (clientes, inversores,
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>   proveedores, comunidad, reguladores, ONG, prensa). Se priorizan con matriz poder/interés.
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>MATERIALIDAD = qué aspectos son &quot;los que de verdad importan&quot; para ESA empresa.
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>   Se decide por impacto en la empresa (financiero) x impacto en personas/planeta (temático).
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>RIESGOS ASG: físico agudo/crónico, transición, reputacional, legal, mercado.
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>OPORTUNIDADES: eficiencia, nuevos mercados verdes, acceso a capital, talento, resiliencia.
+</span></code></pre></div>
+<hr />
+<h2 id="7-cuestionario-de-autoevaluacion-ra1bd">7. Cuestionario de autoevaluación (RA1b–d)<a class="headerlink" href="#7-cuestionario-de-autoevaluacion-ra1bd" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Diferencia un aspecto ambiental de uno social y de uno de gobernanza, con ejemplo TIC.</li>
+<li>¿Por qué la gobernanza tecnológica (ciberseguridad, ética IA) es un pilar propio del sector?</li>
+<li>Construye una matriz poder/interés para una empresa cloud con 8 stakeholders.</li>
+<li>¿Qué es materialidad y por qué no son iguales los aspectos materiales de HP y de Microsoft?</li>
+<li>Clasifica tres riesgos ASG (físico, transición, reputacional) en el contexto TIC.</li>
+<li>Propón dos oportunidades ASG para una consultora tecnológica española.</li>
+</ol>
+<blockquote>
+<p>Soluciones orientativas en <a href="../10-glosario-recursos-bibliografia/"><code>10-glosario-recursos-bibliografia.md</code></a>.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../01-fundamentos-sostenibilidad/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 01 · Fundamentos de sostenibilidad y marcos internacionales">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                01 · Fundamentos de sostenibilidad y marcos internacionales
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../03-estandares-metricas-e-inversion-responsable/" class="md-footer__link md-footer__link--next" aria-label="Next: 03 · Estándares, métricas e inversión socialmente responsable">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                03 · Estándares, métricas e inversión socialmente responsable
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 The authors
+
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.top","navigation.tracking","search.highlight"],"search":"../assets/javascripts/workers/search.e2d2d235.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.6e5f0216.min.js"></script>
+      
+    
+  </body>
+</html>

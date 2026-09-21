@@ -1,0 +1,1926 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A new project generated from the default template project.">
+      
+      
+        <meta name="author" content="<your name here>">
+      
+      
+      
+        <link rel="prev" href="../02-aspectos-ASG-y-grupos-de-interes/">
+      
+      
+        <link rel="next" href="../04-retos-ambientales-y-sociales-sector-informatico/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.0.44">
+    
+    
+      
+        <title>03 · Estándares, métricas e inversión socialmente responsable - Documentation</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../assets/stylesheets/modern/main.fba56155.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../assets/stylesheets/modern/palette.dfe2e883.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="Navigation"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#03-estandares-metricas-e-inversion-socialmente-responsable" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="./.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Navigation">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              03 · Estándares, métricas e inversión socialmente responsable
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="Search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+  <button type="button" class="md-search__button">
+    Search
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="./.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="./.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Inicio
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Fundamentos y marcos
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Fundamentos y marcos
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-fundamentos-sostenibilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  01 · Fundamentos de sostenibilidad y marcos internacionales
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-aspectos-ASG-y-grupos-de-interes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  02 · Aspectos ASG y grupos de interés
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  03 · Estándares, métricas e inversión socialmente responsable
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  03 · Estándares, métricas e inversión socialmente responsable
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-panorama-de-estandares-y-marcos-de-reporte-asg" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1. Panorama de estándares y marcos de reporte ASG
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Panorama de estándares y marcos de reporte ASG">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-normas-iso-organizacion-internacional-de-normalizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.1 Normas ISO (Organización Internacional de Normalización)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-gri-global-reporting-initiative" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.2 GRI (Global Reporting Initiative)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-sasb-issb-ifrs-s1-y-s2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.3 SASB → ISSB (IFRS S1 y S2)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-cdp-carbon-disclosure-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.4 CDP (Carbon Disclosure Project)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-otros-marcos" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.5 Otros marcos
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-cuadro-comparativo-rapido" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.6 Cuadro comparativo rápido
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-metricas-y-kpis-tipicos-del-sector-tic" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2. Métricas y KPIs típicos del sector TIC
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Métricas y KPIs típicos del sector TIC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-indicadores-ambientales-e" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2.1 Indicadores ambientales (E)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-indicadores-sociales-s" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2.2 Indicadores sociales (S)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-indicadores-de-gobernanza-g" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2.3 Indicadores de gobernanza (G)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-inversion-socialmente-responsable-ra1f" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3. Inversión socialmente responsable (RA1.f)
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Inversión socialmente responsable (RA1.f)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-concepto" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.1 Concepto
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-actores-del-ecosistema-isr" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.2 Actores del ecosistema ISR
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-principales-indices-y-agencias-fichas-breves" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.3 Principales índices y agencias (fichas breves)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-efecto-sobre-las-empresas-tic" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.4 Efecto sobre las empresas TIC
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-regulacion-que-marca-la-rendicion-de-cuentas-contexto-ra1e" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4. Regulación que marca la rendición de cuentas (contexto RA1.e)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-sintesis-ficha-resumen" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        5. Síntesis (ficha resumen)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-cuestionario-de-autoevaluacion-ra1ef" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        6. Cuestionario de autoevaluación (RA1e–f)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-retos-ambientales-y-sociales-sector-informatico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  04 · Retos ambientales y sociales del sector informático
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Economía circular y sostenibilidad en TI
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Economía circular y sostenibilidad en TI
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-economia-circular-verde-y-ecodisenio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  05 · Economía circular, economía verde, ecodiseño y ciclo de vida
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-actividades-sostenibles-en-ti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  06 · Actividades sostenibles en TI y normativa ambiental
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-plan-sostenibilidad-e-informe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  07 · Plan de sostenibilidad e informe de sostenibilidad
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Prácticas y casos
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Prácticas y casos
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-practicas-y-trabajos-sector-informatico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  08 · Prácticas y trabajos centrados en el sector informático
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-casos-empresas-sector-informatico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  09 · Fichas de empresas del sector informático
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Recursos
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Recursos
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-glosario-recursos-bibliografia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  10 · Glosario, recursos y bibliografía
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-panorama-de-estandares-y-marcos-de-reporte-asg" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1. Panorama de estándares y marcos de reporte ASG
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Panorama de estándares y marcos de reporte ASG">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-normas-iso-organizacion-internacional-de-normalizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.1 Normas ISO (Organización Internacional de Normalización)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-gri-global-reporting-initiative" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.2 GRI (Global Reporting Initiative)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-sasb-issb-ifrs-s1-y-s2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.3 SASB → ISSB (IFRS S1 y S2)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-cdp-carbon-disclosure-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.4 CDP (Carbon Disclosure Project)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-otros-marcos" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.5 Otros marcos
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-cuadro-comparativo-rapido" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1.6 Cuadro comparativo rápido
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-metricas-y-kpis-tipicos-del-sector-tic" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2. Métricas y KPIs típicos del sector TIC
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Métricas y KPIs típicos del sector TIC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-indicadores-ambientales-e" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2.1 Indicadores ambientales (E)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-indicadores-sociales-s" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2.2 Indicadores sociales (S)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-indicadores-de-gobernanza-g" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2.3 Indicadores de gobernanza (G)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-inversion-socialmente-responsable-ra1f" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3. Inversión socialmente responsable (RA1.f)
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Inversión socialmente responsable (RA1.f)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-concepto" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.1 Concepto
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-actores-del-ecosistema-isr" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.2 Actores del ecosistema ISR
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-principales-indices-y-agencias-fichas-breves" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.3 Principales índices y agencias (fichas breves)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-efecto-sobre-las-empresas-tic" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.4 Efecto sobre las empresas TIC
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-regulacion-que-marca-la-rendicion-de-cuentas-contexto-ra1e" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4. Regulación que marca la rendición de cuentas (contexto RA1.e)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-sintesis-ficha-resumen" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        5. Síntesis (ficha resumen)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-cuestionario-de-autoevaluacion-ra1ef" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        6. Cuestionario de autoevaluación (RA1e–f)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="./.." class="md-path__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-path__item">
+        <a href="../01-fundamentos-sostenibilidad/" class="md-path__link">
+          
+  
+  <span class="md-ellipsis">
+    Fundamentos y marcos
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<h1 id="03-estandares-metricas-e-inversion-socialmente-responsable">03 · Estándares, métricas e inversión socialmente responsable<a class="headerlink" href="#03-estandares-metricas-e-inversion-socialmente-responsable" title="Permanent link">&para;</a></h1>
+<p><strong>Resultados de aprendizaje que cubre:</strong> RA1 (criterios e, f)</p>
+<blockquote>
+<p><strong>Objetivo didáctico:</strong> identificar los principales estándares de métricas para la evaluación
+del desempeño en sostenibilidad y su papel en la rendición de cuentas; describir la inversión
+socialmente responsable y el papel de analistas, inversores, agencias e índices.</p>
+</blockquote>
+<hr />
+<h2 id="1-panorama-de-estandares-y-marcos-de-reporte-asg">1. Panorama de estándares y marcos de reporte ASG<a class="headerlink" href="#1-panorama-de-estandares-y-marcos-de-reporte-asg" title="Permanent link">&para;</a></h2>
+<p>Criterio RA1.e: <em>"identificar los principales estándares de métricas para la evaluación del
+desempeño en sostenibilidad y su papel en la rendición de cuentas que marca la legislación
+vigente y las futuras regulaciones en desarrollo."</em></p>
+<h3 id="11-normas-iso-organizacion-internacional-de-normalizacion">1.1 Normas ISO (Organización Internacional de Normalización)<a class="headerlink" href="#11-normas-iso-organizacion-internacional-de-normalizacion" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Norma</th>
+<th>Ámbito</th>
+<th>Uso en sector TIC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ISO 26000</strong></td>
+<td>Orientaciones sobre responsabilidad social.</td>
+<td>Marco general de comportamiento responsable.</td>
+</tr>
+<tr>
+<td><strong>ISO 14001</strong></td>
+<td>Sistemas de gestión ambiental.</td>
+<td>Certificación de la gestión ambiental de instalaciones/procesos.</td>
+</tr>
+<tr>
+<td><strong>ISO 50001</strong></td>
+<td>Sistemas de gestión de energía.</td>
+<td>Eficiencia energética en data centers y oficinas.</td>
+</tr>
+<tr>
+<td><strong>ISO 14064-1</strong></td>
+<td>Cuantificación e informe de GEI (organización).</td>
+<td>Inventario de huella de carbono (Alcances 1, 2, 3).</td>
+</tr>
+<tr>
+<td><strong>ISO 14067</strong></td>
+<td>Huella de carbono de productos.</td>
+<td>LCA / huella por producto o servicio TIC.</td>
+</tr>
+<tr>
+<td><strong>ISO 31000</strong></td>
+<td>Gestión de riesgos.</td>
+<td>Riesgos ASG (ver §4 del archivo 02).</td>
+</tr>
+<tr>
+<td><strong>ISO 14001/50001 + 14064</strong> combinadas</td>
+<td>Base técnica de la mayoría de inventarios.</td>
+<td>Estándar de facto para reportes climáticos.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Punto clave:</strong> ISO 14064-1 es la norma técnica sobre la que se construyen los inventarios
+de GEI; el protocolo <strong>GHG Protocol</strong> (WRI/WBCSD) es su complemento más usado en empresas.</p>
+</blockquote>
+<h3 id="12-gri-global-reporting-initiative">1.2 GRI (Global Reporting Initiative)<a class="headerlink" href="#12-gri-global-reporting-initiative" title="Permanent link">&para;</a></h3>
+<ul>
+<li>El marco de reporte de sostenibilidad <strong>más utilizado a nivel global</strong>.</li>
+<li>Estructura: <strong>estándares universales</strong> (general, aspectos temáticos) + <strong>temas específicos</strong>
+  (emisiones, agua, residuos, diversidad, datos, etc.).</li>
+<li>Principio rector: <strong>materialidad temática</strong> (qué afecta a la empresa y qué la afecta).</li>
+<li>El alumnado usará la lógica GRI para estructurar el informe de sostenibilidad del T3.</li>
+</ul>
+<h3 id="13-sasb-issb-ifrs-s1-y-s2">1.3 SASB → ISSB (IFRS S1 y S2)<a class="headerlink" href="#13-sasb-issb-ifrs-s1-y-s2" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>SASB</strong> (Sustainability Accounting Standards Board): estándares sectoriales de materialidad
+  financiera (cómo los temas ASG afectan al valor económico).</li>
+<li>En 2022 SASB se integra en el <strong>ISSB</strong> (International Sustainability Standards Board, bajo IFRS
+  Foundation), que publica:</li>
+<li><strong>IFRS S1:</strong> información general sobre sostenibilidad.</li>
+<li><strong>IFRS S2:</strong> divulgación de información climática (alineada con TCFD).</li>
+<li>Son la base de la futura contabilidad ESG internacional y se alinean con la CSRD europea.</li>
+</ul>
+<h3 id="14-cdp-carbon-disclosure-project">1.4 CDP (Carbon Disclosure Project)<a class="headerlink" href="#14-cdp-carbon-disclosure-project" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Plataforma global de divulgación ambiental a inversores.</li>
+<li>Cuestionarios por tema: <strong>Clima, Agua, Bosques</strong>.</li>
+<li>Las empresas TIC responden al cuestionario climático; las calificaciones (A–D) influyen en la
+  percepción de inversores y clientes.</li>
+</ul>
+<h3 id="15-otros-marcos">1.5 Otros marcos<a class="headerlink" href="#15-otros-marcos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>AA1000:</strong> estándar de aseguramiento y materialidad de la responsabilidad social.</li>
+<li><strong>TCFD</strong> (Task Force on Climate-related Financial Disclosures): divulgación financiera climática
+  (gobernanza, estrategia, gestión de riesgos, indicadores). Adoptado por ISSB/IFRS S2.</li>
+<li><strong>UNGP / OIT:</strong> principios rectores de derechos humanos y empresas.</li>
+</ul>
+<h3 id="16-cuadro-comparativo-rapido">1.6 Cuadro comparativo rápido<a class="headerlink" href="#16-cuadro-comparativo-rapido" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Marco</th>
+<th>Enfoque</th>
+<th>¿Qué mide?</th>
+<th>Uso típico</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ISO 14064 / GHG Protocol</td>
+<td>Técnico-medible</td>
+<td>Emisiones GEI (tCO₂e)</td>
+<td>Inventario de huella</td>
+</tr>
+<tr>
+<td>GRI</td>
+<td>Reporte integral</td>
+<td>Aspectos materiales E/S/G</td>
+<td>Informe de sostenibilidad</td>
+</tr>
+<tr>
+<td>IFRS S1/S2 (ISSB)</td>
+<td>Materialidad financiera</td>
+<td>Riesgos/oportunidades ASG que afectan al valor</td>
+<td>Divulgación a inversores</td>
+</tr>
+<tr>
+<td>CDP</td>
+<td>Divulgación a capital</td>
+<td>Clima, agua, bosques</td>
+<td>Calificación por inversores</td>
+</tr>
+<tr>
+<td>TCFD</td>
+<td>Climático-financiero</td>
+<td>4 pilares (gobernanza, estrategia, riesgo, KPIs)</td>
+<td>Reporte climático</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="2-metricas-y-kpis-tipicos-del-sector-tic">2. Métricas y KPIs típicos del sector TIC<a class="headerlink" href="#2-metricas-y-kpis-tipicos-del-sector-tic" title="Permanent link">&para;</a></h2>
+<p>Criterio RA1.e / RA6.d: <em>"determinar las métricas de evaluación del desempeño de acuerdo con
+los estándares de sostenibilidad más ampliamente utilizados."</em></p>
+<h3 id="21-indicadores-ambientales-e">2.1 Indicadores ambientales (E)<a class="headerlink" href="#21-indicadores-ambientales-e" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>KPI</th>
+<th>Unidad</th>
+<th>Referencia/estándar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Emisiones GEI Alcance 1</td>
+<td>tCO₂e</td>
+<td>ISO 14064-1 / GHG Protocol</td>
+</tr>
+<tr>
+<td>Emisiones GEI Alcance 2 (mercado y ubicación)</td>
+<td>tCO₂e</td>
+<td>GHG Protocol</td>
+</tr>
+<tr>
+<td>Emisiones GEI Alcance 3</td>
+<td>tCO₂e</td>
+<td>GHG Protocol</td>
+</tr>
+<tr>
+<td>Consumo eléctrico total</td>
+<td>MWh</td>
+<td>ISO 50001</td>
+</tr>
+<tr>
+<td>% energía renovable</td>
+<td>%</td>
+<td>CDP / GRI 305</td>
+</tr>
+<tr>
+<td><strong>PUE</strong> (Power Usage Effectiveness)</td>
+<td>ratio</td>
+<td>Green Grid (eficiencia de data centers)</td>
+</tr>
+<tr>
+<td><strong>WUE</strong> (Water Usage Effectiveness)</td>
+<td>L/kWh</td>
+<td>Green Grid (huella hídrica)</td>
+</tr>
+<tr>
+<td>Residuos electrónicos generados</td>
+<td>kg o %</td>
+<td>GRI 306 / RAEE</td>
+</tr>
+<tr>
+<td>% materiales reciclados/reutilizados</td>
+<td>%</td>
+<td>GRI 301 / ecodiseño UE</td>
+</tr>
+<tr>
+<td>Huella hídrica total</td>
+<td>m³</td>
+<td>ISO 14046 (huella hídrica)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>PUE</strong> es el indicador estrella del sector: <code>PUE = energía total del data center / energía
+de los sistemas IT</code>. Un PUE de 1,0 es ideal (toda la energía va a IT); hoy los mejores están
+en torno a 1,1. Es perfecto para prácticas cuantitativas.</p>
+</blockquote>
+<h3 id="22-indicadores-sociales-s">2.2 Indicadores sociales (S)<a class="headerlink" href="#22-indicadores-sociales-s" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>KPI</th>
+<th>Unidad</th>
+<th>Referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>% mujeres en plantilla / puestos técnicos</td>
+<td>%</td>
+<td>GRI 405 (igualdad)</td>
+</tr>
+<tr>
+<td>Rotación de personal</td>
+<td>%</td>
+<td>GRI 401</td>
+</tr>
+<tr>
+<td>Horas de formación por empleado</td>
+<td>h</td>
+<td>GRI 404</td>
+</tr>
+<tr>
+<td>Incidentes de seguridad/privacidad</td>
+<td>nº</td>
+<td>RGPD / NIS2</td>
+</tr>
+<tr>
+<td>Satisfacción laboral</td>
+<td>índice</td>
+<td>encuesta interna</td>
+</tr>
+<tr>
+<td>Diversidad e inclusión (D&amp;I)</td>
+<td>% / índice</td>
+<td>GRI 405</td>
+</tr>
+</tbody>
+</table>
+<h3 id="23-indicadores-de-gobernanza-g">2.3 Indicadores de gobernanza (G)<a class="headerlink" href="#23-indicadores-de-gobernanza-g" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>KPI</th>
+<th>Unidad</th>
+<th>Referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Existencia de comité de sostenibilidad</td>
+<td>sí/no</td>
+<td>IFRS S1</td>
+</tr>
+<tr>
+<td>% retribución vinculada a KPIs ESG</td>
+<td>%</td>
+<td>GRI 207</td>
+</tr>
+<tr>
+<td>Informes ASG asegurados (externos)</td>
+<td>% / año</td>
+<td>AA1000 / CSRD</td>
+</tr>
+<tr>
+<td>Cumplimiento de código ético</td>
+<td>% / nº incidencias</td>
+<td>GRI 205</td>
+</tr>
+<tr>
+<td>Nº proveedores auditados en sostenibilidad</td>
+<td>%</td>
+<td>GRI 308</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="3-inversion-socialmente-responsable-ra1f">3. Inversión socialmente responsable (RA1.f)<a class="headerlink" href="#3-inversion-socialmente-responsable-ra1f" title="Permanent link">&para;</a></h2>
+<p>Criterio RA1.f: <em>"describir la inversión socialmente responsable y el papel de los analistas,
+inversores, agencias e índices de sostenibilidad en el fomento de la sostenibilidad."</em></p>
+<h3 id="31-concepto">3.1 Concepto<a class="headerlink" href="#31-concepto" title="Permanent link">&para;</a></h3>
+<p>La <strong>inversión socialmente responsable (ISR)</strong> integra criterios ASG en las decisiones de
+inversión, más allá del retorno financiero puramente corto. Formas:</p>
+<ul>
+<li><strong>Screening negativo:</strong> excluir sectores/empresas problemáticas (armas, tabaco, carbón).</li>
+<li><strong>Screening positivo (best-in-class):</strong> seleccionar líderes ESG por sector.</li>
+<li><strong>Inversión de impacto:</strong> buscar un impacto social/ambiental medible y explícito.</li>
+<li><strong>ESG integration:</strong> incorporar sistemáticamente los factores ASG al análisis financiero.</li>
+<li><strong>Activismo accionarial (engagement/shareholder activism):</strong> presionar a las empresas para
+  mejorar su desempeño ESG.</li>
+</ul>
+<h3 id="32-actores-del-ecosistema-isr">3.2 Actores del ecosistema ISR<a class="headerlink" href="#32-actores-del-ecosistema-isr" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Actor</th>
+<th>Papel en el fomento de la sostenibilidad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Inversores institucionales</strong> (fondos de pensiones, seguros, family offices)</td>
+<td>Condicionan financiación a mejoras ESG; grandes dueños de empresas TIC.</td>
+</tr>
+<tr>
+<td><strong>Analistas ESG / analistas financieros</strong></td>
+<td>Evalúan y califican el desempeño ASG; incorporan riesgos ASG a valoraciones.</td>
+</tr>
+<tr>
+<td><strong>Agencias de rating ESG</strong> (MSCI, S&amp;P Global, CDP, Sustainalytics, ISS)</td>
+<td>Otorgan calificaciones (AAA–CCC) que mueven flujos de capital.</td>
+</tr>
+<tr>
+<td><strong>Índices de sostenibilidad</strong> (DJSI, FTSE4Good, EcoVadis, MSCI ESG Leaders)</td>
+<td>Recopilan empresas líderes; los fondos los usan como referencia de inversión.</td>
+</tr>
+<tr>
+<td><strong>Reguladores</strong> (CSRD, SFDR, Taxonomía UE)</td>
+<td>Obligan a reportar y a etiquetar productos financieros "verdes".</td>
+</tr>
+</tbody>
+</table>
+<h3 id="33-principales-indices-y-agencias-fichas-breves">3.3 Principales índices y agencias (fichas breves)<a class="headerlink" href="#33-principales-indices-y-agencias-fichas-breves" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>DJSI (Dow Jones Sustainability Indices):</strong> los índices de sostenibilidad más antiguos y
+  reconocidos; incluyen a empresas líderes por tamaño y sector.</li>
+<li><strong>MSCI ESG Ratings:</strong> calificación AAA (líder) a CCC (alto riesgo); muy usada por fondos.</li>
+<li><strong>S&amp;P Global CSA / Corporate Sustainability Assessment:</strong> evaluación que alimenta el DJSI.</li>
+<li><strong>EcoVadis:</strong> medalla (platino/oro/plata/bronce) por desempeño RSE; popular en cadenas de suministro (muy usado para calificar proveedores TIC).</li>
+<li><strong>CDP:</strong> calificación climática/hídrica A–D; referencia para riesgo climático.</li>
+<li><strong>FTSE4Good:</strong> índice de empresas con prácticas ASG sólidas (Londres).</li>
+</ul>
+<h3 id="34-efecto-sobre-las-empresas-tic">3.4 Efecto sobre las empresas TIC<a class="headerlink" href="#34-efecto-sobre-las-empresas-tic" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Una mala calificación ESG puede encarecer el capital y perder clientes corporativos.</li>
+<li>Una buena calificación abre acceso a <strong>bonos verdes</strong> y a fondos de inversión responsable.</li>
+<li>El alumnado debe entender que la sostenibilidad es hoy un <strong>factor financiero</strong>, no solo ético.</li>
+</ul>
+<blockquote>
+<p><strong>Regulación financiera vinculada:</strong> el <strong>SFDR</strong> (Sustainable Finance Disclosure Regulation)
+obliga a los gestores financieros a revelar su integración de riesgos ASG; y la <strong>Taxonomía UE</strong>
+define qué actividades son "ambientalmente sostenibles" para canalizar inversión verde real
+y evitar el <em>greenwashing</em>.</p>
+</blockquote>
+<hr />
+<h2 id="4-regulacion-que-marca-la-rendicion-de-cuentas-contexto-ra1e">4. Regulación que marca la rendición de cuentas (contexto RA1.e)<a class="headerlink" href="#4-regulacion-que-marca-la-rendicion-de-cuentas-contexto-ra1e" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Norma</th>
+<th>Qué obliga</th>
+<th>Plazo/estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CSRD</strong> (Reg. UE 2022/2464)</td>
+<td>Reporte de doble materialidad con estándares ESRS, con aseguramiento externo.</td>
+<td>Aplica progresivamente desde el ejercicio 2024–2028 según tamaño.</td>
+</tr>
+<tr>
+<td><strong>ESRS</strong> (Estándares Europeos de Reporte de Sostenibilidad)</td>
+<td>10 temas transversales + sectoriales; métricas detalladas.</td>
+<td>Aprobados por la ESMA/Commission (2023).</td>
+</tr>
+<tr>
+<td><strong>Taxonomía UE</strong></td>
+<td>Clasificar actividades "verdes"; evitar greenwashing.</td>
+<td>En vigor, sectores progresivos.</td>
+</tr>
+<tr>
+<td><strong>SFDR</strong></td>
+<td>Divulgación de sostenibilidad en productos financieros.</td>
+<td>En vigor desde 2021–2023.</td>
+</tr>
+<tr>
+<td><strong>Reglamento de debida diligencia (CSDDD)</strong></td>
+<td>Debida diligencia en derechos humanos y medio ambiente en cadenas de valor.</td>
+<td>En tramitación/implantación progresiva.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Conclusión para el alumnado:</strong> la "rendición de cuentas" ya no es voluntaria: CSRD +
+aseguramiento externo + Taxonomía obligan a las grandes empresas (incluidas muchas TIC) a
+medir, reportar y garantizar sus datos ASG. Esto da rigor y exigibilidad a todo el módulo.</p>
+</blockquote>
+<hr />
+<h2 id="5-sintesis-ficha-resumen">5. Síntesis (ficha resumen)<a class="headerlink" href="#5-sintesis-ficha-resumen" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ESTÁNDARES DE MÉTRICAS:
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  ISO 14064/GHG Protocol → inventario GEI (tCO₂e).
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  ISO 50001 → energía; PUE/WUE → data centers.
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>  GRI → informe de sostenibilidad (materialidad temática).
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>  IFRS S1/S2 (ISSB) + TCFD → materialidad financiera / climático-financiero.
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>  CDP → calificación a inversores (clima, agua, bosques).
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>KPIs TIC típicos: tCO₂e por alcance, % renovables, PUE, WUE, kg RAEE, % reciclado,
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>  % mujeres técnicas, nº incidentes de privacidad, % proveedores auditados.
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>INVERSIÓN RESPONSABLE (ISR): screening, best-in-class, impacto, integración ESG, activismo.
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>ACTORES: inversores institucionales, analistas, agencias (MSCI, S&amp;P, CDP, EcoVadis),
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>  índices (DJSI, FTSE4Good), reguladores (CSRD, SFDR, Taxonomía).
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>Efecto: la calificación ESG mueve capital; la sostenibilidad es hoy un FACTOR FINANCIERO.
+</span></code></pre></div>
+<hr />
+<h2 id="6-cuestionario-de-autoevaluacion-ra1ef">6. Cuestionario de autoevaluación (RA1e–f)<a class="headerlink" href="#6-cuestionario-de-autoevaluacion-ra1ef" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Diferencia ISO 14064-1, GRI e IFRS S2: ¿qué mide cada uno y a quién va dirigido?</li>
+<li>¿Qué es el PUE y por qué es un KPI clave en data centers? Calcula el PUE si la energía total es 1.200 MWh y la de IT es 1.000 MWh.</li>
+<li>Enumera tres KPIs ambientales, tres sociales y tres de gobernanza para una empresa cloud.</li>
+<li>¿Qué diferencia hay entre screening negativo e inversión de impacto?</li>
+<li>Explica cómo una mala calificación MSCI puede afectar a una empresa TIC.</li>
+<li>¿Qué obliga la CSRD y qué son los ESRS? ¿Afecta a las grandes empresas del sector?</li>
+</ol>
+<blockquote>
+<p>Soluciones orientativas en <a href="../10-glosario-recursos-bibliografia/"><code>10-glosario-recursos-bibliografia.md</code></a>.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../02-aspectos-ASG-y-grupos-de-interes/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 02 · Aspectos ASG y grupos de interés">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                02 · Aspectos ASG y grupos de interés
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../04-retos-ambientales-y-sociales-sector-informatico/" class="md-footer__link md-footer__link--next" aria-label="Next: 04 · Retos ambientales y sociales del sector informático">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                04 · Retos ambientales y sociales del sector informático
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 The authors
+
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.top","navigation.tracking","search.highlight"],"search":"../assets/javascripts/workers/search.e2d2d235.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.6e5f0216.min.js"></script>
+      
+    
+  </body>
+</html>
