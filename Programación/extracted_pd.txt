@@ -1,0 +1,338 @@
+P: PROGRAMACIÓNDE LOS CICLOS FORMATIVOSDE FORMACIÓN PROFESIONALPROGRAMACIÓNDE LOS CICLOS FORMATIVOSDE FORMACIÓN PROFESIONAL
+P: PROGRAMACIÓN
+P: DE LOS CICLOS FORMATIVOS
+P: DE FORMACIÓN PROFESIONAL
+P: PROGRAMACIÓN
+P: DE LOS CICLOS FORMATIVOS
+P: DE FORMACIÓN PROFESIONAL
+P: INFORMÁTICA Y
+P: COMUNICACIONES
+P: DESARROLLO DE APLICACIONES WEB
+P: MÓDULO: SOSTENIBILIDAD APLICADA AL SECTOR PRODUCTIVO DE INFORMÁTICAMÓDULO: SOSTENIBILIDAD APLICADA AL SECTOR PRODUCTIVO DE INFORMÁTICA
+P: MÓDULO: SOSTENIBILIDAD APLICADA AL SECTOR PRODUCTIVO DE INFORMÁTICA
+P: MÓDULO: SOSTENIBILIDAD APLICADA AL SECTOR PRODUCTIVO DE INFORMÁTICA
+P: Curso académico 2025 – 2026
+P: INTRODUCCIÓN
+P: La presente programación didáctica estructura la enseñanza correspondiente al módulo de Programación de Servicios y Procesos correspondiente al Ciclo Formativo de grado superior de Desarrollo de Aplicaciones WEB (DAW).
+P: El título de Técnico Superior de Desarrollo de Aplicaciones Multiplataforma se enmarca en la familia profesional Informática y Comunicaciones. Tiene una duración total de 2000 horas a desarrollar en dos cursos.
+P: Dispone de una organización modular. El módulo de Sostenibilidad Aplicada a Sectores Productivos se imparte en el primer curso y tiene una carga lectiva de 30 horas que se distribuyen a razón de 1 hora semanal durante todo el curso académico.
+P: NORMATIVA LEGAL
+P: Referente al Derecho a la Educación:
+P: La Constitución Española de 1.978 establece en su artículo 27 de derecho universal a la educación
+P: Derecho que queda plasmado en la Ley Orgánica del Derecho a la Educación (LODE, 1985).
+P: Asimismo, el Estatuto Andaluz del 2007 garantiza a través del artículo 21 que esta educación será permanente y de carácter compensatorio.
+P: Referente al Sistema Educativo:
+P: Sobre estas bases, el Sistema Educativo se ordena a través de la LOE, Ley Orgánica Educativa (2/06), modificada por la Ley Orgánica 3/2020 LOMLOE.
+P: En el caso concreto de Andalucía, esta concreción se hace a través de la reciente Ley de Educación de Andalucía (LEA 17/2007).
+P: Referente a la Organización de los IES
+P:  Decreto 327/2010, de 13 de julio, por el que se aprueba el Reglamento Orgánico de los Institutos de Educación Secundaria.
+P:  Orden de 20 de agosto de 2010, por la que se regula la organización y el funcionamiento de los institutos de educación secundaria, así como el horario de los centros, del alumnado y del profesorado.
+P: Referente a la Formación Profesional:
+P: Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.
+P: Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.
+P: Orden de 18 de septiembre de 2025 por la que se regula la evaluación, certificación, acreditación y titulación académica del alumnado que cursa enseñanzas de los grados D y E del Sistema de Formación Profesional en la Comunidad Autónoma de Andalucía.
+P: .
+P: Referente al Currículo:
+P: El primer nivel de concreción se denomina Diseño Curricular Base (DCB) y lo establecen las Administraciones Educativas. En este nivel nos encontramos:
+P: Real Decreto 686/2010, de 20 de mayo, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan sus enseñanzas mínimas.
+P: Real Decreto 405/2023, de 29 de mayo, por el que se actualizan los títulos de la formación profesional del sistema educativo de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma y Técnico Superior en Desarrollo de Aplicaciones Web, de la familia profesional Informática y Comunicaciones, y se fijan sus enseñanzas mínimas.
+P: Orden de 16 de junio de 2011, por la que se desarrolla el currículo correspondiente al título de Técnico Superior en Desarrollo de Aplicaciones Web en la Comunidad Autónoma de Andalucía.
+P: Decreto 147/2025, de 17 de septiembre de 2025, por el que se establece la ordenación de las enseñanzas de los Grados D y E del Sistema de Formación Profesional en la Comunidad Autónoma de Andalucía.
+P: Orden de 18 de septiembre de 2025, por la que se regula la evaluación, certificación, acreditación y titulación académica del alumnado que cursa enseñanzas de los grados D y E del Sistema de Formación Profesional en la Comunidad Autónoma de Andalucía.
+P: ENTORNO PROFESIONAL
+P: Los Técnicos Superiores en Desarrollo de Aplicaciones Web (DAW) trabajan en las áreas de desarrollo, implantación, documentación y mantenimiento de aplicaciones informáticas multiplataforma en entornos de alcance intranet, extranet e Internet. Desarrollan su carrera profesional en empresas de los siguientes sectores:
+P: Las ocupaciones y puestos de trabajo más relevantes son:
+P: Telecomunicaciones
+P: Tecnologías de la información y la comunicación (TIC)
+P: Marketing y comunicación
+P: Desarrollo multiplataforma
+P: Desarrollo web
+P: Consultoría
+P: Contexto
+P: El grupo de 1º Desarrollo de Aplicaciones Web está compuesto por 22 alumnos/as procedentes de Martos, Torredelcampo, Torredonjimeno, Fuensanta de Martos y Escañuela. 
+P: La edad del alumnado va desde los 18 a los 32 años, siendo 7 repetidores. 1 de ellos sólo tienen pendiente un módulo (Programación). No se le permite la matriculación en módulos de 2º puesto que el período de prácticas coincide con periodo lectivo de 1º. Asimismo, otro alumno repetidor que sólo tiene 2 módulos, Base de Datos y Programación. No se le permite matricularse en el módulo Inglés Profesional de 2º curso puesto que le coinciden los horarios. El resto de repetidores, 5, tiene varios módulos pendientes.  12 de nuestros alumnos/as han repetido alguna vez en su vida.
+P: Hay un alumno procedente de ASIR (sin terminar, pero casi completado) y otro de DAM que cursaron en nuestro mismo centro. Ambos deben adaptarse al nuevo plan de estudios por lo que deberán cursar Digitalización y Sostenibilidad. En el caso del alumno con ASIR es trabajador, por lo que sólo se ha matriculado de forma parcial (Entornos de Desarrollo y Sistemas).
+P: La mayoría de las convalidaciones se han centrado en el módulo de Itinerario Personal para la Empleabilidad I, en total se han solicitado 16 convalidaciones de este módulo.
+P: Aproximadamente la mitad tiene el título de CFGM de Sistemas Microinformáticos y Redes, 2 de ellos además tienen un Curso de Especialización en Informática cursado en nuestro centro. Del resto 6 tienen Bachillerato, 1 alumno que ha accedido por prueba de acceso y además cursó ASIR y C.F.G.S. de F.P. Específica (Sonido), 1 de CFGS Programación de la Producción por Moldeo de Metales y 1 con el Grado en Psicología.
+P: Parte del alumnado, 8 en concreto, tiene formación en idiomas, nivel B1, B2 y C1.
+P: 10 van a solicitar Beca del ministerio para este curso. 6 solicitan préstamo de portátil y 2 de disco duro.
+P: Al ser preguntados por los motivos para elegir este ciclo declaran que lo hacen por tener salidas laborales e interés por la informática. Asimismo, tras finalizar esta formación el objetivo principal es salir al mercado laboral, seguir estudiando otro CFGS o estudiar algún Curso de especialización.
+P: Dos alumnos trabajan, por lo que podrían tener problemas para asistir con regularidad a clase. Uno de ellos dejará de trabajar en un mes para dedicarse de forma completa a su formación.
+P: Referente a las Dificultades Específicas de Aprendizaje tenemos 1 alumno que ha cursado 3º ESO del Programa de Mejora del Aprendizaje y del Rendimiento (P. Q. A.). Y un alumno con NEAE de Altas Capacidades Intelectuales: Sobredotación (A. V. P.). Además, 1 alumno con NEE: discapacidad física. Para el Plan de Emergencias este alumno abandonará el centro en ascensor si es posible y de no serlo será acompañado por 3 compañeros (2 titulares y 1 suplente). El profesor/a presente en el aula en ese momento debe prestar especial atención a que todo se haga de la forma correcta.
+P: Ningún alumno/a tiene medicación o alergia que sea reseñable y el profesorado deba tener conocimientos para actuar en caso de urgencia.
+P: OBJETIVOS
+P: Los objetivos educativos expresan el nivel de desarrollo que se espera alcancen los alumnos y alumnas como consecuencia de nuestra intervención educativa. La meta no debe ser que el alumnado aprenda meros datos, sino que sean capaces de manejarse con ellos. Toda intervención educativa persigue en última instancia el desarrollo integral del individuo, por ello, el objetivo de la educación es el desarrollo de capacidades.
+P: Los fines de la educación hacen referencia a las intenciones educativas de carácter más general y los objetivos a las formulaciones concretas de esas intenciones que ayudan a planificar y guiar la actuación docente hacia ellas.
+P: De lo anterior se desprende que existe una jerarquización de tipo lógico de los objetivos, desde los más generales a los más concretos o didácticos. Esta jerarquización de objetivos en la Formación Profesional se lleva a cabo en varios niveles:
+P: Competencia General del Ciclo Formativo
+P: Objetivos Generales de Ciclo Formativo.
+P: Relación con las Cualificaciones Profesionales y sus Unidades de Competencia.
+P: Objetivos específicos de Módulo Profesional. (Resultados de Aprendizaje)
+P: Competencias profesionales, personales y sociales.
+P: Objetivos didácticos concretados en cada Unidad didáctica.
+P: Así pues, el perfil profesional del título de Técnico Superior de Desarrollo de Aplicaciones Multiplataforma quedará determinado por su competencia general, resultados de aprendizaje, sus competencias profesionales, personales y sociales, y por la relación de cualificaciones y, en su caso, unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas en el título.
+P: OBJETIVOS GENERALES
+P: De acuerdo al RD 659/2023 en este módulo se cumplen:
+P: Describir los roles de cada uno de los componentes del grupo de trabajo, identificando en cada caso la responsabilidad asociada, para establecer las relaciones profesionales más convenientes.
+P: Identificar formas de intervención ante conflictos de tipo personal y laboral, teniendo en cuenta las decisiones más convenientes, para garantizar un entorno de trabajo satisfactorio.
+P: Identificar y valorar las oportunidades de promoción profesional y de aprendizaje, analizando el contexto del sector, para elegir el itinerario laboral y formativo más conveniente.
+P: Identificar los cambios tecnológicos, organizativos, económicos y
+P: laborales en su actividad, analizando sus implicaciones en el ámbito de trabajo, para mantener el espíritu de innovación.
+P: Reconocer las oportunidades de negocio, identificando y analizando demandas del mercado para crear y gestionar una pequeña empresa.
+P: Reconocer sus derechos y deberes como agente activo en la sociedad, 
+P: analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático.»
+P: 2.3 RESULTADOS DE APRENDIZAJE
+P: Los objetivos específicos del módulo profesional de Sostenibilidad, con sus CE, son:
+P: Identifica los aspectos ambientales, sociales y de gobernanza (ASG) relativos a la sostenibilidad teniendo en cuenta el concepto de desarrollo sostenible y los marcos internacionales que contribuyen a su consecución. Criterios de evaluación:
+P: Se ha descrito el concepto de sostenibilidad, estableciendo los marcos internacionales asociados al desarrollo sostenible.
+P: Se han identificado los asuntos ambientales, sociales y de gobernanza que influyen en el desarrollo sostenible de las organizaciones empresariales.
+P: Se han relacionado los Objetivos de Desarrollo Sostenible (ODS) con su importancia para la consecución de la Agenda 2030.
+P: Se ha analizado la importancia de identificar los aspectos ASG más relevantes para los grupos de interés de las organizaciones relacionándolos con los riesgos y oportunidades que suponen para la propia organización.
+P: Se han identificado los principales estándares de métricas para la evaluación del desempeño en sostenibilidad y su papel en la rendición de cuentas que marca la legislación vigente y las futuras regulaciones en desarrollo.
+P: Se ha descrito la inversión socialmente responsable y el papel de los analistas, inversores, agencias e índices de sostenibilidad en el fomento de la sostenibilidad.
+P: Caracteriza los retos ambientales y sociales a los que se enfrenta la sociedad, describiendo los impactos sobre las personas y los sectores productivos y proponiendo acciones para minimizarlos. Criterios de evaluación:
+P: Se han identificado los principales retos ambientales y sociales.
+P: Se han relacionado los retos ambientales y sociales con el desarrollo de la actividad económica.
+P: Se ha analizado el efecto de los impactos ambientales y sociales sobre las personas y los sectores productivos.
+P: Se han identificado las medidas y acciones encaminadas a minimizar los impactos ambientales y sociales.
+P: Se ha analizado la importancia de establecer alianzas y trabajar de manera transversal y coordinada para abordar con éxito los retos ambientales y sociales.
+P: Establece la aplicación de criterios de sostenibilidad en el desempeño profesional y personal, identificando los elementos necesarios. Criterios de evaluación:
+P: Se han identificado los ODS más relevantes para la actividad profesional que realiza.
+P: Se han analizado los riesgos y oportunidades que representan los ODS.
+P: Se han identificado las acciones necesarias para atender algunos de los retos ambientales y sociales desde la actividad profesional y el entorno personal.
+P: Propón productos y servicios responsables teniendo en cuenta los principios de la economía circular. Criterios de evaluación:
+P: Se ha caracterizado el modelo de producción y consumo actual.
+P: Se han identificado los principios de la economía verde y circular.
+P: Se han contrastado los beneficios de la economía verde y circular frente al modelo clásico de producción.
+P: Se han aplicado principios de ecodiseño.
+P: Se ha analizado el ciclo de vida del producto.
+P: Se han identificado los procesos de producción y los criterios de sostenibilidad aplicados.
+P: Realiza actividades sostenibles minimizando el impacto de las mismas en el medio ambiente. Criterios de evaluación:
+P: Se ha caracterizado el modelo de producción y consumo actual.
+P: Se han identificado los principios de la economía verde y circular.
+P: Se han contrastado los beneficios de la economía verde y circular frente al modelo clásico de producción.
+P: Se ha evaluado el impacto de las actividades personales y profesionales.
+P: Se han aplicado principios de ecodiseño.
+P: Se han aplicado estrategias sostenibles.
+P: Se ha analizado el ciclo de vida del producto.
+P: Se han identificado los procesos de producción y los criterios de sostenibilidad aplicados.
+P: Se ha aplicado la normativa ambiental.
+P: Analiza un plan de sostenibilidad de una empresa del sector, identificando sus grupos de interés, los aspectos ASG materiales y justificando acciones para su gestión y medición. Criterios de evaluación:
+P: Se han identificado los principales grupos de interés de la empresa.
+P: Se han analizado los aspectos ASG materiales, las expectativas de los grupos de interés y la importancia de los aspectos ASG en relación con los objetivos empresariales.
+P: Se han definido acciones encaminadas a minimizar los impactos negativos y aprovechar las oportunidades que plantean los principales aspectos ASG identificados.
+P: Se han determinado las métricas de evaluación del desempeño de la empresa de acuerdo con los estándares de sostenibilidad más ampliamente utilizados.
+P: Se ha elaborado un informe de sostenibilidad con el plan y los indicadores propuestos.
+P: 2.4 COMPETENCIAS PROFESIONALES, PERSONALES Y SOCIALES
+P: La educación no puede limitarse a la adquisición por parte del alumnado de una serie de conocimientos que preparen para estudios universitarios, profesionales o para el mundo laboral. Una educación completa debe dar una respuesta más global e
+P: integradora, debiendo ser un instrumento que contribuya al pleno desarrollo de la personalidad.
+P: Según dicho RD, la formación del módulo contribuye a alcanzar las competencias profesionales, personales y sociales de este título que se relacionan a continuación:
+P: Establecer vidas eficaces de relación profesional y comunicación con sus superiores, compañeros y subordinados, respetando la autonomía y competencias
+P: de las distintas personas.
+P: Liderar situaciones colectivas que se puedan producir, mediando en conflictos personales y laborales, contribuyendo al establecimiento de un ambiente
+P: de trabajo agradable, actuando en todo momento de forma respetuosa y tolerante.
+P: Gestionar su carrera profesional, analizando las oportunidades de empleo, autoempleo y de aprendizaje.
+P: Mantener el espíritu de innovación y actualización en el ámbito de su trabajo para adaptarse a los cambios tecnológicos y organizativos de su entorno profesional.
+P: Crear y gestionar una pequeña empresa, realizando un estudio de viabilidad de productos, de planificación de la producción y de comercialización.
+P: Participar de forma activa en la vida económica, social y cultural, con una actitud crítica y responsable.
+P: CONTENIDOS
+P: Tomamos como fuentes para construir nuestros contenidos: el RD que establece el título de DAW y el entorno socioeconómico de nuestro centro puesto que en Andalucía todavía no se ha legislado.
+P: Los contenidos constituyen el segundo elemento básico del currículo, a través de los cuales se pretende que el alumnado alcance los objetivos o intencionalidades educativas. También, se pueden definir como el conjunto de saberes: hechos, conceptos, habilidades, actitudes, en torno a los cuales se organizan las actividades de enseñanza-aprendizaje.
+P: Dichos contenidos se presentan organizados de diferente modo en las distintas etapas educativas, organizándose en Formación Profesional (FP) en módulos profesionales. Un módulo profesional es un bloque coherente de formación asociado a las unidades de competencia que configuran las cualificaciones profesionales.
+P: UD 1. Sostenibilidad y métricas en el sector informático Septiembre – Diciembre (10h)
+P: Proyecto: Mapa ASG + Diagnóstico ODS en empresas TIC
+P: Resultados de Aprendizaje trabajados
+P: RA1: Identifica aspectos ASG y marcos internacionales.
+P: RA2: Caracteriza retos ambientales y sociales.
+P: Criterios de Evaluación aplicados (2.95% por CE):
+P: 1a–f y 2a–e.
+P: Actividades principales:
+P: Introducción al concepto de sostenibilidad en informática.
+P: Investigación por grupos sobre empresas tecnológicas (HP, Microsoft, Google, Dell, Indra, IBM).
+P: Identificación de marcos internacionales (Agenda 2030, ISO, GRI, SASB…).
+P: Elaboración de un mapa ASG + relación con ODS.
+P: Análisis de riesgos y oportunidades para la empresa.
+P: Informe escrito + presentación en clase.
+P: Producto final:
+P: Informe escrito + mapa ASG + ODS.
+P: Defensa y debate en clase.
+P: UD 2. Economía circular y ecodiseño aplicado a la informática Enero – Marzo (10h)
+P: Proyecto: Diseño responsable de producto/servicio TIC
+P: Resultados de Aprendizaje trabajados
+P: RA4: Propone productos y servicios responsables.
+P: RA5: Relaciona producción personal/profesional con sostenibilidad.
+P: Criterios de Evaluación aplicados (2.95% por CE):
+P: 4a–f y 5a–i.
+P: Actividades principales:
+P: Introducción a economía verde y circular aplicada a la informática (ejemplos: reciclaje hardware, ecodiseño de apps, cloud sostenible).
+P: Cada grupo diseña un producto/servicio responsable (ejemplo: app eficiente, sistema de reciclaje de PCs, servicio cloud verde).
+P: Análisis del ciclo de vida (LCA) del producto/servicio propuesto.
+P: Aplicación de principios de ecodiseño y estrategias sostenibles.
+P: Evaluación de impactos y normativa ambiental.
+P: Presentación y exposición en clase.
+P: Producto final:
+P: Prototipo conceptual de producto/servicio responsable.
+P: Informe con ciclo de vida, estrategias de ecodiseño y beneficios.
+P: Presentación grupal.
+P: UD 3. Sostenibilidad para una empresa del sector
+P:  Abril – Mayo (10h)
+P: Proyecto: Plan de Sostenibilidad para una empresa del sector
+P: Resultados de Aprendizaje trabajados
+P: RA6: Analiza plan de sostenibilidad de empresa → métricas e informe.
+P: Refuerzo de RA2 (retos ambientales/sociales) y RA3 (aplicación profesional/personal).
+P: Criterios de Evaluación aplicados (2.95% por CE):
+P: 6b–e (+ refuerzo parcial de 2 y 3).
+P: Actividades principales:
+P: Mapa de grupos de interés y ASG materiales.
+P: Identificar los stakeholders: internos (empleados, propietarios), externos (comunidad, clientes, proveedores, administración pública, etc.).Para cada stake-holder identificar qué ASG les resultan más relevantes (“materiales”) para esa empresa.
+P: Definición de acciones:
+P: Proponer acciones concretas orientadas a minimizar impactos negativos / potenciar los positivos en los ASG identificados.
+P: Estas acciones pueden ser de ámbito ambiental (uso de energía renovable, gestión de residuos, etc.), social (igualdad, condiciones laborales, salud y seguridad, inclusión), gobernanza (transparencia, código ético, auditorías, comunicación con grupos de interés).
+P: Diseño de métricas e indicadores.
+P: Seleccionar estándares métricos apropiados para medir el desempeño en sostenibilidad: indicadores cuantitativos y cualitativos.
+P: Proponer periodicidad de seguimiento, responsables, etc.
+P: Elaborar informe de sostenibilidad
+P: Un documento formal que contenga: diagnóstico actual ASG, mapa de grupos de interés, acciones propuestas, métricas, plan de implementación (plazos, recursos, responsables), visión de futuro, posibles barreras y cómo superarlas.
+P: Presentación pública / role play
+P: Informe comparativo + presentación.
+P: Producto final:
+P: Proyecto de Plan de Sostenibilidad para una empresa del sector
+P: Defensa y debate en clase.
+P: METODOLOGÍA. ASPECTOS GENERALES
+P: El aprendizaje debe partir siempre de unos conocimientos de base de los alumnos, sobre todo de informática general a nivel de usuario. La metodología de trabajo en el aula se debe basar en el aprendizaje significativo, que tiene las siguientes características:
+P: Asimilación de forma activa de los nuevos contenidos, relacionándolos con los conocimientos ya asimilados.
+P: Construcción y organización de los conocimientos, estableciendo una visión previa general para luego profundizar en cada aspecto y reforzarlo con ejemplos y actividades.
+P: Diferenciación de los contenidos de forma progresiva, estableciendo una organización y secuenciación de ellos.
+P: Solución de las dificultades de aprendizaje mediante las orientaciones del profesor y las actividades adicionales.
+P: PRINCIPIOS METODOLÓGICOS
+P: Como principios metodológicos básicos de la enseñanza aplicables a nuestro módulo destacan:
+P: Partir del nivel de desarrollo del alumno y de sus aprendizajes previos, donde además de tener que atender a los rasgos psicológicos de la edad, hemos de tener también en cuenta los conocimientos adquiridos, tanto generales como específicos.
+P: Seguir las recomendaciones del aprendizaje significativo, dando prioridad a aquellos que se consiguen a través de la experiencia, de la comprensión razonada de lo que se hace y de la aplicación de procedimientos que resuelven las actividades. De esta forma se consigue que el alumno sea capaz de integrar nuevos contenidos en su estructura previa de conocimientos.
+P: Potenciar la capacidad de autoaprendizaje, teniendo en cuenta que el alumno consigue su autonomía intelectual cuando es capaz de aprender por sí mismo. De esta forma incorporaremos estrategias que le permitan establecer una organización independiente de su trabajo, la búsqueda autónoma de información y el estudio individual, aspectos esenciales debido a la naturaleza cambiante de Informática.
+P: Simular entornos productivos reales para que el alumnado tenga la
+P: oportunidad de valorar las repercusiones de las diferentes áreas funcionales en las que se desarrollará su actividad en el mundo empresarial.
+P: Utilizar un enfoque “interdisciplinar” en cuanto a conceptos, técnicas, métodos y procedimientos, con otros módulos del Ciclo.
+P: Saber ser sistemáticos en los procesos de trabajo, de forma que, a partir de documentos facilitados por los usuarios, manuales, informes técnicos o catálogos de los fabricantes, el alumno/a sea capaz de reflexionar e indagar sobre el contenido de estos.
+P: Establecer las condiciones apropiadas para trabajar en grupo, a los efectos de propiciar la iniciativa del alumnado en el proceso de autoaprendizaje desarrollando capacidades de comprensión y análisis.
+P: La naturaleza cambiante de la informática hace que sea muy importante tener una buena disposición al aprendizaje de nuevos medios, de nuevas formas de comunicación y por añadidura una inclinación a la búsqueda y al trabajo de exploración. La actitud, en este sentido, será la de abanderar estas iniciativas, abriendo vías de solución distintas a la utilizada y analizar cualquier solución alternativa propuesta por los alumnos y demostrando que ésa es una actitud muy a tener en cuenta en la evaluación.
+P: Potenciar el uso de las Tecnologías de la Información y Comunicación que permitirá el desarrollo de los diferentes procesos de trabajo.
+P: Conectar los conocimientos teóricos en el aula con el entorno socioeconómico
+P: de la zona en que esté ubicado el Centro Educativo.
+P: Proporcionar la motivación necesaria, de cara a fomentar en el aula un clima de trabajo y convivencia adecuado.
+P: ENSEÑANZA-APRENDIZAJE DE CONTENIDOS
+P: La metodología a seguir deberá ser flexible y dinámica, adaptada en todo momento a objetivos y contenidos, y orientada de manera constante por un proceso de evaluación formativa.
+P: A priori no se descarta ninguno de los recursos metodológicos comúnmente admitidos: charla, ejercicio práctico, debate, conferencia, medios audiovisuales, formulación de problemas, exposición, orientación, trabajos individuales y de grupo, investigación en el medio, visitas técnicas, etc.
+P: En términos generales cabe establecer el siguiente esquema:
+P: En las cuestiones de contextualización y fundamentos se recurrirá a la exposición, trabajo individual y de grupo, investigación y debate.
+P: En las más auténticamente procedimentales la exposición (inicialmente necesaria) se reducirá al mínimo, dando paso de manera inmediata a los ejemplos, ejercicios prácticos, resolución de problemas, realización de trabajos y crítica de los mismos, práctica en ordenador con las herramientas de desarrollo, etc.
+P: En las de profundización la exposición tomará un papel más relevante, pero sin descuidar en ningún caso los aspectos de aplicación.
+P: Por último, los alumnos abordarán diversos desarrollos detallados de aplicaciones de gestión; aquí se recurrirá fundamentalmente a la orientación y supervisión.
+P: De una u otra forma, la metodología tenderá a conseguir progresivamente hábitos de autonomía y autosuficiencia en el alumnado, a través de la resolución de las dificultades que paulatinamente vayan surgiendo, dando especial relevancia a la iniciativa, la lógica, el método, la acumulación de experiencia y la capacidad de reacción; en suma, el desarrollo de habilidades, destrezas y criterios propios que producirán un gradual aumento de la independencia del alumno respecto del profesor.
+P: En cuanto a la organización del equipo docente, se debe señalar que es importante mantener un alto grado de coordinación en lo referente a pautas generales de funcionamiento, seguimiento del proceso enseñanza aprendizaje y valoración del grado de consecución de objetivos generales; se celebrarán reuniones periódicas a tal efecto.
+P: Por último, a modo de síntesis y sin perjuicio del necesario rigor conceptual, se tendrá siempre presente la consideración de que lo importante en el módulo es desarrollar las capacidades para abordar realizaciones prácticas similares a aquellas que se va a tener que afrontar en la vida profesional, una vez concluida la etapa formativa.
+P: Aprendizaje Basado en Proyectos (ABP): cada UD se articula en torno a un proyecto aplicado al sector TIC.
+P: Trabajo colaborativo: grupos de 2–3 alumnos, con roles repartidos
+P: (investigador, programador, analista, redactor…).
+P: Aprendizaje activo: uso de software real (IDE Java, hojas de cálculo, gestores de proyectos, informes online).
+P: Debates guiados: se fomenta la reflexión crítica tras las exposiciones de cada grupo.
+P: EVALUACIÓN
+P: La evaluación de la formación profesional inicial queda regulada por la Orden de 18 de septiembre de 2025, por la que se regula la evaluación, certificación, acreditación y titulación académica del alumnado que cursa enseñanzas de los grados D y E del Sistema de Formación Profesional en la Comunidad Autónoma de Andalucía
+P: MOMENTOS Y PROCEDIMIENTOS DE EVALUACIÓN
+P: La evaluación se entiende como una actividad sistemática y continua, integrada en el proceso educativo, cuya finalidad consiste en obtener la máxima información sobre el alumno o alumna, el proceso educativo y todos los factores que intervienen, para tomar decisiones para orientar y ayudar al alumno o alumna y mejorar el proceso educativo, reajustando lo que fuera necesario.
+P: La evaluación, en un ciclo formativo de formación profesional, se concreta en un conjunto de acciones planificadas en unos momentos determinados: inicial, continua, final; y en unas finalidades concretas: diagnóstica, formativa y sumativa.
+P: Cuando programamos las acciones de evaluación que podemos realizar en un ciclo formativo, deberemos tener presente diferentes aspectos:
+P: La evaluación inicial, al comienzo del curso, de cada bloque temático y/o de cada unidad didáctica, el docente deberá abordar la evaluación inicial, detectando el nivel de conocimientos previos del alumnado. Para ello, se propondrán las actividades de introducción necesarias para detectar los conocimientos previos. El profesor evaluará el resultado de la evaluación inicial y este resultado le permitirá establecer el punto de partida de los aprendizajes.
+P: La evaluación del proceso es la evaluación continua y se corresponde con la evaluación formativa. Esta tiene por objetivo informar de los logros obtenidos, y eventualmente, advertir dónde y en qué existen dificultades de aprendizaje, permitiendo la búsqueda de nuevas estrategias educativas más exitosas, aportando una retroalimentación al desarrollo del proceso enseñanza-aprendizaje. Para ello el docente informará puntualmente a los alumnos y alumnas del resultado del conjunto de actividades que se realicen en clase a lo largo de toda una unidad didáctica y/o bloque temático. Entregará los trabajos individuales y colectivos debidamente corregidos y calificados a sus alumnos y alumnas, y comentará en clase el resultado de los mismos. Estas actuaciones, permitirán conocer al alumnado en todo momento la evolución del proceso de aprendizaje y las calificaciones otorgadas hasta ese momento. Asimismo, servirán como comunicación a los mismos sobre la necesidad de realizar actividades de refuerzo, en aquellos casos que sean necesarios.
+P: Al final de cada bloque temático existe la evaluación final, que permite determinar los niveles de logro obtenidos por cada alumno/a en relación con los objetivos propuestos para este módulo. Este proceso se corresponde con una evaluación sumativa, pues cada bloque tendrá una ponderación sobre la nota final de cada trimestre, y la nota de cada trimestre a su vez tendrá una ponderación sobre la nota final del módulo. El profesor informará al alumno/a
+P: del resultado de la evaluación final, sobre el nivel de capacidades adquirido, y las calificaciones obtenidas una vez aplicado el proceso de evaluación. A los alumnos/as que hayan obtenido calificaciones negativas, se les informará del plan de actividades de recuperación que se habilitará al efecto.
+P: INSTRUMENTOS Y CRITERIOS DE EVALUACIÓN
+P: Instrumentos de evaluación:
+P: Proyecto entregado (informe, código, prototipo, mapas).
+P: Defensa oral en clase (10–15 min).
+P: Observación de la participación y colaboración.
+P: Criterios de evaluación: los CE asociados a cada RA (ya listados en cada UD). Necesario que la media de los CE de cada RA sea 5 o más.
+P: Ponderación: todos los criterios ponderan por igual en la nota de cada UD.
+P: Calificación final del módulo: media de las tres Uds.
+P: 5.5. CRITERIOS DE RECUPERACIÓN.
+P: Recuperación de proyectos no superados
+P: Si el alumnado no supera una Unidad Didáctica/Proyecto, deberá entregar de forma individual un trabajo equivalente al proyecto del trimestre no realizado o suspenso.
+P: Este trabajo tendrá que cumplir los mismos criterios de evaluación (CE) asociados al RA de esa UD.
+P: La entrega incluirá informe escrito y defensa oral individual (10 min) para verificar la adquisición de las competencias.
+P: Recuperación de la evaluación final ordinaria
+P: Si tras las tres Uds no se superan los RA (la media de los CE debe ser 5 o más), el alumno/a podrá realizar un proyecto integrador de recuperación en mayo.
+P: Este proyecto integrará los RA y CE no alcanzados (ejemplo: análisis ASG, propuesta de producto responsable y medición de eficiencia de código en Java).
+P: El producto será individual, con entrega escrita y defensa oral.
+P: 5.6. CALENDARIO FINAL DE EVALUACIÓN/RECUPERACIÓN 
+P: Se realizarán:
+P: Primera evaluación – Coincidirá con el primer trimestre. Fecha evaluación: 18 de diciembre.
+P: Segunda evaluación – Desde enero a marzo. El final coincidirá con el calendario propuesto desde Jefatura de Estudios. Fecha segunda evaluación: 16 de Marzo
+P: Durante el mes de marzo se realizará la fase de formación en empresas u organismo equiparado durante 13 jornadas de 8 horas diarias. Fechas desde 11 de marzo hasta 27 de marzo.
+P: Tercera evaluación. – Se desarrollará desde mediados de marzo hasta finales de mayo. Fecha 3ª evaluación: 28 de mayo. La fecha de la evaluación extraordinaria no está puesta aún.
+P: 5.6 Criterios de evaluación que se desarrollarán en la formación en empresa.
+P: Con el objetivo de cumplir lo escrito en la Ley Orgánica 3/2022, una parte de los Resultados de Aprendizaje y por ende, de los Criterios de Evaluación, se desarrollarán en Empresas. Según recoge el plan de formación inicial de este ciclo en nuestro centro, la formación en empresas se realizará de la siguiente forma:
+P: Se realizarán 500h de formación en las empresas, cumpliendo con el porcentaje exigido del 25% de las horas totales.
+P: La formación en empresas de los primeros cursos tendrá una duración de 80 horas, mientras que en segundo curso se desarrollarán 420 horas.
+P: Se dualizan todos los módulos formativos de los ciclos.
+P: Establecer en 80h la duración de la formación en empresas para los primeros cursos de los ciclos de informática, con el siguiente reparto de horas en los módulos implicados:
+P: En el caso concreto de este módulo, se desarrollarán, en las empresas, los siguientes Resultados de Aprendizaje y Criterios de Evaluación asociados:
+P: En el caso concreto de este módulo, se desarrollarán, en las empresas, los siguientes Resultados de Aprendizaje y Criterios de Evaluación asociados:
+P: Analiza un plan de sostenibilidad de una empresa del sector, identificando sus grupos de interés, los aspectos ASG materiales y justificando acciones para su gestión y medición. Criterios de evaluación:
+P: a) Se han identificado los principales grupos de interés de la empresa.
+P: Para ello, cada alumno/a tendrá un plan de formación individualizado, en que se reflejarán las activades a desarrollar en la empresa, asociadas a estos criterios de evaluación.
+P: Además, el alumnado con NEAE (Necesidades Específicas de Apoyo Educativo) recibirán un acompañamiento más específico por su parte de su tutor dual, que, junto al tutor laboral, se asegurarán de que el puesto de trabajo se adecúe a las necesidades del alumno.
+P: 5.7 CASOS ESPECIALES.
+P: Para el alumnado que se encuentre realizando una estancia Erasmus, obtenida como consecuencia de estudios relacionados con la materia, o se encuentre compaginando estudios y trabajo, se le computará un máximo de 30% faltas justificadas, siendo el resto injustificadas. Se le permitirá asistir a clase y realizar las prácticas diarias, aunque no sean evaluadas ni tenidas en cuenta para la nota. También podrá tener acceso a los materiales, en las materias en las que sea posible, a través la plataforma online del centro. En estos casos, el alumnado perderá el derecho a realizar las pruebas parcialesde cada trimestre, pero podrá examinarse de los correspondientes trimestres no superados en el examen final ordinario de mayo.
+P: ATENCIÓN A LOS ALUMNOS CON CARACTERÍSTICAS EDUCATIVAS ESPECÍFICAS.
+P: La diversidad está presente en todos los colectivos sociales. El reto de los centros educativos y del personal docente en relación con el alumno/a que atienden, es proporcionar el desarrollo de las capacidades en función de sus características diferenciales. Es una realidad que los alumnos/as del grupo-clase se diferencian en cuanto a sus capacidades, conocimientos previos, motivaciones e intereses. Por ello en el aula, existen alumnos/as que van a presentar distintas necesidades educativas.
+P: La LOE, entiende por alumnado que presenta necesidades educativas especiales, aquel que requiera, por un periodo de su escolarización o a lo largo de toda ella, determinados apoyos y atenciones educativas específicas derivadas de discapacidad o trastornos graves de conducta. Además, debemos tener presente otro tipo de alumnado como es el caso del alumnado con altas capacidades intelectuales o al alumnado con incorporación tardía al sistema educativo. Los principios de actuación con estos alumnos son la no discriminación y la normalización educativa, a fin de lograr la igualdad de oportunidades para todos.
+P: En la programación se van a adoptar medidas para la atención a los alumnos/as que podamos encontrar en algunas de las siguientes situaciones:
+P: RITMOS DE APRENDIZAJE
+P: La diversidad de alumnado en el aula hace que existan diferentes ritmos de aprendizaje. Los diferentes ritmos de aprendizaje serán tenidos en cuenta de la siguiente forma:
+P:  Atención personalizada a los alumnos o alumnas con un ritmo de aprendizaje más lento, ayudándoles en la resolución de problemas, dándoles más tiempo para la realización de ejercicios, prácticas, trabajos, y proponiéndoles actividades que les permitan la comprensión de los contenidos.
+P:  Proporcionar actividades complementarias a los alumnos o alumnas más aventajados para ampliar conocimientos sobre los contenidos tratados y otros relacionados. También podrán implicarse en la ayuda a sus compañeros de clase como monitores en aquellas actividades en las que demuestren mayor destreza. Con esta medida se pretende además reforzar la cohesión del grupo y fomentar el aprendizaje colaborativo. Se considerará pues el “Diseño para Todos” como criterio general a aplicar en todas las unidades didácticas.
+P: ALUMNADO DE ADMISIÓN TARDÍA
+P: Si por cualquier motivo se incorporara algún alumno de forma tardía, se le dará acceso a todo el material impartido hasta ese momento (situados en plataformas educativas). Además, se le hará un seguimiento a parte en el cual el alumno podrá preguntar todas las posibles dudas que le surgieran respecto a la materia impartida. Usaremos la plataforma virtual, donde almacenaremos todos los contenidos, objetivos y las actividades por temas y fecha, para facilitar la inserción del alumnado de incorporación tardía. En caso de que ya se hubiesen hecho pruebas o trabajos se le dará la oportunidad de realizar dichas pruebas siempre y cuando el motivo de la incorporación tardía esté justificado.
+P: ALUMNADO CON DIFICULTADES DE APRENDIZAJE
+P: Tras la evaluación inicial (durante las primeras semanas de clase) y consensuado con el resto del equipo educativo, en caso de detectarse alumnado que se encontrase en esta situación deberá realizarse una atención personalizada ayudándoles en la resolución de problemas, dándoles más tiempo para la realización de ejercicios, prácticas, trabajos, y proponiéndoles actividades de refuerzo que le permitan la comprensión de los contenidos. No obstante, no debemos olvidad que la programación está abierta y es flexible en cuanto a la incorporación de modificaciones requeridas por nuevos campos de actuación.
+P: ALUMNADO EXTRANJERO
+P: Alumnado que no domina la lengua castellana. Se plantean dos acciones concretas:
+P: Uso de otro idioma de amplia difusión, como el inglés, para tratar de paliar el choque lingüístico hasta que el alumno o alumna en concreto alcance los conocimientos necesarios de la lengua castellana.
+P: En caso de no poder aplicar la medida anterior se solicitará al organismo competente la intervención de un intérprete que permita a este tipo de alumnado seguir sin problema las clases.
+P: ALUMNADO CON DISCAPACIDAD FÍSICA
+P: Tanto la metodología como los recursos contendidos en esta programación pueden ser adaptados a aquellos alumnos/as que tengan alguna disminución física reconocida que le impida el seguimiento de las clases. Estas adaptaciones pasan por el uso de adaptaciones e intérpretes fundamentalmente.
+P: ALUMNADO REPETIDOR
+P: Para los alumnos/as repetidores que podamos tener en el módulo se analizarán las causas que motivaron este hecho para poder tomar acciones concretas. Estas acciones pueden ser las mismas que las consideradas para aquellos alumnos/as con ritmo de aprendizaje alto o bajo.
+P: ALUMNADO CON COMPATIBILIDAD LABORAL Y/O MODULARIDAD
+P: Partiendo de la premisa que se tratan de estudios presenciales, para mejorar la compatibilidad del alumnado que esté inmerso en el mundo laboral con la impartición del módulo se proponen el uso de la plataforma educativa, desde donde se irá suministrando todos los contenidos, objetivos y las actividades por temas y fecha, para facilitar el seguimiento del módulo de aquellos/as alumnos/as que estén cursando algún módulo de segundo junto con este módulo de primero.
+P: MEDIDAS TRANSVERSALES.
+P: Según los artículos 39 y 40 de la LEA 17/2007 y el artículo 3 del Decreto 436/2008 por el que se establece la ordenación de la Formación Profesional, en todas las enseñanzas han de incorporarse valores transversales. En relación a ellos se plantean los siguientes objetivos de los valores transversales para el módulo:
+P: Fomentar la tolerancia y el respeto hacia los demás.
+P: Asignar responsabilidades al alumnado.
+P: Fomentarelconsumointeligente,especialmentedecomponentes informáticos.
+P: Fomentar la responsabilidad ante problemas ambientales.
+P: Trabajar en equipo.
+P: Aprender a ver y escuchar a los demás.
+P: Conocer y respetar las distintas culturas y etnias.
+P: Favorecer actitudes y hábitos no sexistas.
+P: Desarrollar hábitos de lectura y escritura.
+P: Utilizar libros, manuales técnicos y prensa escrita como fuente de información.
+P: Aplicar las TIC al proceso de enseñanza-aprendizaje.
+P: Conocer cómo buscar de manera eficiente información en Internet.
+P: Para la consecución de estos objetivos se planteará el desarrollo habitual de las clases actividades utilizando técnicas que lo permitan y haciendo referencias a habituales y, más concretamente, en fechas señaladas (Día de la Mujer, contra la Violencia de Género, Día de Andalucía, de la Constitución, del Libre, etc.)
+P: Para la consecución de estos objetivos se planteará el desarrollo habitual de las actividades de clase utilizando técnicas que los favorezcan, impregnando el proceso de enseñanza-aprendizaje. Además, hay un conjunto de fechas idóneas para motivar la reflexión sobre dicha temática, tanto mediante actividades diarias como extraordinarias (Día de la Mujer, contra la Violencia de Género, Día de Andalucía, de la Constitución, Día Europeo de la protección de datos, etc.)
+P: Tomando como referencia los incluidos en el Proyecto Educativo del Centro y adaptándolos a estos alumnos y alumnas en concreto, y por su relación con este módulo, se desarrolla de la siguiente manera:
+P: Educación para la salud: Ergonomía del puesto de trabajo: se harán consideraciones de tipo ergonómico sobre la forma más adecuada de utilizar el ordenador, para disfrutar de una mejor salud postural. Seguridad e higiene en el trabajo. Prevención de riesgos laborales.
+P: Educación para la paz: Se harán consideraciones relacionadas con adoptar situaciones de diálogo y consenso frente a situaciones conflictivas en el trabajo en grupo. Fomento del diálogo e intercambio razonado de puntos de vista cuando se realicen prácticas en parejas o grupos. Importancia del trabajo en equipo para conseguir un objetivo común. Respeto del trabajo de todos y su influencia en el funcionamiento de cualquier organización.
+P: Educación medioambiental: Se harán consideraciones relacionadas con el medioambiente y con acciones que ayuden a preservarlo. 
+P: Respeto al material y derecho a la intimidad. Rechazo a las intrusiones, virus. Cuidado en el uso de los ordenadores y respeto a las normas del aula. LEY ORGÁNICA 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal (BOE nº 298, 14 diciembre 1999). REAL DECRETO 1720/2007, de 21 de diciembre, por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica 15/1999, de 13 de diciembre, de protección de datos de carácter personal (BOE nº 17, 19 enero 2008)
+P: ACTIVIDADES COMPLEMENTARIAS Y EXTRASCOLARES
+P: Se consideran actividades complementarias aquellas organizadas durante el horario lectivo por los centros y que tienen un carácter diferenciado de las propiamente lectivas por el momento, lugar o recursos que se utilizan. Son de obligada participación por todo el colectivo del centro. Se trata fundamentalmente de salidas o celebraciones con especial significación para la educación en valores o el ciclo que se cursa. El grupo participará en todas aquellas actividades que se realicen en el centro.
+P: Por su parte, el artículo 7 de la Orden 27/5/2005, considera como actividades extraescolares aquellas actividades encaminadas a potenciar la apertura del centro a su entorno. Son actividades voluntarias realizadas fuera del horario lectivo del centro que no formarán parte del proceso de evaluación del alumnado para la superación de las distintas materias que integran los currículos. El grupo participará en aquellas actividades extraescolares propuestas por el departamento didáctico que sean de interés para el módulo. Entre las previstas se incluyen:
+P: Visita del alumnado a empresas relacionadas con los contenidos del módulo
+P: (empresas de desarrollo, de animación, juegos…).
+P: Asistencia a eventos relacionadas con el desarrollo y programación (jornadas
+P: Google, conferencias temáticas…).
+P: Asistencia a charlas, debates, opuestas en común, en el centro, con profesionales del sector, poniendo especialmente en antiguos alumnos/as que se dediquen profesionalmente al campo del desarrollo en plataformas móviles, multimedia, animación y juegos.
+P: 10. PROYECTO LINGÜÍSTICO DE CENTRO.
+P: Según lo establecido en el Proyecto Lingüístico de Centro, el fomento de la comprensión lectora se trabajará en clase mediante la lectura de webs, tutoriales y manuales técnicos relacionados con cada unidad didáctica y de los enunciados de los problemas. En todos los casos se comprobará que los alumnos han entendido dichos textos.
+P: En las pruebas de evaluación se descontará 0,2 punto por cada falta de ortografía hasta un máximo de 2 puntos por prueba.

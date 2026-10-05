@@ -221,3 +221,63 @@ LCA (ISO 14040/44, 14067): extracción → manufactura → logística → uso �
 6. ¿Por qué el ecodiseño del software es tan importante en TIC? Da tres técnicas concretas.
 
 > Soluciones orientativas en [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md).
+
+---
+
+## 9. Actividad de cierre · «De lineal a circular: rediseño ecodiseñado» (parejas · RA4)
+
+| | |
+|---|---|
+| **Modalidad** | Grupos de **2 alumnos** (máx. 3). |
+| **Duración** | 1 sesión de elaboración (50 min) + 1 sesión de exposiciones (6–7 min por grupo). |
+| **Cubre** | RA4 (criterios b–e). |
+| **Entregable** | Panel «antes/después»: boceto + ficha de ecodiseño + diagrama de ciclo de vida. |
+
+> **Objetivo:** aplicar los principios de ecodiseño y el análisis del ciclo de vida a un
+> producto TIC concreto, rediseñándolo desde el modelo lineal (extraer → producir → usar →
+> tirar) hacia uno circular. Todo grupo debe poder mostrar **qué cambia y por qué gana**.
+
+### Consigna
+
+> *"Elegid un producto TIC (móvil, portátil, impresora, router, servidor, auriculares…) y
+> elaborad un panel «antes/después» con cuatro piezas: **(1)** boceto o maqueta del producto
+> **rediseñado**; **(2)** ficha con al menos **5 principios de ecodiseño** (§4.1) aplicados,
+> indicando el cambio concreto de cada uno; **(3)** diagrama del **ciclo de vida** con la
+> **etapa de impacto dominante** marcada y cómo el rediseño la reduce; **(4)** **1 modelo de
+> negocio circular** aplicable (§2.3). Presentadlo en formato «esto era → esto es → esto gana
+> el planeta y la empresa»."*
+
+### Pasos
+
+1. **Describir el modelo actual** del producto: extraer → producir → usar → tirar, con sus impactos.
+2. **Elegir ≥5 principios** de ecodiseño (§4.1) y concretar el cambio en este producto.
+3. **Rediseñar:** boceto/maqueta con las mejoras visibles (materiales, reparabilidad, modularidad…).
+4. **Dibujar el LCA** (§5): etapas, impacto relativo por etapa y etapa dominante.
+5. **Estimar la mejora** (cualitativa o con datos) y elegir el modelo de negocio circular asociado.
+
+### Entregables
+
+- [ ] Panel «antes/después» (digital o cartulina) con las cuatro piezas.
+- [ ] Ficha de ecodiseño: ≥5 principios con el cambio concreto de cada uno.
+- [ ] Diagrama de ciclo de vida con la etapa dominante señalada + 1 fuente (ISO 14040/14067, reglamento UE…).
+
+### Presentación al grupo (6–7 min por grupo)
+
+- El producto y su modelo lineal actual.
+- Las mejoras de ecodiseño aplicadas («antes/después»).
+- El ciclo de vida y dónde está el impacto dominante.
+- El modelo circular propuesto y su beneficio (ambiental, económico o social).
+
+### Criterios de valoración (sobre 10)
+
+| Criterio | Qué se valora | % |
+|----------|---------------|---|
+| Ecodiseño | ≥5 principios aplicados con cambios concretos, no vagos. | 30 |
+| Ciclo de vida | Diagrama correcto y etapa de impacto dominante bien identificada. | 25 |
+| Viabilidad | El rediseño es factible y el beneficio está argumentado. | 20 |
+| Modelo circular y mejora | 1 modelo de negocio circular bien aplicado; mejora estimada. | 15 |
+| Presentación | Formato «antes/después» claro, 6–7 min. | 10 |
+
+> **Conexión con los trabajos:** es el **ensayo breve del Trimestre 2** (ver
+> [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md) §3),
+> que amplía el encargo a nivel de empresa, con métricas cuantitativas y plan de implantación.

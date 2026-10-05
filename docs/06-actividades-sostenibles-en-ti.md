@@ -170,3 +170,65 @@ APLICACIÓN: al diseñar/comprar, al operar, al desechar y al reportar.
 6. Relaciona tres impactos TIC con su estrategia y su norma asociada (usa la plantilla §5).
 
 > Soluciones orientativas en [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md).
+
+---
+
+## 8. Actividad de cierre · «Auditoría verde del aula de informática» (parejas o tríos · RA5)
+
+| | |
+|---|---|
+| **Modalidad** | Grupos de **2 alumnos** (máx. 3). |
+| **Duración** | 1 sesión de medición y cálculo (50 min) + 1 sesión de exposiciones (5–6 min por grupo). |
+| **Cubre** | RA5 (criterios d, f e i). |
+| **Entregable** | Plan de reducción (plantilla §5) + checklist de buenas prácticas + cálculos. |
+
+> **Objetivo:** que el alumnado **mida, proponga y defienda** mejoras sostenibles en su propio
+> entorno TIC: estimar el consumo eléctrico del aula, vincular impactos con estrategias y
+> normativa real, y cuantificar el ahorro. RA5 es "hacer" sostenibilidad.
+
+### Consigna
+
+> *"Realizad una **auditoría verde** del aula de informática (o de un pequeño servicio TIC del
+> centro): **(1)** estimad su consumo eléctrico con fórmula visible (nº equipos × potencia W ×
+> horas encendidas × jornadas), indicando los supuestos; **(2)** completad la plantilla de plan
+> de reducción (§5) con al menos **3 impactos** → estrategia → **normativa asociada** (RAEE,
+> ecodiseño, etiquetado…) → **KPI** → responsable → plazo; **(3)** estimad el ahorro anual de la
+> acción más rentable en **kWh, € y kg CO₂**. Acompañad un **checklist de 10 buenas prácticas**
+> para el aula. Presentad la propuesta ante la «dirección del centro» pidiendo la aprobación de
+> 3 acciones."*
+
+### Pasos
+
+1. **Inventariar:** nº de equipos y periféricos, potencia (etiqueta o ficha técnica) y horas encendidas.
+2. **Calcular:** consumo anual estimado (kWh) con la fórmula y los supuestos por escrito.
+3. **Identificar impactos** (energía, residuos, compras, datos…) y elegir ≥3.
+4. **Completar la plantilla §5:** estrategia, normativa, KPI, responsable y plazo por impacto.
+5. **Estimar el ahorro** de la acción más rentable (kWh → € → kg CO₂ con el factor que facilite el profesor, aproximado a 0,3 kg CO₂/kWh, citando la fuente).
+6. **Elaborar el checklist** de 10 buenas prácticas y preparar la defensa.
+
+### Entregables
+
+- [ ] Plan de reducción: tabla §5 ampliada con ≥3 impactos completos.
+- [ ] Cálculo de consumo y de ahorro con fórmula, supuestos y factor de emisión citado.
+- [ ] Checklist de 10 buenas prácticas sostenibles para el aula/servicio.
+
+### Presentación al grupo (5–6 min por grupo)
+
+- Datos del aula y consumo estimado.
+- Los 3 impactos elegidos con estrategia, normativa y KPI.
+- El ahorro de la acción más rentable.
+- Petición concreta: «aprobad estas 3 acciones» + preguntas del grupo.
+
+### Criterios de valoración (sobre 10)
+
+| Criterio | Qué se valora | % |
+|----------|---------------|---|
+| Acciones, normativa y KPI | ≥3 impactos con estrategia, norma correcta y KPI medible. | 30 |
+| Estimación del consumo | Fórmula visible, supuestos explícitos y cálculo correcto. | 25 |
+| Ahorro estimado | Estimación razonable en kWh/€/kg CO₂ con factor citado. | 20 |
+| Presentación | Defensa convincente ante la "dirección" y respuesta a preguntas. | 15 |
+| Rigor | Checklist útil y fuentes citadas. | 10 |
+
+> **Conexión con los trabajos:** complementa las prácticas individuales **P1, P4 y P5** de
+> [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md)
+> y aporta acciones reales para el plan de sostenibilidad del T3.

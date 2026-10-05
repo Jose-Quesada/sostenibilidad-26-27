@@ -162,3 +162,63 @@ REGLAS DE ORO: cuantificar, ser honesto con brechas, vincular a ODS, citar fuent
 6. Redacta un párrafo tipo que cuantifique un avance con su ODS, KPI, estándar y responsable.
 
 > Soluciones orientativas en [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md).
+
+---
+
+## 7. Actividad de cierre · «Extracto ejecutivo y defensa ante el consejo» (tríos · RA6)
+
+| | |
+|---|---|
+| **Modalidad** | Grupos de **3 alumnos** (máx. 3; también en parejas). |
+| **Duración** | Investigación previa + 1 sesión de elaboración (50 min) + 1 sesión de defensas (10 min por grupo). |
+| **Cubre** | RA6 (criterios a–e) · refuerza RA1–RA5. |
+| **Entregable** | Mini-plan de 2–3 páginas + defensa en role-play de 7 min con preguntas. |
+
+> **Objetivo:** ejecutar por primera vez el flujo completo del plan (stakeholders →
+> materialidad → acciones con meta → KPIs con estándar → informe) en formato breve, y
+> defenderlo ante un "consejo de dirección". Es el **ensayo general del Trimestre 3**.
+
+### Consigna
+
+> *"Para una empresa TIC del [banco de casos](09-casos-empresas-sector-informatico.md),
+> elaborad un **mini-plan de sostenibilidad de 2–3 páginas** con: **(a)** mapa de ≥8
+> stakeholders priorizados; **(b)** **3 aspectos ASG materiales** con doble materialidad (¿por
+> qué importan al negocio? ¿qué impacto generan?); **(c)** **4 acciones** de mitigación y
+> aprovechamiento con **meta cuantitativa**; **(d)** tabla de **4 KPIs** con estándar, línea
+> base, meta, frecuencia y responsable. Después, **defendedlo en role-play de 7 min ante el
+> consejo** (asignad roles: dirección, inversores y stakeholders externos) + 3 min de
+> preguntas del grupo."*
+
+### Pasos
+
+1. **Elegir la empresa** y recuperar el trabajo de las unidades 01–06 (stakeholders, ASG, ODS, métricas).
+2. **Completar el bloque (a)** con la matriz poder/interés y el **(b)** con la doble materialidad (§2.2).
+3. **Definir las 4 acciones** con meta cuantitativa (§2.3) y los **4 KPIs** con estándar, línea base, meta, frecuencia y responsable (§2.4).
+4. **Redactar** el extracto con estructura de informe (§3.1) en 2–3 páginas.
+5. **Preparar la defensa:** máx. 4 slides, roles del consejo y respuestas a 3 preguntas-tipo (coste, viabilidad, impacto/aceptación, §4).
+
+### Entregables
+
+- [ ] Mini-plan de 2–3 páginas (stakeholders, materialidad, acciones, tabla de KPIs).
+- [ ] Slides de defensa (máximo 4).
+- [ ] 1 página de respuestas preparadas a las 3 preguntas-tipo del consejo.
+
+### Presentación al grupo (7 min + 3 min de preguntas)
+
+- Defensa en role-play con roles asignados dentro del grupo.
+- Preguntas del "consejo" (profesorado y resto de grupos).
+- Resumen de mejoras tras las preguntas.
+
+### Criterios de valoración (sobre 10)
+
+| Criterio | Qué se valora | % |
+|----------|---------------|---|
+| Stakeholders y materialidad | ≥8 stakeholders; 3 aspectos con doble materialidad argumentada. | 25 |
+| Acciones con meta | ≥4 acciones con meta cuantitativa y viabilidad razonable. | 25 |
+| KPIs con estándar | 4 KPIs con estándar, línea base, meta, frecuencia y responsable. | 20 |
+| Defensa y respuestas | Role-play claro, respuestas sólidas a las preguntas-tipo. | 20 |
+| Estructura y fuentes | Mini-plan ordenado, estilo informe, fuentes citadas. | 10 |
+
+> **Conexión con los trabajos:** es el **ensayo general del Trimestre 3** (ver
+> [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md) §4),
+> que amplía este extracto a un plan e informe de sostenibilidad completos con la rúbrica T3.

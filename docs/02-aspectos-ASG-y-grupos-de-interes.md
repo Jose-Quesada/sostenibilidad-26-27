@@ -238,3 +238,62 @@ OPORTUNIDADES: eficiencia, nuevos mercados verdes, acceso a capital, talento, re
 6. Propón dos oportunidades ASG para una consultora tecnológica española.
 
 > Soluciones orientativas en [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md).
+
+---
+
+## 8. Actividad de cierre · «Tablero de materialidad y stakeholders» (parejas o tríos · RA1b–d)
+
+| | |
+|---|---|
+| **Modalidad** | Grupos de **2 alumnos** (máx. 3). |
+| **Duración** | 1 sesión de elaboración (50 min) + 1 sesión de exposiciones (6 min por grupo). |
+| **Cubre** | RA1 (criterios b y d) · apoya RA6.a (el mapa de T1). |
+| **Entregable** | Un **tablero único** con tres piezas: stakeholders, aspectos ASG y materialidad. |
+
+> **Objetivo:** pasar de listar conceptos a **decidir qué importa** para una empresa TIC:
+> colocar grupos de interés en la matriz poder/interés, clasificar aspectos E/S/G y usar la
+> doble matriz de materialidad para fijar la zona crítica.
+
+### Consigna
+
+> *"Para una empresa TIC del [banco de casos](09-casos-empresas-sector-informatico.md)
+> (la misma de la U01 o una nueva), elaborad un tablero con tres piezas conectadas:
+> **(1)** matriz poder/interés con al menos **8 stakeholders** (internos y externos) y una
+> expectativa de cada uno; **(2)** al menos **8 aspectos ASG** (≥3 ambientales, ≥3 sociales,
+> ≥2 de gobernanza); **(3)** matriz de materialidad (impacto en la empresa × impacto en
+> personas/planeta) con **3 aspectos en la zona crítica**, enlazando cada uno con el
+> stakeholder que lo exige y con su ODS."*
+
+### Pasos
+
+1. **Stakeholders:** nombrar ≥8, asignarles expectativa y colocarlos en la matriz poder/interés (§2.2).
+2. **Aspectos ASG:** listar ≥3 E, ≥3 S y ≥2 G específicos de esa empresa (no genéricos del sector).
+3. **Materialidad:** puntuar cada aspecto en los dos ejes (§3.1) y colorear la zona crítica.
+4. **Conectar:** por cada aspecto crítico, señalar stakeholder ↔ aspecto ↔ ODS.
+5. **Preparar la defensa:** explicar 2 colocaciones discutibles (ej.: ¿por qué la prensa va en "supervigilar"?).
+
+### Entregables
+
+- [ ] Tablero (digital o lámina) con las tres piezas visibles y sus enlaces.
+- [ ] Tabla de expectativas de al menos 3 stakeholders clave.
+- [ ] Lista de los 3 aspectos materiales con doble justificación (negocio / personas-planeta).
+
+### Presentación al grupo (6 min por grupo)
+
+- Quién es la empresa y su contexto.
+- Recorrido por las tres piezas del tablero.
+- Los 3 aspectos de la zona crítica y quién los exige.
+- 2 min de preguntas: defender posiciones de la matriz.
+
+### Criterios de valoración (sobre 10)
+
+| Criterio | Qué se valora | % |
+|----------|---------------|---|
+| Completitud | ≥8 stakeholders y ≥8 aspectos (3E/3S/2G) de la empresa. | 30 |
+| Clasificación | Posiciones en poder/interés razonadas; expectativas concretas. | 25 |
+| Materialidad | Zona crítica bien usada; enlace aspecto–stakeholder–ODS. | 25 |
+| Entregable y presentación | Tablero claro, defensa de 6 min y respuesta a objeciones. | 20 |
+
+> **Conexión con los trabajos:** este tablero es el **borrador del mapa ASG y de la matriz de
+> stakeholders** que se entrega en el Trimestre 1 (ver
+> [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md) §2).

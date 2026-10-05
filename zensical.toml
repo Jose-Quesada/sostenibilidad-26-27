@@ -12,8 +12,9 @@ site_name = "Sostenibilidad aplicada al sistema productivo"
 
 nav = [
   { "Inicio" = "index.md" },
+#  { "Programación didáctica" = "programacion-didactica.md" },
   { "01 · Fundamentos de la sostenibilidad" = "01-fundamentos-sostenibilidad.md" },
-#  { "02 · Aspectos ASG y grupos de interés" = "02-aspectos-ASG-y-grupos-de-interes.md" },
+  { "02 · Aspectos ASG y grupos de interés" = "02-aspectos-ASG-y-grupos-de-interes.md" },
 #  { "03 · Estándares, métricas e inversión responsable" = "03-estandares-metricas-e-inversion-responsable.md" },
 #  { "04 · Retos ambientales y sociales del sector informático" = "04-retos-ambientales-y-sociales-sector-informatico.md" },
 #  { "05 · Economía circular, verde y ecodiseño" = "05-economia-circular-verde-y-ecodisenio.md" },

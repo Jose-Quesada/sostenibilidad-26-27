@@ -202,3 +202,61 @@ ALIanzas: público-privadas, sectoriales (estándares), internacionales, transve
 6. Da un ejemplo de alianza público-privada en el sector TIC con beneficio triple (planeta, personas, economía).
 
 > Soluciones orientativas en [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md).
+
+---
+
+## 9. Actividad de cierre · «El coste invisible de lo digital» (parejas o tríos · RA2)
+
+| | |
+|---|---|
+| **Modalidad** | Grupos de **2 alumnos** (máx. 3). |
+| **Duración** | 1 sesión de elaboración (50 min) + 1 sesión de exposiciones (5 min) y votación. |
+| **Cubre** | RA2 (criterios a–e). |
+| **Entregable** | Infografía con 6 retos del sector TIC + fuentes. |
+
+> **Objetivo:** sintetizar los retos ambientales y sociales del sector TIC con **datos
+> verificables**, trazar su cadena de impacto (personas y sectores) y pasar a la acción con
+> medidas concretas. La votación final nos dice por dónde empezar como grupo.
+
+### Consigna
+
+> *"Elaborad una **infografía** (Canva, Piktochart, draw.io o lámina vertical) titulada
+> «El coste invisible de lo digital» con **6 retos del sector TIC: 3 ambientales y 3
+> sociales** (de los §2 y §3). Cada reto debe incluir: un **dato numérico con su fuente**,
+> su **efecto sobre las personas** y **sobre los sectores productivos**, y **1 acción de
+> minimización** con su KPI. Al pie, señalad **1 alianza transversal** que ayude a resolverlos
+> (RA2.e). Presentadla en 5 min y el grupo votará el reto más urgente."*
+
+### Pasos
+
+1. **Elegir los 6 retos** (3 ambientales + 3 sociales) de los listados §2 y §3.
+2. **Recopilar datos** (informes, ONU, agencias energéticas…): uno por reto, con fuente.
+3. **Trazar la cadena:** reto → efecto sobre personas → efecto sobre sectores (§4).
+4. **Añadir la acción + KPI** de cada reto (§5) y una alianza al pie (§6).
+5. **Diseñar y presentar;** después, votación guiada: cada alumno vota el reto más urgente.
+
+### Entregables
+
+- [ ] Infografía (PNG/PDF o foto de la lámina).
+- [ ] Lista de fuentes (mínimo 4, una por reto como mínimo).
+- [ ] Acción + KPI por reto y 1 alianza transversal.
+
+### Presentación al grupo (5 min por grupo + votación)
+
+- Los 3 retos ambientales y los 3 sociales con sus datos clave.
+- Las cadenas de impacto más relevantes.
+- Las acciones propuestas y la alianza.
+- Votación final: el grupo vota el reto más urgente de todos los presentados.
+
+### Criterios de valoración (sobre 10)
+
+| Criterio | Qué se valora | % |
+|----------|---------------|---|
+| Cobertura | 3 retos ambientales + 3 sociales, bien diferenciados. | 25 |
+| Datos y fuentes | Un dato numérico por reto, con fuente citada. | 25 |
+| Cadena de impacto | Efecto correcto sobre personas y sobre sectores. | 20 |
+| Acciones y alianza | Medidas concretas con KPI; alianza transversal razonada. | 15 |
+| Diseño y presentación | Infografía legible y comunicación en 5 min. | 15 |
+
+> **Conexión con los trabajos:** los retos y acciones más votados alimentan el **diagnóstico
+> del Trimestre 1** (ver [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md) §2).

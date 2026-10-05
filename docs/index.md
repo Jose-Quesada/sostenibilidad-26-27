@@ -61,6 +61,7 @@ El módulo se organiza en **6 resultados de aprendizaje** con sus criterios de e
 
 | Archivo | Contenido | RAs que cubre |
 |---------|-----------|---------------|
+| [`programacion-didactica.md`](programacion-didactica.md) | **Programación didáctica oficial completa** para los ciclos de DAW y DAM en Andalucía (marco LO 3/2022 y Decreto 104/2024). | Todos (RA1–RA6) |
 | `01-fundamentos-sostenibilidad.md` | Desarrollo sostenible, Agenda 2030 y ODS, acuerdos climáticos, marcos internacionales. | RA1a–c · RA2 |
 | `02-aspectos-ASG-y-grupos-de-interes.md` | Aspectos ambientales, sociales y de gobernanza; grupos de interés; riesgos y oportunidades. | RA1b–d |
 | `03-estandares-metricas-e-inversion-responsable.md` | ISO, GRI, SASB/ISSB, CDP, índices de sostenibilidad, inversión socialmente responsable, regulación CSRD/ESG. | RA1e–f |
@@ -105,8 +106,13 @@ Además de los criterios oficiales del Anexo VIII, se sugiere valorar:
 ## 6. Cómo usar estos materiales
 
 1. **Lectura secuencial** de los archivos `01` a `07` para construir el marco conceptual.
-2. **Apoyo permanente** con `09` (casos) y `10` (glosario/recursos).
-3. **Ejecución** de las prácticas de `08`, que integran los tres trimestres y están listas
+2. **Actividades de cierre por unidad:** cada unidad (`01`–`07`) termina con una actividad para
+   realizar en **parejas o tríos** en la que se elabora un entregable anclado al sector informático
+   (mapa, tablero, auditoría, infografía, rediseño, auditoría verde, mini-plan) que se **presenta
+   al resto del grupo** con una mini-rúbrica de valoración. Sirven como arranque de los trabajos
+   trimestrales de `08`.
+3. **Apoyo permanente** con `09` (casos) y `10` (glosario/recursos).
+4. **Ejecución** de las prácticas de `08`, que integran los tres trimestres y están listas
    para entregar a los alumnos.
 
 > Los materiales están pensados para el sector **Informática y Comunicaciones**, pero la

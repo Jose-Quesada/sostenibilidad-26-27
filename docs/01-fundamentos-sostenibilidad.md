@@ -114,7 +114,7 @@ que afectan directamente al sector TIC:
 | **Reglamento de ecodiseño (2024/1781)** | Criterios ecológicos obligatorios para productos. | Reparabilidad, durabilidad, eficiencia energética de dispositivos y componentes. |
 | **Reglamento de baterías (2023/1542)** | Huella de carbono, reciclaje, pasaporte digital de batería. | Portátiles, equipos portátiles, UPS. |
 | **Directiva sobre residuos de aparatos eléctricos y electrónicos (RAEE, 2012/19/UE)** | Responsabilidad ampliada del productor, recogida y reciclaje. | Fin de vida de hardware TIC. |
-| **Reglamento sobre minerales críticos** | Seguridad de suministro de litio, cobalto, tierras raras. | Cadenas de suministro de electrónica. |
+| **Reglamento sobre minerales críticos** | Seguridad de suministro de litio, cobalto, [tierras raras](https://www.youtube.com/watch?v=qC817dM5eN8). | Cadenas de suministro de electrónica. |
 
 > **Punto clave para el alumnado:** la sostenibilidad ya no es voluntaria. La CSRD y el
 > ecodiseño obligan legalmente a reportar y diseñar de forma sostenible. Esto conecta con
@@ -240,3 +240,61 @@ La sostenibilidad ya es OBLIGATORIA por ley en muchas empresas (CSRD, ecodiseño
 6. Diferencia materialidad financiera de materialidad temática con un ejemplo del sector TIC.
 
 > Soluciones orientativas en [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md).
+
+---
+
+## 7. Actividad de cierre · «Ruta ODS de una empresa TIC» (parejas · RA1c)
+
+| | |
+|---|---|
+| **Modalidad** | Grupos de **2 alumnos** (máx. 3). |
+| **Duración** | 1 sesión de elaboración (50 min) + 1 sesión de exposiciones (5 min por grupo). |
+| **Cubre** | RA1 (criterios b y c) · es el arranque de la selección de ODS del T1. |
+| **Entregable** | Mapa «Ruta ODS» (diagrama digital o lámina) + hoja de justificación. |
+
+> **Objetivo:** que cada grupo sepa **seleccionar y argumentar** los ODS prioritarios de una
+> empresa TIC concreta. No vale con "poner todos": hay que justificar la elección y también
+> los descartes, con datos y aspectos ASG reales.
+
+### Consigna
+
+> *"Elegid una empresa TIC del [banco de casos](09-casos-empresas-sector-informatico.md) y
+> elaborad un mapa «Ruta ODS» con la empresa en el centro, **3–5 ODS prioritarios** (número e
+> icono) justificados uno a uno con un dato o aspecto ASG de la empresa, los marcos
+> internacionales que la condicionan (Agenda 2030, Acuerdo de París, Pacto Verde/CSRD) y una
+> última nota con los ODS descartados y el motivo. Presentadlo al grupo, que os retará con la
+> pregunta: «¿y por qué no el ODS X?»."*
+
+### Pasos
+
+1. **Elegir e investigar la empresa:** actividad, tamaño e informe ASG o página de sostenibilidad (ayuda: fichas de `09`).
+2. **Listar ODS candidatos** (los §3.2 de esta unidad) y tachar los descartados con una razón por cada uno.
+3. **Seleccionar 3–5 ODS** y casar cada uno con un aspecto ASG o un dato concreto (ej.: ODS 7 ← consumo eléctrico de sus data centers).
+4. **Situar los marcos** que empujan a esa empresa (Agenda 2030, París, CSRD, Reglamento de ecodiseño…).
+5. **Dibujar el mapa** (draw.io, Canva o cartulina) con iconos y frases cortas, y preparar 1 min de justificación por ODS.
+
+### Entregables
+
+- [ ] Mapa «Ruta ODS» (PNG/PDF o foto de la lámina).
+- [ ] Hoja de justificación (1 página): ODS elegidos con razón y ODS descartados con razón.
+- [ ] Al menos 2 fuentes citadas (informe ASG, web oficial, ONU).
+
+### Presentación al grupo (5 min por grupo)
+
+- Empresa elegida y motivo de la elección.
+- Los 3–5 ODS con su vínculo a un aspecto ASG o dato verificable.
+- Los marcos internacionales aplicables.
+- 2 min de preguntas: defender los descartes.
+
+### Criterios de valoración (sobre 10)
+
+| Criterio | Qué se valora | % |
+|----------|---------------|---|
+| Selección argumentada | 3–5 ODS con razón por ODS y descartes justificados. | 35 |
+| Vínculo empresa–ODS | Cada ODS anclado a un aspecto ASG o dato verificable. | 30 |
+| Marcos internacionales | Se citan y aplican correctamente al menos 2 marcos. | 15 |
+| Entregable y presentación | Mapa claro, fuentes citadas, defensa de 5 min. | 20 |
+
+> **Conexión con los trabajos:** esta actividad es el **arranque del Trimestre 1** (ver
+> [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md) §2):
+> la selección argumentada de ODS que exige el mapa ASG se ensaya aquí por primera vez.

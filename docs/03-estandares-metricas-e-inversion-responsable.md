@@ -218,3 +218,62 @@ Efecto: la calificación ESG mueve capital; la sostenibilidad es hoy un FACTOR F
 6. ¿Qué obliga la CSRD y qué son los ESRS? ¿Afecta a las grandes empresas del sector?
 
 > Soluciones orientativas en [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md).
+
+---
+
+## 7. Actividad de cierre · «Auditoría a un informe ASG real» (parejas · RA1e–f)
+
+| | |
+|---|---|
+| **Modalidad** | Grupos de **2 alumnos** (máx. 3). |
+| **Duración** | Investigación previa + 1 sesión de elaboración (50 min) + exposiciones (5–6 min por grupo). |
+| **Cubre** | RA1 (criterios e y f) · refuerza RA6.d (métricas). |
+| **Entregable** | Ficha-auditoría de 1–2 páginas con estándares, KPIs y veredicto. |
+
+> **Objetivo:** aplicar los estándares sobre un **informe de sostenibilidad real**: distinguir
+> qué mide cada marco (ISO, GRI, ISSB, CDP), extraer KPIs con su valor y comprobar si la
+> empresa reporta lo que exige la CSRD. Aprender a leer un informe ASG con ojo crítico.
+
+### Consigna
+
+> *"Elegid una empresa TIC con informe de sostenibilidad o página ESG pública y elaborad una
+> **ficha-auditoría** con cuatro bloques: **(a)** estándares que usa (GRI, ISO 14064/50001,
+> CDP, IFRS S1/S2…) y qué sirve cada uno; **(b)** **6 KPIs reales** (2 ambientales, 2 sociales
+> y 2 de gobernanza) con valor, unidad y fuente; **(c)** chequeo CSRD: ¿reporta doble
+> materialidad?, ¿tiene aseguramiento externo?, ¿clasifica actividades bajo la Taxonomía UE?;
+> **(d)** veredicto en 2 conclusiones: ¿es transparente o hay indicios de greenwashing?
+> Presentad el «juicio» al grupo."*
+
+### Pasos
+
+1. **Buscar el informe** (memoria de sostenibilidad, reporte ASG o web ESG de la empresa; usar `09` como punto de partida).
+2. **Identificar estándares citados** y apuntar para qué sirve cada uno (§1 de esta unidad).
+3. **Extraer 6 KPIs** con valor, unidad, familia (E/S/G) y página o sección de origen.
+4. **Contrastar con la CSRD** (§4): doble materialidad, aseguramiento, Taxonomía.
+5. **Redactar el veredicto:** 2 conclusiones argumentadas con los datos anteriores.
+
+### Entregables
+
+- [ ] Ficha-auditoría (1–2 páginas) con los cuatro bloques y hipervínculos a las fuentes.
+- [ ] Tabla de 6 KPIs (valor + unidad + familia + fuente).
+- [ ] Veredicto final de 2 conclusiones.
+
+### Presentación al grupo (5–6 min por grupo)
+
+- Empresa y estándares que utiliza.
+- Los 6 KPIs más significativos.
+- Resultado del chequeo CSRD.
+- Veredicto + 2 min de preguntas (el grupo puede impugnar el veredicto).
+
+### Criterios de valoración (sobre 10)
+
+| Criterio | Qué se valora | % |
+|----------|---------------|---|
+| KPIs extraídos | 6 KPIs con valor, unidad y fuente localizable. | 30 |
+| Fuentes verificables | Informe/web real citado; nada sin comprobar. | 25 |
+| Estándares | Identifica y diferencia correctamente ISO, GRI, ISSB/CDP. | 20 |
+| Veredicto y presentación | Conclusiones argumentadas con los datos; defensa de 5–6 min. | 25 |
+
+> **Conexión con los trabajos:** prepara las prácticas **P6 (materialidad)** y **P8
+> (greenwashing)** de [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md)
+> y el trabajo de métricas del T1/T3.

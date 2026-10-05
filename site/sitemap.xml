@@ -1,3 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <url>
+        <loc>https://www.example.com/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/01-fundamentos-sostenibilidad/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/02-aspectos-ASG-y-grupos-de-interes/</loc>
+      </url>
+      <url>
+        <loc>https://www.example.com/10-glosario-recursos-bibliografia/</loc>
+      </url>
 </urlset>
