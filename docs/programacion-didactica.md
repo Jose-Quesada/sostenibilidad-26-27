@@ -24,7 +24,7 @@
 | **Equivalencia crediticia** | 3 créditos ECTS (Grado Superior) |
 | **Régimen de impartición** | Formación Profesional Grado D - Régimen Dual General (incorporando estancia en empresa) |
 | **Departamento didáctico** | Departamento de Informática y Comunicaciones |
-| **Materiales de aula** | Repositorio digital del módulo: apuntes (`docs/01` a `docs/10`), proyectos trimestrales y casos reales en `docs/` |
+| **Materiales de aula** | Repositorio digital del módulo: apuntes, proyectos trimestrales y casos reales |
 
 ---
 
@@ -94,11 +94,10 @@ La programación se fundamenta en la siguiente normativa estatal, autonómica an
 Los Técnicos Superiores en Desarrollo de Aplicaciones Web y Multiplataforma desarrollan su actividad en empresas de desarrollo de software, consultoras TIC, agencias de servicios en la nube, departamentos tecnológicos de administraciones públicas y *startups*. En la actualidad, estas empresas se enfrentan a exigencias regulatorias y de mercado para justificar el impacto ambiental de sus infraestructuras, reducir el consumo computacional de sus soluciones y reportar indicadores ASG.
 
 ### 4.2 Contextualización del Alumnado
-El grupo de 1º curso cuenta con 22 alumnos/as de procedencia geográfica comarcal diversa (Martos, Torredelcampo, Torredonjimeno, Fuensanta de Martos, Escañuela, Jaén).
+Los grupos de 1º cuenta con 22 alumnos/as de procedencia geográfica comarcal diversa (Martos, Torredelcampo, Torredonjimeno, Fuensanta de Martos, Escañuela, Jaén).
 - **Diversidad de perfiles académicos:** Edades comprendidas entre 18 y 32 años. Concurren titulados de CFGM de Sistemas Microinformáticos y Redes (SMR), Bachillerato (modalidades científica y tecnológica/humanidades), pruebas de acceso y titulados universitarios (Grado en Psicología, CFGS de Sonido y Producción Mecánica).
-- **Repetidores y adaptación curricular:** 7 alumnos repetidores en situaciones modulares específicas (algunos adaptándose al nuevo plan de estudios de la LO 3/2022 para cursar Sostenibilidad y Digitalización).
-- **Compatibilidad laboral:** 2 alumnos en régimen laboral activo compaginan sus estudios mediante tutorías telemáticas y seguimiento por el aula virtual.
-- **Atención a la diversidad:** 1 alumno con Altas Capacidades Intelectuales (Sobredotación); 1 alumno procedente de programas de atención a la diversidad (PMAR); y 1 alumno con discapacidad física motriz (incorporado al Plan de Autoprotección con evacuación asistida).
+- **Repetidores :** Ninguno de los alumnos repetidores están cursando este módulo, todos obtuvieron calificación positiva el curso pasado.
+- **Atención a la diversidad:** No existe nada que recoger al respecto.
 
 ---
 
@@ -167,13 +166,13 @@ flowchart LR
   - Mapeo de grupos de interés (*stakeholders*) y matriz de materialidad (Mendelow).
   - Estándares y métricas: ISO 14001, ISO 14064, GRI Standards, SASB/ISSB, CDP, métricas técnicas TIC (PUE, WUE, CUE, Software Carbon Intensity - SCI). Inversión Socialmente Responsable (ISR), agencias de *rating* ESG y marco europeo CSRD/ESRS.
 - **Materiales de Referencia en `docs/`:**
-  - [`01-fundamentos-sostenibilidad.md`](01-fundamentos-sostenibilidad.md)
-  - [`02-aspectos-ASG-y-grupos-de-interes.md`](02-aspectos-ASG-y-grupos-de-interes.md)
-  - [`03-estandares-metricas-e-inversion-responsable.md`](03-estandares-metricas-e-inversion-responsable.md)
-  - [`04-retos-ambientales-y-sociales-sector-informatico.md`](04-retos-ambientales-y-sociales-sector-informatico.md)
-  - [`09-casos-empresas-sector-informatico.md`](09-casos-empresas-sector-informatico.md) (HP, Microsoft, Google, Dell, Indra/Minsait, IBM, Amazon)
+  - [`01-fundamentos-sostenibilidad.md`](../docs/01-fundamentos-sostenibilidad.md)
+  - [`02-aspectos-ASG-y-grupos-de-interes.md`](../docs/02-aspectos-ASG-y-grupos-de-interes.md)
+  - [`03-estandares-metricas-e-inversion-responsable.md`](../docs/03-estandares-metricas-e-inversion-responsable.md)
+  - [`04-retos-ambientales-y-sociales-sector-informatico.md`](../docs/04-retos-ambientales-y-sociales-sector-informatico.md)
+  - [`09-casos-empresas-sector-informatico.md`](../docs/09-casos-empresas-sector-informatico.md) (HP, Microsoft, Google, Dell, Indra/Minsait, IBM, Amazon)
 - **Proyecto Integrador Trimestre 1 (T1):**
-  - **Título:** *Mapa ASG + Diagnóstico ODS en una empresa del sector tecnológico* ([`08` §2](08-practicas-y-trabajos-sector-informatico.md)).
+  - **Título:** *Mapa ASG + Diagnóstico ODS en una empresa del sector tecnológico* ([`08` §2](../docs/08-practicas-y-trabajos-sector-informatico.md)).
   - **Entregables:** Informe técnico (máx. 10 páginas) + Matriz de materialidad + Presentación oral en parejas (10-15 min) con debate guiado.
 
 ---
@@ -188,11 +187,11 @@ flowchart LR
   - Evaluación de la huella personal y profesional del programador (teletrabajo, videoconferencias, almacenamiento en la nube).
   - Normativa ambiental aplicable: Directiva RAEE (2012/19/UE), RD 110/2015, Ley 7/2022 de residuos, Reglamento europeo de Ecodiseño (UE 2024/1781 - ESPR), Ley 3/2023 de Economía Circular de Andalucía (LECA) y Ley 8/2018 de Cambio Climático de Andalucía.
 - **Materiales de Referencia en `docs/`:**
-  - [`05-economia-circular-verde-y-ecodisenio.md`](05-economia-circular-verde-y-ecodisenio.md)
-  - [`06-actividades-sostenibles-en-ti.md`](06-actividades-sostenibles-en-ti.md)
-  - [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md) (Prácticas intermedias P1-P6: calculadora de huella y auditoría de aula)
+  - [`05-economia-circular-verde-y-ecodisenio.md`](../docs/05-economia-circular-verde-y-ecodisenio.md)
+  - [`06-actividades-sostenibles-en-ti.md`](../docs/06-actividades-sostenibles-en-ti.md)
+  - [`08-practicas-y-trabajos-sector-informatico.md`](../docs/08-practicas-y-trabajos-sector-informatico.md) (Prácticas intermedias P1-P6: calculadora de huella y auditoría de aula)
 - **Proyecto Integrador Trimestre 2 (T2):**
-  - **Título:** *Diseño conceptual y técnico de un Producto o Servicio TIC Sostenible con Ecodiseño y Análisis de Ciclo de Vida (LCA)* ([`08` §3](08-practicas-y-trabajos-sector-informatico.md)).
+  - **Título:** *Diseño conceptual y técnico de un Producto o Servicio TIC Sostenible con Ecodiseño y Análisis de Ciclo de Vida (LCA)* ([`08` §3](../docs/08-practicas-y-trabajos-sector-informatico.md)).
   - **Entregables:** Informe técnico de ecodiseño y LCA + Prototipo conceptual/técnico de la solución + Presentación oral en clase (10-12 min) con demostración del prototipo.
 
 ---
@@ -205,12 +204,12 @@ flowchart LR
   - Redacción formal del Informe de Sostenibilidad / Estado de Información No Financiera (EINF) conforme a la Directiva CSRD (UE 2022/2464). Comunicación ética y prevención del *Greenwashing*.
   - Vinculación con la Formación en Empresa (Dual): Aplicación práctica del análisis ASG en la empresa del sector TIC colaboradora durante la estancia formativa de primer curso.
 - **Materiales de Referencia en `docs/`:**
-  - [`07-plan-sostenibilidad-e-informe.md`](07-plan-sostenibilidad-e-informe.md)
-  - [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md) §4 (Rúbricas T3, orientaciones de informe y defensa ejecutiva)
-  - [`09-casos-empresas-sector-informatico.md`](09-casos-empresas-sector-informatico.md)
-  - [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md)
+  - [`07-plan-sostenibilidad-e-informe.md`](../docs/07-plan-sostenibilidad-e-informe.md)
+  - [`08-practicas-y-trabajos-sector-informatico.md`](../docs/08-practicas-y-trabajos-sector-informatico.md) §4 (Rúbricas T3, orientaciones de informe y defensa ejecutiva)
+  - [`09-casos-empresas-sector-informatico.md`](../docs/09-casos-empresas-sector-informatico.md)
+  - [`10-glosario-recursos-bibliografia.md`](../docs/10-glosario-recursos-bibliografia.md)
 - **Proyecto Integrador Trimestre 3 (T3):**
-  - **Título:** *Plan Integral de Sostenibilidad e Informe de Rendición de Cuentas (GRI/ESRS) para una Organización del Sector Informático / Empresa Colaboradora Dual* ([`08` §4](08-practicas-y-trabajos-sector-informatico.md)).
+  - **Título:** *Plan Integral de Sostenibilidad e Informe de Rendición de Cuentas (GRI/ESRS) para una Organización del Sector Informático / Empresa Colaboradora Dual* ([`08` §4](../docs/08-practicas-y-trabajos-sector-informatico.md)).
   - **Entregables:** Documento formal del Plan e Informe de Sostenibilidad + Presentación ejecutiva en formato *Role-Play* (defensa del plan ante el "Comité de Dirección / Inversores", 12-15 min + ronda de preguntas).
 
 ---
@@ -220,7 +219,7 @@ flowchart LR
 La metodología se asienta en los siguientes pilares de innovación pedagógica:
 1. **Aprendizaje Basado en Proyectos (ABP):** Cada trimestre se estructura en torno a un reto profesional auténtico que culmina en un producto verificable y público.
 2. **Aprendizaje Cooperativo:** Trabajo en equipos de 2 a 3 estudiantes con reparto de roles (coordinador ASG, programador/Green Coder, analista de datos, redactor técnico).
-3. **Método del Caso:** Estudio y debate de casos reales de grandes corporaciones y startups tecnológicas recogidas en [`docs/09`](09-casos-empresas-sector-informatico.md).
+3. **Método del Caso:** Estudio y debate de casos reales de grandes corporaciones y startups tecnológicas recogidas en [`docs/09`](../docs/09-casos-empresas-sector-informatico.md).
 4. **Simulación Profesional (*Role-Playing*):** Defensas orales en las que los estudiantes actúan como consultores de sostenibilidad, directores de tecnología o auditores.
 5. **Uso de Herramientas Reales:** Empleo de calculadoras de emisiones de software (Green Software Foundation), simuladores de PUE y plataformas digitales (Moodle Centros / Google Classroom).
 
@@ -231,7 +230,7 @@ La metodología se asienta en los siguientes pilares de innovación pedagógica:
 De conformidad con el **Decreto 104/2024** y la **Orden de 18 de septiembre de 2025** de la Junta de Andalucía, la evaluación es continua, formativa, criterial e integradora.
 
 ### 9.1 Instrumentos de Evaluación
-- **Proyectos Trimestrales Integradores (70% de la nota de cada trimestre):** Aplicación de las rúbricas analíticas oficiales sobre 10 puntos detalladas en [`docs/08`](08-practicas-y-trabajos-sector-informatico.md).
+- **Proyectos Trimestrales Integradores (70% de la nota de cada trimestre):** Aplicación de las rúbricas analíticas oficiales sobre 10 puntos detalladas en [`docs/08`](../docs/08-practicas-y-trabajos-sector-informatico.md).
 - **Actividades de Aula y Cuestionarios Técnicos (20% de la nota de cada trimestre):** Cuestionarios de autoevaluación al final de cada unidad (`docs/01` a `07`), ejercicios prácticos y auditorías de aula.
 - **Competencias Transversales y Actitud (10% de la nota de cada trimestre):** Trabajo en equipo, puntualidad, rigor deontológico y participación crítica en debates.
 
@@ -249,7 +248,7 @@ De conformidad con el **Decreto 104/2024** y la **Orden de 18 de septiembre de 2
 ## 10. Formación en Empresa u Organismo Equiparado (Régimen Dual en Grado D)
 
 Conforme a la **Ley Orgánica 3/2022** y al **Decreto 104/2024**, todas las enseñanzas de Grado D se imparten en régimen dual general con una estancia formativa en empresas del sector TIC del 25% del total del ciclo (500 horas totales):
-- **1º Curso:** 80 horas de estancia formativa en empresas (marzo/abril).
+- **1º Curso:** 80 horas de estancia formativa en empresas (mayo).
 - **2º Curso:** 420 horas de formación en centros de trabajo.
 
 ### 10.1 Resultados de Aprendizaje Vinculados a la Empresa Dual
@@ -266,13 +265,6 @@ En aplicación de los principios del **DUA**:
 - **Múltiples formas de representación:** Textos claros, esquemas visuales, resúmenes conceptuales (`docs/01` a `07`) y glosario terminológico (`docs/10`).
 - **Múltiples formas de acción y expresión:** Entregables técnicos, presentaciones orales, infografías o prototipos de software.
 - **Múltiples formas de implicación:** Proyectos anclados a problemáticas reales y dinámicas cooperativas.
-
-### Medidas de Adaptación Concretas:
-1. **Ritmos lentos o dificultades:** Andamiaje de tareas, rúbricas desglosadas y apoyo guiado en tutorías.
-2. **Altas Capacidades Intelectuales (Sobredotación):** Retos de ampliación (cálculo de SCI en código Java/Web, análisis avanzado de Taxonomía Verde Europea y optimización energética de servidores).
-3. **Discapacidad física motriz:** Aula accesible, ergonomía adaptada y aplicación del protocolo de evacuación asistida del Plan de Autoprotección.
-4. **Alumnado trabajador / modular:** Acceso 100% online a los materiales (`docs/`), entregas asíncronas justificadas y tutorización telemática.
-5. **Alumnado repetidor o de incorporación tardía:** Plan de acogida y adaptación de plazos de evaluación.
 
 ---
 
@@ -297,15 +289,15 @@ En aplicación de los principios del **DUA**:
 
 | Documento | Título del Recurso en `docs/` | Contenido Principal |
 |:---:|:---|:---|
-| `01` | [`01-fundamentos-sostenibilidad.md`](01-fundamentos-sostenibilidad.md) | Brundtland, triple balance, cumbres, Acuerdo de París COP21, Agenda 2030, ODS en TIC y Taxonomía Verde UE. |
-| `02` | [`02-aspectos-ASG-y-grupos-de-interes.md`](02-aspectos-ASG-y-grupos-de-interes.md) | Pilares ASG en empresas tecnológicas, stakeholders (Mendelow), riesgos y oportunidades. |
-| `03` | [`03-estandares-metricas-e-inversion-responsable.md`](03-estandares-metricas-e-inversion-responsable.md) | ISO 14001, ISO 14064, GRI Standards, SASB/ISSB, CDP, métricas PUE/WUE/SCI, ISR y CSRD/ESRS. |
-| `04` | [`04-retos-ambientales-y-sociales-sector-informatico.md`](04-retos-ambientales-y-sociales-sector-informatico.md) | Consumo energético, datacenters, IA, agua, RAEE, minerales críticos, brecha digital y alianzas ODS 17. |
-| `05` | [`05-economia-circular-verde-y-ecodisenio.md`](05-economia-circular-verde-y-ecodisenio.md) | Modelo lineal vs circular, 9R, DaaS, Ecodiseño de hardware/software (Green Coding) y LCA/ACV. |
-| `06` | [`06-actividades-sostenibles-en-ti.md`](06-actividades-sostenibles-en-ti.md) | Huella personal/profesional del programador, Green IT, compras sostenibles y normativa ambiental (RAEE, Ley 7/2022, LECA). |
-| `07` | [`07-plan-sostenibilidad-e-informe.md`](07-plan-sostenibilidad-e-informe.md) | Elaboración de un Plan de Sostenibilidad Corporativo e Informe de Sostenibilidad (GRI/CSRD). |
-| `08` | [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md) | Proyectos trimestrales (T1, T2, T3), prácticas intermedias y rúbricas analíticas oficiales. |
-| `09` | [`09-casos-empresas-sector-informatico.md`](09-casos-empresas-sector-informatico.md) | Fichas de análisis ASG de HP, Microsoft, Google, Dell, Indra/Minsait, IBM, Amazon y casos españoles. |
-| `10` | [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md) | Glosario técnico de términos de sostenibilidad, enlaces oficiales y soluciones orientativas. |
+| `01` | [`01-fundamentos-sostenibilidad.md`](../docs/01-fundamentos-sostenibilidad.md) | Brundtland, triple balance, cumbres, Acuerdo de París COP21, Agenda 2030, ODS en TIC y Taxonomía Verde UE. |
+| `02` | [`02-aspectos-ASG-y-grupos-de-interes.md`](../docs/02-aspectos-ASG-y-grupos-de-interes.md) | Pilares ASG en empresas tecnológicas, stakeholders (Mendelow), riesgos y oportunidades. |
+| `03` | [`03-estandares-metricas-e-inversion-responsable.md`](../docs/03-estandares-metricas-e-inversion-responsable.md) | ISO 14001, ISO 14064, GRI Standards, SASB/ISSB, CDP, métricas PUE/WUE/SCI, ISR y CSRD/ESRS. |
+| `04` | [`04-retos-ambientales-y-sociales-sector-informatico.md`](../docs/04-retos-ambientales-y-sociales-sector-informatico.md) | Consumo energético, datacenters, IA, agua, RAEE, minerales críticos, brecha digital y alianzas ODS 17. |
+| `05` | [`05-economia-circular-verde-y-ecodisenio.md`](../docs/05-economia-circular-verde-y-ecodisenio.md) | Modelo lineal vs circular, 9R, DaaS, Ecodiseño de hardware/software (Green Coding) y LCA/ACV. |
+| `06` | [`06-actividades-sostenibles-en-ti.md`](../docs/06-actividades-sostenibles-en-ti.md) | Huella personal/profesional del programador, Green IT, compras sostenibles y normativa ambiental (RAEE, Ley 7/2022, LECA). |
+| `07` | [`07-plan-sostenibilidad-e-informe.md`](../docs/07-plan-sostenibilidad-e-informe.md) | Elaboración de un Plan de Sostenibilidad Corporativo e Informe de Sostenibilidad (GRI/CSRD). |
+| `08` | [`08-practicas-y-trabajos-sector-informatico.md`](../docs/08-practicas-y-trabajos-sector-informatico.md) | Proyectos trimestrales (T1, T2, T3), prácticas intermedias y rúbricas analíticas oficiales. |
+| `09` | [`09-casos-empresas-sector-informatico.md`](../docs/09-casos-empresas-sector-informatico.md) | Fichas de análisis ASG de HP, Microsoft, Google, Dell, Indra/Minsait, IBM, Amazon y casos españoles. |
+| `10` | [`10-glosario-recursos-bibliografia.md`](../docs/10-glosario-recursos-bibliografia.md) | Glosario técnico de términos de sostenibilidad, enlaces oficiales y soluciones orientativas. |
 
 ---

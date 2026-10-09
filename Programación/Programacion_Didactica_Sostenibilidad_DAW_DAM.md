@@ -24,7 +24,7 @@
 | **Equivalencia crediticia** | 3 créditos ECTS (Grado Superior) |
 | **Régimen de impartición** | Formación Profesional Grado D - Régimen Dual General (incorporando estancia en empresa) |
 | **Departamento didáctico** | Departamento de Informática y Comunicaciones |
-| **Materiales de aula** | Repositorio digital del módulo: apuntes (`docs/01` a `docs/10`), proyectos trimestrales y casos reales en `docs/` |
+| **Materiales de aula** | Repositorio digital del módulo: apuntes, proyectos trimestrales y casos reales |
 
 ---
 
@@ -94,11 +94,10 @@ La programación se fundamenta en la siguiente normativa estatal, autonómica an
 Los Técnicos Superiores en Desarrollo de Aplicaciones Web y Multiplataforma desarrollan su actividad en empresas de desarrollo de software, consultoras TIC, agencias de servicios en la nube, departamentos tecnológicos de administraciones públicas y *startups*. En la actualidad, estas empresas se enfrentan a exigencias regulatorias y de mercado para justificar el impacto ambiental de sus infraestructuras, reducir el consumo computacional de sus soluciones y reportar indicadores ASG.
 
 ### 4.2 Contextualización del Alumnado
-El grupo de 1º curso cuenta con 22 alumnos/as de procedencia geográfica comarcal diversa (Martos, Torredelcampo, Torredonjimeno, Fuensanta de Martos, Escañuela, Jaén).
+Los grupos de 1º cuenta con 22 alumnos/as de procedencia geográfica comarcal diversa (Martos, Torredelcampo, Torredonjimeno, Fuensanta de Martos, Escañuela, Jaén).
 - **Diversidad de perfiles académicos:** Edades comprendidas entre 18 y 32 años. Concurren titulados de CFGM de Sistemas Microinformáticos y Redes (SMR), Bachillerato (modalidades científica y tecnológica/humanidades), pruebas de acceso y titulados universitarios (Grado en Psicología, CFGS de Sonido y Producción Mecánica).
-- **Repetidores y adaptación curricular:** 7 alumnos repetidores en situaciones modulares específicas (algunos adaptándose al nuevo plan de estudios de la LO 3/2022 para cursar Sostenibilidad y Digitalización).
-- **Compatibilidad laboral:** 2 alumnos en régimen laboral activo compaginan sus estudios mediante tutorías telemáticas y seguimiento por el aula virtual.
-- **Atención a la diversidad:** 1 alumno con Altas Capacidades Intelectuales (Sobredotación); 1 alumno procedente de programas de atención a la diversidad (PMAR); y 1 alumno con discapacidad física motriz (incorporado al Plan de Autoprotección con evacuación asistida).
+- **Repetidores :** Ninguno de los alumnos repetidores están cursando este módulo, todos obtuvieron calificación positiva el curso pasado.
+- **Atención a la diversidad:** No existe nada que recoger al respecto.
 
 ---
 
@@ -249,7 +248,7 @@ De conformidad con el **Decreto 104/2024** y la **Orden de 18 de septiembre de 2
 ## 10. Formación en Empresa u Organismo Equiparado (Régimen Dual en Grado D)
 
 Conforme a la **Ley Orgánica 3/2022** y al **Decreto 104/2024**, todas las enseñanzas de Grado D se imparten en régimen dual general con una estancia formativa en empresas del sector TIC del 25% del total del ciclo (500 horas totales):
-- **1º Curso:** 80 horas de estancia formativa en empresas (marzo/abril).
+- **1º Curso:** 80 horas de estancia formativa en empresas (mayo).
 - **2º Curso:** 420 horas de formación en centros de trabajo.
 
 ### 10.1 Resultados de Aprendizaje Vinculados a la Empresa Dual
@@ -266,13 +265,6 @@ En aplicación de los principios del **DUA**:
 - **Múltiples formas de representación:** Textos claros, esquemas visuales, resúmenes conceptuales (`docs/01` a `07`) y glosario terminológico (`docs/10`).
 - **Múltiples formas de acción y expresión:** Entregables técnicos, presentaciones orales, infografías o prototipos de software.
 - **Múltiples formas de implicación:** Proyectos anclados a problemáticas reales y dinámicas cooperativas.
-
-### Medidas de Adaptación Concretas:
-1. **Ritmos lentos o dificultades:** Andamiaje de tareas, rúbricas desglosadas y apoyo guiado en tutorías.
-2. **Altas Capacidades Intelectuales (Sobredotación):** Retos de ampliación (cálculo de SCI en código Java/Web, análisis avanzado de Taxonomía Verde Europea y optimización energética de servidores).
-3. **Discapacidad física motriz:** Aula accesible, ergonomía adaptada y aplicación del protocolo de evacuación asistida del Plan de Autoprotección.
-4. **Alumnado trabajador / modular:** Acceso 100% online a los materiales (`docs/`), entregas asíncronas justificadas y tutorización telemática.
-5. **Alumnado repetidor o de incorporación tardía:** Plan de acogida y adaptación de plazos de evaluación.
 
 ---
 
