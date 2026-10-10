@@ -1,262 +1,217 @@
+---
+icon: lucide/alert-triangle
+title: "04 · Retos ambientales y sociales del sector informático"
+description: "Impactos ecológicos y humanos de la tecnología digital: energía de centros de datos, IA, agua, residuos electrónicos (RAEE), minerales críticos, brecha digital y alianzas ODS 17."
+modulo: "Sostenibilidad (1708)"
+unidad: 4
+---
+
 # 04 · Retos ambientales y sociales del sector informático
 
-**Resultado de aprendizaje que cubre:** RA2 (criterios a–e)
+<span class="badge badge-ra">RA2 · Criterios a–e</span>
+<span class="badge badge-alerta">Retos Críticos TIC</span>
+<span class="badge badge-cloud">Centros de Datos & IA</span>
+<span class="badge badge-hardware">RAEE & Minerales Críticos</span>
 
-> **Objetivo didáctico:** caracterizar los retos ambientales y sociales a los que se enfrenta la
-> sociedad, describir sus impactos sobre personas y sectores productivos y proponer acciones para
-> minimizarlos, todo en el contexto del sector TIC.
+**Resultado de aprendizaje:** ==RA2== (criterios a, b, c, d, e)  
+**Duración orientativa:** 4 horas lectivas
 
----
+!!! note "Objetivo de la unidad"
+    Desmontar el mito de la «inmaterialidad» de lo digital analizando la huella física real de internet, centros de datos, Inteligencia Artificial y dispositivos. Caracterizar los impactos ambientales (energía, agua, RAEE, minerales críticos) y sociales (brecha digital, condiciones laborales, sesgos de la IA), formulando medidas de mitigación técnica y alianzas estratégicas transversales (ODS 17).
 
-## 1. Contexto: por qué el sector TIC importa (RA2.b)
-
-Criterio RA2.b: *"relacionar los retos ambientales y sociales con el desarrollo de la actividad
-económica."* El sector TIC es simultáneamente **fuente de impacto** y **palanca de solución**:
-
-- **Como fuente de impacto:** consume energía, agua y minerales; genera residuos electrónicos;
-  su crecimiento (cloud, IA) aumenta la demanda eléctrica global.
-- **Como palanca de solución:** digitaliza procesos para hacerlos más eficientes, habilita
-  energías renovables (gestión de red), teletrabajo (menos desplazamientos), smart cities,
-  monitorización ambiental por datos y sensores.
-
-> **Dato orientativo:** el sector TI representa aproximadamente entre el **1,5 % y el 2 %** del
-> consumo eléctrico global y una parte creciente de las emisiones GEI; la IA puede multiplicar
-> esa demanda en los próximos años. A la vez, la digitalización puede evitar un porcentaje
-> significativo de emisiones en otros sectores si se gestiona bien (efecto "enabler").
-
----
-
-## 2. Retos ambientales del sector TIC (RA2.a)
-
-### 2.1 Consumo energético y emisiones GEI
-
-- Los **data centers** son los mayores consumidores: servidores, refrigeración, redes.
-- El crecimiento de la **IA** (entrenamiento y inferencia de modelos) dispara la demanda.
-- La **electricidad** suele ser el principal componente del Alcance 2; la fabricación de
-  componentes (chips, placas) concentra el Alcance 3.
-
-### 2.2 Huella hídrica
-
-- La refrigeración por evaporación de data centers consume agua, a veces en regiones con
-  estrés hídrico. KPI: **WUE** (litros por kWh).
-
-### 2.3 Residuos electrónicos (RAEE)
-
-- El sector genera uno de los flujos de residuos que más crece (móviles, PCs, servidores,
-  baterías, componentes).
-- Gran parte se desecha en condiciones inadecuadas, con pérdida de materiales valiosos y
-  contaminación.
-
-### 2.4 Minerales críticos y cadena de suministro
-
-- Electrónica depende de **litio, cobalto, níquel, cobre, oro, plata, tierras raras**.
-- Su extracción tiene impacto ambiental (contaminación, deforestación) y social (condiciones
-  laborales, conflicto). La trazabilidad es un reto.
-
-### 2.5 Obsolescencia programada y durabilidad
-
-- Ciclos de renovación cortos (especialmente móviles) generan consumo prematuro y residuos.
-- El **reglamento de ecodiseño UE** responde exigiendo durabilidad, reparabilidad y
-  disponibilidad de repuestos.
-
-### 2.6 Uso del suelo e infraestructuras
-
-- Nuevos data centers ocupan terreno y compiten con otros usos; impacto local (ruido, agua,
-  energía) que debe gestionarse con las comunidades.
+<div class="stat-grid">
+  <div class="stat-card">
+    <div class="stat-number">2% – 4%</div>
+    <div class="stat-label">Emisiones mundiales de GEI por TIC</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">62 Mt</div>
+    <div class="stat-label">Residuos electrónicos (RAEE) al año</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">~200-400 TWh</div>
+    <div class="stat-label">Consumo eléctrico mundial de data centers</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">&lt; 23%</div>
+    <div class="stat-label">Tasa mundial de reciclaje formal de RAEE</div>
+  </div>
+</div>
 
 ---
 
-## 3. Retos sociales del sector TIC (RA2.a)
+## 1. La paradoja digital: ¿Solución ecológica o fuente de impacto?
 
-### 3.1 Brecha digital y desigualdad
+El criterio ==RA2.b== exige relacionar los retos ecológicos y sociales con el desarrollo de la economía digital.
 
-- Acceso desigual a conectividad, dispositivos y competencias digitales por edad, renta,
-  género y territorio. Afecta a educación, empleo y servicios públicos.
+Efecto de Doble Filo de las TIC (Enabler vs. Emitter)
+:   Las tecnologías de la información son simultáneamente **palanca de descarbonización** (reducen hasta un 15-20% de las emisiones de otros sectores mediante teletrabajo, optimización logística y gemelos digitales) y **fuente de impacto masivo** (representan entre el 2% y el 4% de las emisiones mundiales de GEI, superando a la aviación civil comercial).
 
-### 3.2 Condiciones laborales en la cadena de suministro
-
-- Fábricas de componentes (muchas en Asia) con denuncias de horas excesivas, salarios bajos,
-  trabajo infantil o forzado en minería de minerales. La **debida diligencia** es responsabilidad
-  del fabricante final.
-
-### 3.3 Privacidad y protección de datos
-
-- El modelo de negocio de muchos servicios digitales se apoya en datos personales; el mal uso
-  genera riesgos para las personas (RGPD). La ciberseguridad protege derechos fundamentales.
-
-### 3.4 Ética de la inteligencia artificial
-
-- Sesgos algorítmicos, opacidad, automatización con impacto en empleo, deepfakes,
-  desinformación. La gobernanza de la IA es un reto social y de gobernanza a la vez.
-
-### 3.5 Brecha de género e inclusión en el sector
-
-- El sector TIC tiene menor presencia femenina que la media; la diversidad mejora resultados
-  e innovación (ODS 5, ODS 8).
-
-### 3.6 Salud y bienestar del personal técnico
-
-- Sedentarismo, estrés, teletrabajo, sobrecarga; impacto en salud (ODS 3).
-
----
-
-## 4. Impacto sobre personas y sectores productivos (RA2.c)
-
-Criterio RA2.c: *"analizar el efecto de los impactos ambientales y sociales sobre las personas
-y los sectores productivos."*
-
-| Reto | Efecto sobre personas | Efecto sobre sectores productivos |
-|------|----------------------|-----------------------------------|
-| Emisiones GEI | Salud (calor, calidad del aire), costes sanitarios. | Costes energéticos, regulación, transición industrial. |
-| Estrés hídrico | Acceso al agua en comunidades locales. | Riesgo operativo de data centers; conflictos por uso del agua. |
-| Residuos electrónicos | Contaminación y salud en vertederos informales. | Pérdida de materiales valiosos; costes de cumplimiento RAEE. |
-| Minerales críticos | Condiciones laborales, comunidades mineras. | Seguridad de suministro; volatilidad de precios. |
-| Brecha digital | Exclusión social, laboral y educativa. | Pérdida de mercado y productividad; desigualdad competitiva. |
-| Privacidad/IA | Riesgo a derechos fundamentales. | Reputación, sanciones legales, pérdida de confianza. |
-
-> **Punto didáctico:** el alumnado debe mostrar que los impactos "ambientales" tienen siempre
-> una dimensión social y económica (y viceversa). La sostenibilidad integra las tres.
-
----
-
-## 5. Acciones para minimizar los impactos (RA2.d)
-
-Criterio RA2.d: *"identificar medidas y acciones encaminadas a minimizar los impactos."*
-
-### 5.1 En el diseño y la tecnología
-
-- **Ecodiseño:** durabilidad, reparabilidad, eficiencia energética, materiales reciclados.
-- **Eficiencia de software:** código optimizado que consume menos recursos (menos energía por transacción).
-- **Data centers eficientes:** PUE bajo, refrigeración natural/free cooling, ubicación en zonas frías o con renovables.
-
-### 5.2 En la energía y el agua
-
-- Compromiso con **energía 100 % renovable** (contratos PPA, autoconsumo).
-- Reducción de la huella hídrica: refrigeración cerrada, reutilización, ubicación inteligente.
-
-### 5.3 En el ciclo de vida y residuos
-
-- **Economía circular:** reventa, reacondicionado, reciclaje, recuperación de materiales.
-- Programas de recogida (take-back) y certificación RAEE.
-- Alargamiento de la vida útil (actualizaciones, garantía extendida).
-
-### 5.4 En la cadena de suministro
-
-- Política de proveedores con criterios ASG, auditorías, trazabilidad de minerales críticos.
-- Debida diligencia en derechos humanos y medio ambiente (CSDDD).
-
-### 5.5 En lo social y la gobernanza
-
-- Programas de **inclusión digital** y formación (ODS 4, 10).
-- Políticas de diversidad e inclusión (ODS 5, 8).
-- Ética de la IA: auditorías de sesgo, transparencia, comités de ética.
-- Cumplimiento RGPD/NIS2 y cultura de ciberseguridad.
-
----
-
-## 6. Alianzas y trabajo transversal (RA2.e)
-
-Criterio RA2.e: *"analizar la importancia de establecer alianzas y trabajar de manera
-transversal y coordinada para abordar con éxito los retos."*
-
-- **Alianzas público-privadas:** smart cities, digitalización de la administración, I+D+i verde.
-- **Colaboración sectorial:** estándares abiertos (PUE/WUE), plataformas comunes, coaliciones
-  climáticas (ej. iniciativas de descarbonización del sector TI).
-- **Cooperación internacional:** los retos (clima, minerales, datos) son globales; requieren
-  acuerdos multilaterales y armonización regulatoria.
-- **Transversalidad interna:** la sostenibilidad no es solo "medio ambiente": involucra a
-  I+D, compras, RRHH, jurídico, ciberseguridad y dirección general.
-
-> **Ejemplo TIC:** una consultora (Indra/Minsait) alianza con administraciones para digitalizar
-> servicios públicos de forma eficiente y accesible: gana la sociedad (ODS 16), el sector
-> (mercado) y el planeta (eficiencia). Es un caso perfecto de trabajo transversal.
-
----
-
-## 7. Síntesis (ficha resumen)
-
-```
-RETO AMBIENTAL TIC: energía/GEI, agua, residuos electrónicos, minerales críticos,
-   obsolescencia, uso del suelo.
-RETO SOCIAL TIC: brecha digital, cadena de suministro laboral, privacidad, ética IA,
-   género/inclusión, salud del personal.
-
-IMPACTO: ambiental → personas (salud, agua) + sectores (costes, regulación).
-        social  → personas (derechos, exclusión) + sectores (reputación, mercado).
-
-ACCIONES: ecodiseño, eficiencia SW/HW, renovables, economía circular, trazabilidad de
-   minerales, debida diligencia, inclusión digital, ética IA, ciberseguridad.
-
-ALIanzas: público-privadas, sectoriales (estándares), internacionales, transversales internas.
+```mermaid
+flowchart TD
+    subgraph DobleFilo["El Doble Rol de la Tecnología Digital"]
+        direction LR
+        subgraph Palanca["🚀 Palanca de Descarbonización (Enabler)"]
+            P1["• Monitorización de redes eléctricas inteligentes"]
+            P2["• Teletrabajo y telemedicina (menos desplazamientos)"]
+            P3["• Gemelos digitales y optimización de rutas"]
+            P4["• Desmaterialización de procesos administrativos"]
+        end
+        subgraph Emisor["🏭 Fuente de Emisiones e Impacto (Emitter)"]
+            E1["• Consumo eléctrico de Centros de Datos y Cloud"]
+            E2["• Demanda exponencial de energía por IA y Cripto"]
+            E3["• 62 millones de toneladas anuales de RAEE en el mundo"]
+            E4["• Minería de litio, cobalto y tierras raras"]
+        end
+    end
 ```
 
 ---
 
-## 8. Cuestionario de autoevaluación (RA2)
+## 2. El coste invisible de lo digital: Cadena de impacto integral
 
-1. Lista cuatro retos ambientales y cuatro sociales del sector TIC, justificando cada uno.
-2. Explica cómo el sector TIC es a la vez fuente de impacto y palanca de solución.
-3. Elige un reto (p. ej., residuos electrónicos) y traza su cadena de impacto sobre personas y sectores.
-4. Propón tres acciones para minimizar la huella hídrica de un data center.
-5. ¿Por qué la trazabilidad de minerales críticos es un reto social y ambiental a la vez?
-6. Da un ejemplo de alianza público-privada en el sector TIC con beneficio triple (planeta, personas, economía).
+El ciclo de vida de un sistema informático abarca desde la mina hasta el vertedero:
 
-> Soluciones orientativas en [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md).
+```mermaid
+flowchart TD
+    M1["⛏️ 1. Extracción de Minerales Críticos<br/>Litio, cobalto, coltán, tierras raras en África y Sudamérica"] --> M2["🏭 2. Fabricación de Microchips y Hardware<br/>Altísimo consumo de agua ultrapura, químicos tóxicos y energía"]
+    M2 --> M3["⚡ 3. Infraestructura y Operación Cloud<br/>Centros de datos 24/7 refrigerados por agua y alimentados por la red"]
+    M3 --> M4["💻 4. Uso y Consumo por Clientes<br/>Streaming, llamadas a APIs de IA, obsolescencia de terminales"]
+    M4 --> M5["♻️ 5. Fin de Vida y Chatarra Electrónica<br/>Vertederos informales de RAEE y pérdida de materiales escasos"]
+```
+
+Explora a continuación los grandes retos clasificados por pilares:
+
+=== "⚡ Retos Ambientales (E - Environmental)"
+    * **Explosión energética de la IA generativa:** Entrenar un modelo fundacional consume cientos de MWh; una sola respuesta generada por IA consume hasta 10 veces más electricidad que una búsqueda web tradicional en texto plano.
+    * **Estrés hídrico y refrigeración:** Los centros de datos evaporan miles de millones de litros de agua en torres de enfriamiento, en muchos casos en regiones agrícolas sometidas a sequías recurrentes.
+    * **Tsunami de chatarra electrónica (RAEE):** En 2024 se alcanzaron 62 millones de toneladas de basura electrónica a nivel global; solo el 22% se recolecta y recicla formalmente según la ONU.
+    * **Obsolescencia forzada por software:** Requisitos de hardware artificiales en sistemas operativos (ej.: Windows 11 dejando obsoletos millones de ordenadores perfectamente funcionales por falta de chip TPM 2.0).
+
+=== "👥 Retos Sociales (S - Social)"
+    * **Violaciones de derechos humanos en origen:** Condiciones extremas y trabajo infantil en minas artesanales de cobalto en la República Democrática del Congo (RDC).
+    * **Exclusión y Brecha Digital:** Millones de personas mayores o con escasos recursos quedan al margen de trámites bancarios, médicos o administrativos por digitalización forzosa no accesible.
+    * **Sesgos y discriminación algorítmica:** Algoritmos de selección de personal o de concesión de hipotecas entrenados con datos históricos que perpetúan la discriminación por razón de género, etnia o código postal.
+    * **Condiciones en factorías de ensamblaje:** Jornadas maratonianas y estrés extremo en macro-fábricas asiáticas de montaje de teléfonos y placas base.
+
+=== "⚖️ Retos de Gobernanza y Ética (G - Governance)"
+    * **Concentración monopolística del Cloud:** Más del 65% de la infraestructura cloud global está concentrada en solo tres gigantes (AWS, Azure, Google Cloud), creando un riesgo sistémico de soberanía digital.
+    * **Falta de transparencia algorítmica:** Modelos de «caja negra» opacos donde ni los propios desarrolladores pueden explicar con certeza por qué el modelo tomó una decisión crítica que afecta a un ciudadano.
+    * **Greenwashing corporativo:** Anuncios rimbombantes de "emisiones netas cero" sustentados en la compra masiva de créditos de carbono no auditados en lugar de reducir el consumo real de energía.
 
 ---
 
-## 9. Actividad de cierre · «El coste invisible de lo digital» (parejas o tríos · RA2)
+## 3. Matriz de impactos sobre personas y sectores productivos
 
-| | |
+El criterio ==RA2.c== exige analizar cómo los retos se traducen en perjuicios concretos sobre los seres humanos y la economía:
+
+| Reto Tecnológico | Impacto directo sobre las personas | Impacto directo sobre sectores productivos |
+|:---|:---|:---|
+| **Consumo eléctrico e IA** | Subida de las tarifas eléctricas residenciales por tensión en la red; emisiones que agravan enfermedades respiratorias. | Riesgo de apagones industriales, aumento del coste operativo del hosting y exigencias de auditoría energética. |
+| **Consumo de agua en CPD** | Restricciones de riego y consumo de agua potable en municipios vecinos a los macro-datacenters. | Conflictos sociales, denegación de licencias de obra a tecnológicas y riesgo de paralización por sequía. |
+| **Residuos RAEE** | Contaminación por plomo y mercurio en comunidades vulnerables cercanas a vertederos ilegales (ej. Agbogbloshie, Ghana). | Pérdida de metales preciosos valorados en 60.000 M$/año; encarecimiento de materias primas secundarias. |
+| **Minerales de conflicto** | Explotación, trabajo forzado y financiación de grupos armados en zonas mineras desreguladas. | Cuellos de botella en cadenas de suministro de chips y riesgo de sanciones bajo la directiva europea CSDDD. |
+| **Brecha digital** | Pérdida de acceso a citas sanitarias, empleo y banca para colectivos vulnerables y de tercera edad. | Pérdida de cuota de mercado, abandono de carritos en plataformas e-commerce y sanciones por inaccesibilidad web. |
+
+---
+
+## 4. Medidas y acciones técnicas de mitigación
+
+El criterio ==RA2.d== exige diseñar respuestas técnicas tangibles desde la ingeniería informática:
+
+```mermaid
+flowchart TD
+    A["Medidas de Mitigación en el Sector TIC"]
+    A --> B["💻 Green Coding & Eficiencia de Software<br/>Reducción de tamaño de bundles, Dark Mode nativo, caching agresivo"]
+    A --> C["⚡ Eficiencia en Infraestructuras Cloud<br/>Centros de datos PUE < 1.15, free-cooling, energía 100% renovable PPA"]
+    A --> D["🔄 Economía Circular del Hardware<br/>Reacondicionamiento, borrado seguro (Blancco), diseño modular"]
+    A --> E["🛡️ Gobernanza Algorítmica y Accesibilidad<br/>Auditorías éticas de sesgo, cumplimiento WCAG 2.2 AA y RGPD"]
+```
+
+!!! tip "Buenas prácticas para desarrolladores web (DAW / DAM)"
+    1. **Minimizar la transferencia de datos:** Cada gigabyte transferido por internet consume aproximadamente $0,06\text{ kWh}$. Optimizar imágenes con formatos modernos (AVIF, WebP) y purgar CSS innecesario ahorra energía en millones de dispositivos cliente.
+    2. **Algoritmos eficientes:** Pasar de una complejidad temporal cuadrática $O(n^2)$ a una logarítmica $O(n \log n)$ en una consulta que procesa millones de filas reduce el uso de CPU de minutos a milisegundos, liberando capacidad y reduciendo calor en el servidor.
+    3. **Diseño oscuro para pantallas OLED:** Los píxeles negros en paneles OLED están físicamente apagados, ahorrando hasta un 30% de batería en terminales móviles.
+
+---
+
+## 5. Alianzas estratégicas y trabajo transversal (ODS 17)
+
+Ninguna empresa de software puede resolver los retos de la sostenibilidad de forma aislada. El criterio ==RA2.e== enfatiza la cooperación multisectorial:
+
+* **Iniciativas sectoriales de software abierto:** La **Green Software Foundation** (GSF), consorcio sin ánimo de lucro fundado por Microsoft, GitHub, Accenture y Thoughtworks, crea estándares abiertos (como la especificación SCI) para medir y reducir las emisiones del código.
+* **Alianzas público-privadas:** Colaboración entre universidades, centros de formación profesional y empresas tecnológicas para reciclar hardware descatalogado convirtiéndolo en aulas informáticas comunitarias.
+* **Transversalidad interna corporativa:** Integración de la sostenibilidad en los comités de arquitectura de software, compras tecnológicas, seguridad y recursos humanos.
+
+---
+
+## 6. Síntesis para el examen técnico
+
+```
+╔════════════════════════════════════════════════════════════════════════════╗
+║                   RESUMEN CLAVE: UNIDAD 04 - RETOS DEL SECTOR TIC          ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║ 1. PARADOJA DIGITAL: El sector TIC emite el 2-4% del CO₂ mundial, pero     ║
+║    puede habilitar un ahorro del 15% en otros sectores (efecto Enabler).   ║
+║ 2. RETOS AMBIENTALES: Electricidad e IA (Scope 2/3), agua en CPD (WUE),    ║
+║    chatarra RAEE (62 Mt/año), minería de tierras raras y obsolescencia.   ║
+║ 3. RETOS SOCIALES: Brecha digital, minerales de conflicto (RDC), sesgos    ║
+║    discriminatorios en IA, ciberseguridad, salud mental y tecnoestrés.     ║
+║ 4. MITIGACIÓN TÉCNICA: Green Coding (código eficiente), CPD con PUE < 1.15,║
+║    contratos PPA renovables, modularidad de hardware y borrado seguro.     ║
+║ 5. ODS 17 (ALIANZAS): Consorcios de código abierto (Green Software        ║
+║    Foundation) y cooperación público-privada frente a la brecha digital.   ║
+╚════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 7. Cuestionario interactivo de autoevaluación
+
+??? question "¿Por qué se afirma que la Inteligencia Artificial generativa ha multiplicado los retos ambientales del sector TIC?"
+    ???+ success "Respuesta técnica"
+        Porque la IA requiere clústeres de cómputo basados en GPUs de altísima potencia que operan con consumos eléctricos astronómicos y densidades térmicas que exigen millones de litros de agua para refrigeración. Además, el ciclo de vida de los chips de IA es extraordinariamente corto, acelerando la generación de RAEE de gama alta.
+
+??? question "¿Cómo afecta la brecha digital a la consecución del ODS 10 (Reducción de las desigualdades)?"
+    ???+ success "Respuesta técnica"
+        Al digitalizar servicios esenciales (banca, sanidad, trámites tributarios) sin ofrecer alternativas accesibles o interfaces intuitivas, se excluye activamente a colectivos vulnerables (ancianos, familias sin banda ancha o personas con discapacidad), agrandando la brecha económica y social.
+
+??? question "¿En qué consiste la 'obsolescencia por software' y cómo se combate desde la regulación?"
+    ???+ success "Respuesta técnica"
+        Consiste en dejar de proporcionar actualizaciones de seguridad o soporte a dispositivos cuyo hardware sigue en perfecto estado, obligando al consumidor a comprar un nuevo equipo. La UE lo combate mediante el **Reglamento de Ecodiseño (ESPR)** y la normativa de **Derecho a Reparar**, exigiendo un mínimo de 5 a 7 años de actualizaciones obligatorias de software y disponibilidad de repuestos.
+
+---
+
+## 8. Actividad práctica guiada · «El coste invisible de lo digital»
+
+| Parámetro | Detalle operativo |
 |---|---|
-| **Modalidad** | Grupos de **2 alumnos** (máx. 3). |
-| **Duración** | 1 sesión de elaboración (50 min) + 1 sesión de exposiciones (5 min) y votación. |
-| **Cubre** | RA2 (criterios a–e). |
-| **Entregable** | Infografía con 6 retos del sector TIC + fuentes. |
+| **Modalidad** | Equipos de 2 o 3 alumnos. |
+| **Tiempo de ejecución** | 1 sesión de investigación y diseño (50 min) + 1 sesión de presentaciones breves y votación (5 min por equipo). |
+| **Criterios asociados** | ==RA2.a==, ==RA2.b==, ==RA2.c==, ==RA2.d==, ==RA2.e==. |
+| **Entregable** | Infografía técnica digital estructurada en 6 retos (3 E y 3 S) con datos numéricos de fuentes fiables. |
 
-> **Objetivo:** sintetizar los retos ambientales y sociales del sector TIC con **datos
-> verificables**, trazar su cadena de impacto (personas y sectores) y pasar a la acción con
-> medidas concretas. La votación final nos dice por dónde empezar como grupo.
+### Enunciado del reto
 
-### Consigna
+Diseñad una infografía técnica titulada **«El coste invisible de lo digital»** que desmonte los mitos de inmaterialidad de internet:
 
-> *"Elaborad una **infografía** (Canva, Piktochart, draw.io o lámina vertical) titulada
-> «El coste invisible de lo digital» con **6 retos del sector TIC: 3 ambientales y 3
-> sociales** (de los §2 y §3). Cada reto debe incluir: un **dato numérico con su fuente**,
-> su **efecto sobre las personas** y **sobre los sectores productivos**, y **1 acción de
-> minimización** con su KPI. Al pie, señalad **1 alianza transversal** que ayude a resolverlos
-> (RA2.e). Presentadla en 5 min y el grupo votará el reto más urgente."*
+1. **6 Retos Tecnológicos:** Seleccionad **3 retos ambientales** (ej. consumo de agua en centros de datos, emisiones de la IA, gestión de baterías de litio) y **3 retos sociales** (ej. sesgos en algoritmos de crédito, explotación en minas de cobalto, brecha digital de mayores).
+2. **Datos Cuantitativos:** Cada reto debe incorporar al menos una cifra estadística contrastada con cita a su fuente oficial (informes de la ONU, Agencia Internacional de la Energía, Eurostat o memorias corporativas).
+3. **Cadenas de Impacto y Solución:** Para cada reto, trazad el impacto sobre las personas y sectores productivos, proponiendo **1 acción técnica de mitigación** evaluable mediante un KPI concreto.
+4. **Alianza ODS 17:** Incluid al pie una iniciativa de colaboración multisectorial que ayude a erradicar uno de los problemas identificados.
 
-### Pasos
+```mermaid
+flowchart TD
+    RETOS["1. Seleccionar 6 Retos TIC (3 E + 3 S)"] --> DATOS["2. Investigar 6 Datos Numéricos Verificables"]
+    DATOS --> CADENA["3. Trazar Cadenas de Impacto (Personas + Empresas)"]
+    CADENA --> MITIG["4. Formular 6 Acciones de Mitigación con KPIs"]
+    MITIG --> ODS17["5. Identificar 1 Alianza Multisectorial (ODS 17)"]
+    ODS17 --> EXP["6. Presentación de 5 min y Votación del Reto más Urgente"]
+```
 
-1. **Elegir los 6 retos** (3 ambientales + 3 sociales) de los listados §2 y §3.
-2. **Recopilar datos** (informes, ONU, agencias energéticas…): uno por reto, con fuente.
-3. **Trazar la cadena:** reto → efecto sobre personas → efecto sobre sectores (§4).
-4. **Añadir la acción + KPI** de cada reto (§5) y una alianza al pie (§6).
-5. **Diseñar y presentar;** después, votación guiada: cada alumno vota el reto más urgente.
+### Rúbrica de corrección analítica (10 Puntos)
 
-### Entregables
-
-- [ ] Infografía (PNG/PDF o foto de la lámina).
-- [ ] Lista de fuentes (mínimo 4, una por reto como mínimo).
-- [ ] Acción + KPI por reto y 1 alianza transversal.
-
-### Presentación al grupo (5 min por grupo + votación)
-
-- Los 3 retos ambientales y los 3 sociales con sus datos clave.
-- Las cadenas de impacto más relevantes.
-- Las acciones propuestas y la alianza.
-- Votación final: el grupo vota el reto más urgente de todos los presentados.
-
-### Criterios de valoración (sobre 10)
-
-| Criterio | Qué se valora | % |
-|----------|---------------|---|
-| Cobertura | 3 retos ambientales + 3 sociales, bien diferenciados. | 25 |
-| Datos y fuentes | Un dato numérico por reto, con fuente citada. | 25 |
-| Cadena de impacto | Efecto correcto sobre personas y sobre sectores. | 20 |
-| Acciones y alianza | Medidas concretas con KPI; alianza transversal razonada. | 15 |
-| Diseño y presentación | Infografía legible y comunicación en 5 min. | 15 |
-
-> **Conexión con los trabajos:** los retos y acciones más votados alimentan el **diagnóstico
-> del Trimestre 1** (ver [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md) §2).
+* **Equilibrio y relevancia de retos (25% - 2,5 pts):** Cobertura rigurosa de 3 retos ambientales y 3 retos sociales del ámbito informático.
+* **Calidad de datos y rigor de fuentes (25% - 2,5 pts):** Todas las cifras estadísticas están fundamentadas con fuentes institucionales o técnicas reales.
+* **Lógica de la cadena de impacto y mitigación (25% - 2,5 pts):** Conexión lógica entre el reto, su afección social/económica y la solución propuesta con su KPI.
+* **Diseño gráfico, alianza ODS 17 y exposición (25% - 2,5 pts):** Infografía legible, alianza transversal bien argumentada y defensa ágil en 5 minutos.

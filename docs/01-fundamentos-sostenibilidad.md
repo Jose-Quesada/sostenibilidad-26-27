@@ -1,11 +1,42 @@
+---
+icon: lucide/globe
+title: "01 · Fundamentos de sostenibilidad y marcos internacionales"
+description: "Concepto de sostenibilidad, triple dimensión ASG/ESG, hitos y cumbres internacionales, Agenda 2030 y los 17 ODS aplicados al sector tecnológico."
+modulo: "Sostenibilidad (1708)"
+unidad: 1
+---
+
 # 01 · Fundamentos de sostenibilidad y marcos internacionales
 
-**Resultados de aprendizaje que cubre:** RA1 (criterios a, b, c) · RA2 (introducción)
+<span class="badge badge-ra">RA1 · Criterios a, b, c</span>
+<span class="badge badge-tic">Sector Informática & TIC</span>
+<span class="badge badge-cloud">Cloud & Data Centers</span>
+<span class="badge badge-e">Marcos Globales & ODS</span>
 
-> **Objetivo didáctico:** que el alumnado describa el concepto de sostenibilidad,
-> establezca los marcos internacionales asociados al desarrollo sostenible y relacione
-> los Objetivos de Desarrollo Sostenible (ODS) con la Agenda 2030. Todo anclado al
-> sector informático.
+**Resultados de aprendizaje:** ==RA1== (criterios a, b, c) · ==RA2== (introducción contextual)  
+**Duración orientativa:** 4 horas lectivas
+
+!!! note "Objetivo de la unidad"
+    Capacitar al futuro profesional de Informática y Comunicaciones para describir con rigor el concepto de sostenibilidad, identificar los grandes marcos y tratados internacionales (desde el Informe Brundtland hasta el Pacto Verde Europeo) y priorizar de forma crítica los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030 directamente vinculados al sector TIC.
+
+<div class="stat-grid">
+  <div class="stat-card">
+    <div class="stat-number">1,5 °C</div>
+    <div class="stat-label">Límite crítico París (COP21)</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">6 / 9</div>
+    <div class="stat-label">Límites planetarios superados</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">2050</div>
+    <div class="stat-label">Neutralidad climática (Net Zero)</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">-55 %</div>
+    <div class="stat-label">Objetivo emisiones 2030 (Fit for 55)</div>
+  </div>
+</div>
 
 ---
 
@@ -13,288 +44,266 @@
 
 ### 1.1 Definición clásica (Informe Brundtland, 1987)
 
-El término se popularizó con el informe *"Our Common Future"* de la Comisión Mundial sobre
-Medio Ambiente y Desarrollo (Comisión Brundtland, ONU, 1987):
+El concepto contemporáneo de sostenibilidad se formalizó internacionalmente en el informe *"Our Common Future"* (Nuestro Futuro Común), elaborado por la Comisión Mundial sobre Medio Ambiente y Desarrollo de la ONU, presidida por Gro Harlem Brundtland:
 
-> **Desarrollo sostenible:** *"satisfacer las necesidades del presente sin comprometer la
-> capacidad de las generaciones futuras para satisfacer sus propias necesidades."*
+???+ quote "Definición canónica: Informe Brundtland (ONU, 1987)"
+    > **Desarrollo sostenible:** *«Aquel que satisface las necesidades del presente sin comprometer la capacidad de las generaciones futuras para satisfacer sus propias necesidades».*
 
-Esta definición introduce dos ideas clave que usaremos todo el curso:
+Esta definición universal introduce dos principios rectores que articulan todo el módulo:
 
-- **Necesidades presentes** (incluidas las de los más vulnerables).
-- **Límites del sistema** (capacidad de regeneración de los ecosistemas y finitud de recursos).
+Desarrollo sostenible
+:   Proceso de cambio y evolución en el que la explotación de los recursos, la dirección de las inversiones y la orientación del desarrollo tecnológico están en armonía y mejoran el potencial actual y futuro.
 
-### 1.2 Los tres pilares (triple dimensión)
-
-La sostenibilidad se apoya en el equilibrio de tres dimensiones que se retroalimentan:
-
-| Pilar | Pregunta clave | Ejemplo en sector TIC |
-|-------|----------------|----------------------|
-| **Ambiental (E)** | ¿Cómo afecta la actividad al planeta? | Consumo energético de data centers, residuos electrónicos. |
-| **Social (S)** | ¿Cómo afecta a las personas y comunidades? | Condiciones laborales en fábricas de componentes, brecha digital, privacidad. |
-| **Gobernanza / Económico (G)** | ¿Cómo se toma y rinde cuentas? | Transparencia, ética corporativa, cadena de suministro responsable, rentabilidad sostenible. |
-
-> De esta triple dimensión nace el acrónimo **ASG** (o **ESG** en inglés: *Environmental,
-> Social and Governance*) que usaremos a lo largo del módulo para referirnos a los tres tipos
-> de aspectos de sostenibilidad.
-
-### 1.3 Sostenibilidad vs. sustentabilidad vs. desarrollo sostenible
-
-- **Sostenibilidad:** capacidad de un sistema (natural, social o económico) de mantenerse en el tiempo.
-- **Desarrollo sostenible:** proceso de cambio hacia un estado más sostenible (es dinámico).
-- **Transición ecológica:** camino concreto y temporal para pasar del modelo actual a uno sostenible (en la UE, motorizado por el Pacto Verde Europeo).
-
-> En el RD 659/2023 el módulo se enmarca explícitamente en la **transición ecológica** y la
-> **economía verde**: no basta con "no dañar", hay que transformar los procesos productivos.
+Límites planetarios
+:   Fronteras ecológicas seguras dentro de las cuales la humanidad puede operar, reconociendo que los recursos naturales (agua, minerales, energía fósil) y la capacidad de absorción de residuos de la Tierra son finitos.
 
 ---
 
-## 2. Marcos internacionales de referencia
+### 1.2 La triple dimensión (Triple Balance o Pilares ASG / ESG)
 
-El criterio RA1.b exige *"identificar los marcos internacionales asociados al desarrollo
-sostenible"*. Estos son los principales, en orden cronológico y de alcance:
+La sostenibilidad no es un concepto exclusivamente ambiental. Se sustenta en el equilibrio indisociable de tres dimensiones interdependientes:
 
-### 2.1 Cumbre de la Tierra (Río de Janeiro, 1992)
+```mermaid
+flowchart TD
+    subgraph TripleBalance["Modelo del Triple Balance (ESG / ASG)"]
+        direction TB
+        E["🌿 Ambiental (Environmental)<br/>Planeta, clima, recursos, huella"]
+        S["👥 Social (Social)<br/>Personas, derechos, ética, inclusión"]
+        G["⚖️ Gobernanza (Governance)<br/>Transparencia, cumplimiento, toma de decisiones"]
+    end
+    E <--> S
+    S <--> G
+    G <--> E
+```
 
-- Nace la **Agenda 21**: plan de acción para el desarrollo sostenible en el siglo XXI.
-- Se firman tres convenios clave:
-  - **CMBDD** (Convención Marco sobre el Cambio Climático).
-  - **CMNUCC** (Convención sobre Diversidad Biológica).
-  - **Convención de Combate contra la Desertificación**.
+Explora a continuación la aplicación directa de cada pilar en la industria informática:
 
-### 2.2 Objetivos de Desarrollo del Milenio (ODM, 2000–2015)
+=== "🌿 Dimensión Ambiental (E - Environmental)"
+    Examina el impacto directo e indirecto de las operaciones tecnológicas sobre los ecosistemas.
 
-- 8 objetivos acordados en la Cumbre del Milenio (ONU, 2000): reducir pobreza extrema y
-  hambre, educación primaria universal, igualdad de género, mortalidad infantil, salud
-  materna, medio ambiente (acceso a agua/saneamiento, ciudades sostenibles, alianza global).
-- **Sucesor:** la Agenda 2030.
+    * **Consumo eléctrico:** Suministro energético masivo de servidores, centros de datos y redes de telecomunicaciones.
+    * **Emisiones GEI:** Huella de carbono derivada de los Alcances 1, 2 y 3 (fabricación y transporte de hardware).
+    * **Huella hídrica:** Millones de litros de agua evaporada empleados para refrigerar racks de alta densidad (e.g. IA).
+    * **Residuos electrónicos (RAEE):** Gestión de chatarra electrónica, baterías de litio y fin de vida útil de terminales.
 
-### 2.3 Cumbre Río+2 (2012) y economía verde
+=== "👥 Dimensión Social (S - Social)"
+    Analiza la relación de la empresa tecnológica con las personas, empleados, usuarios y comunidades locales.
 
-- Se reafirma el desarrollo sostenible y se introduce con fuerza el concepto de
-  **economía verde** como vía para erradicar la pobreza y lograr la equidad.
-- Documento final *"El futuro que queremos"*.
+    * **Cadena de suministro:** Extracción de minerales críticos (cobalto, coltán, tierras raras) y condiciones laborales.
+    * **Brecha digital y accesibilidad:** Garantizar que los servicios web y apps no excluyan a personas con discapacidad (WCAG).
+    * **Salud laboral y ergonomía:** Teletrabajo sostenible, desconexión digital y salud mental de equipos de desarrollo.
+    * **Ética de la Inteligencia Artificial:** Prevención de sesgos algorítmicos discriminatorios y respeto a la privacidad.
 
-### 2.4 Acuerdo de París (COP21, 2015)
+=== "⚖️ Dimensión de Gobernanza (G - Governance)"
+    Evalúa cómo se estructura la dirección, el cumplimiento normativo y la integridad corporativa.
 
-Pilar del régimen climático internacional:
+    * **Ciberseguridad y privacidad:** Cumplimiento riguroso del RGPD y directivas de ciberresiliencia (NIS2).
+    * **Transparencia en el reporte:** Divulgación veraz de memorias de sostenibilidad según la directiva europea CSRD.
+    * **Prevención de Greenwashing:** Prohibición de afirmaciones ambientales engañosas sin respaldo técnico medible.
+    * **Comités de ética tecnológica:** Protocolos sobre uso de datos de clientes, propiedad intelectual y derechos de autor.
 
-- **Objetivo:** mantener el aumento de la temperatura media **por debajo de 2 °C** respecto
-  a niveles preindustriales, con esfuerzos para limitarlo a **1,5 °C**.
-- **Mecanismo:** cada país presenta una **Contribución Determinada a Nivel Nacional (NDC)**;
-  revisión y ambición creciente cada 5 años (*ratchet mechanism*).
-- **Financiación:** países desarrollados movilizarán 100.000 M$/año para 2020 (y más) para
-  apoyar a países en desarrollo.
-- **Relación con TIC:** los compromisos NDC de la UE (−55 % emisiones en 2030 vs 1990,
-  neutralidad climática en 2050) obligan a todo el tejido productivo, incluido el tecnológico.
-
-### 2.5 Cumbre de Nueva York sobre ODS (2015) → Agenda 2030
-
-- Se aprueban los **17 Objetivos de Desarrollo Sostenible** y 169 metas (ver §3).
-- Principios: universalidad, no dejación (*"no dejar a nadie atrás"*), integración
-  ambiental-social-económica, medios de implementación (financiación, tecnología, capacidad).
-
-### 2.6 Cumbre de la ONU sobre Biodiversidad (CMBNU, Kunming-Montreal, 2022)
-
-- **Marco Global de Biodiversidad a 2030:** 23 metas, entre ellas:
-  - Proteger al menos el **30 %** de tierras y mares para 2030 (*"30x30"*).
-  - Reducir al mínimo el impacto de plagas invasoras.
-  - Reducir a la mitad la exposición a pesticidas peligrosos.
-- Relevante para TIC: uso del suelo por infraestructuras, huella hídrica, minería de minerales.
-
-### 2.7 Pacto Verde Europeo (European Green Deal, 2019) y legislación derivada
-
-Marco europeo que traduce la transición ecológica a política legislativa. Elementos clave
-que afectan directamente al sector TIC:
-
-| Instrumento | Qué regula | Impacto en TIC |
-|------------|-----------|----------------|
-| **Reglamento CSRD** (2022) | Obligación de publicar información de sostenibilidad (doble materialidad). | Las grandes empresas y cotizadas TIC deben reportar ESG. |
-| **Marco de clasificación taxonomía UE** | Qué actividades económicas son "verdes". | Inversión sostenible, greenwashing. |
-| **Reglamento de ecodiseño (2024/1781)** | Criterios ecológicos obligatorios para productos. | Reparabilidad, durabilidad, eficiencia energética de dispositivos y componentes. |
-| **Reglamento de baterías (2023/1542)** | Huella de carbono, reciclaje, pasaporte digital de batería. | Portátiles, equipos portátiles, UPS. |
-| **Directiva sobre residuos de aparatos eléctricos y electrónicos (RAEE, 2012/19/UE)** | Responsabilidad ampliada del productor, recogida y reciclaje. | Fin de vida de hardware TIC. |
-| **Reglamento sobre minerales críticos** | Seguridad de suministro de litio, cobalto, [tierras raras](https://www.youtube.com/watch?v=qC817dM5eN8). | Cadenas de suministro de electrónica. |
-
-> **Punto clave para el alumnado:** la sostenibilidad ya no es voluntaria. La CSRD y el
-> ecodiseño obligan legalmente a reportar y diseñar de forma sostenible. Esto conecta con
-> RA1.e (legislación vigente y futuras regulaciones).
+!!! tip "Clave para el perfil técnico de DAW / DAM"
+    En el sector del desarrollo de software e infraestructuras, la dimensión de **Gobernanza (G)** y la **Social (S)** son tan críticas como la ambiental: un software con consumo energético cero pero con sesgos algorítmicos que vulneren derechos fundamentales o que filtre contraseñas de usuarios no es un producto sostenible.
 
 ---
 
-## 3. Los 17 Objetivos de Desarrollo Sostenible (ODS)
+### 1.3 Glosario de términos clave
 
-Criterio RA1.c: *"relacionar los ODS con su importancia para la consecución de la Agenda 2030."*
+Sostenibilidad
+:   Capacidad de un sistema ecológico, económico o social de mantenerse y autorregularse a lo largo del tiempo sin degradar sus bases operativas.
 
-### 3.1 Lista completa (título oficial)
+Transición ecológica
+:   Camino planificado, regulatorio y temporal para transformar el modelo socioeconómico actual basado en combustibles fósiles hacia uno descarbonizado, circular y justo.
 
-| # | Objetivo |
-|---|---------|
-| 1 | Fin de la pobreza |
-| 2 | Hambre cero |
-| 3 | Salud y bienestar |
-| 4 | Educación de calidad |
-| 5 | Igualdad de género |
-| 6 | Agua limpia y saneamiento |
-| 7 | Energía asequible y no contaminante |
-| 8 | Trabajo decente y crecimiento económico |
-| 9 | Industria, innovación e infraestructura |
-| 10 | Reducción de las desigualdades |
-| 11 | Ciudades y comunidades sostenibles |
-| 12 | Producción y consumo responsables |
-| 13 | Acción por el clima |
-| 14 | Vida submarina |
-| 15 | Vida de ecosistemas terrestres |
-| 16 | Paz, justicia e instituciones sólidas |
-| 17 | Alianzas para lograr los objetivos |
+Economía verde
+:   Modelo productivo que busca el progreso humano y la equidad social al tiempo que reduce significativamente los riesgos ambientales y las escaseces ecológicas (PNUMA).
 
-### 3.2 ODS más relevantes para el sector informático (foco del módulo)
-
-No todos los ODS tienen la misma incidencia directa en el sector TIC. Los más pertinentes:
-
-| ODS | Por qué es relevante para el sector informático |
-|-----|-----------------------------------------------|
-| **ODS 7** (Energía limpia) | Consumo eléctrico de data centers, redes y terminales; compromiso con renovables. |
-| **ODS 9** (Innovación e infraestructura) | Innovación tecnológica sostenible, infraestructuras resilientes, I+D+i verde. |
-| **ODS 12** (Producción y consumo responsables) | Ciclo de vida de hardware, economía circular, residuos electrónicos, ecodiseño. |
-| **ODS 13** (Acción por el clima) | Huella de carbono del sector TIC, neutralidad neta, eficiencia energética. |
-| **ODS 6** (Agua limpia) | Consumo hídrico en refrigeración de data centers (huella hídrica). |
-| **ODS 5** (Igualdad de género) | Paridad en el sector TIC (brecha de género tecnológica), condiciones laborales. |
-| **ODS 8** (Trabajo decente) | Condiciones en la cadena de suministro de componentes, trabajo digno. |
-| **ODS 10** (Reducción desigualdades) | Brecha digital, acceso a tecnología, inclusión. |
-| **ODS 16** (Paz e instituciones) | Gobernanza tecnológica, ética de la IA, ciberseguridad, privacidad, transparencia. |
-| **ODS 17** (Alianzas) | Colaboración público-privada, estándares abiertos, cooperación internacional. |
-
-> **Actividad sugerida (RA1.c):** cada grupo debe justificar por qué selecciona los ODS que
-> selecciona para su empresa TIC, no basta con "poner todos". Se pide **selección argumentada**
-> de 3–5 ODS prioritarios y su vinculación con los aspectos ASG identificados.
-
-### 3.3 Metas (targets) más citadas en informes del sector TIC
-
-- **ODS 7.2:** aumentar el porcentaje de energía procedente de fuentes renovables.
-- **ODS 12.5:** reducir a la mitad el desperdicio alimentario / gestión responsable de residuos.
-- **ODS 13.2:** integrar medidas de cambio climático en políticas nacionales (NDC).
-- **ODS 9.4:** modernizar la infraestructura hacia una producción sostenible y eficiente.
+Greenwashing (Ecolavado)
+:   Práctica desleal de relaciones públicas en la que una empresa transmite una imagen engañosa de responsabilidad ecológica sin acometer transformaciones reales ni auditadas.
 
 ---
 
-## 4. Conceptos complementarios que el alumnado debe dominar
+## 2. Cronología de los marcos internacionales
 
-### 4.1 Doble materialidad (base para RA6)
+El criterio ==RA1.b== exige identificar con precisión la evolución de los tratados, cumbres y directivas internacionales.
 
-- **Materialidad financiera (impacto en la empresa):** cómo los temas ASG afectan al valor económico (ej.: una multa por incumplimiento ambiental, pérdida de clientes).
-- **Materialidad temática/externa (impacto de la empresa):** cómo la empresa afecta a personas y planeta (ej.: emisiones de sus data centers).
-- La CSRD exige analizar **ambas** direcciones.
+```mermaid
+flowchart TD
+    C1987["📘 1987: Informe Brundtland<br/>Definición canónica de Desarrollo Sostenible"]
+    C1992["🌍 1992: Cumbre de la Tierra de Río<br/>Agenda 21, CMNUCC y Biodiversidad"]
+    C2000["🎯 2000: Objetivos del Milenio (ODM)<br/>8 metas de lucha contra la pobreza global"]
+    C2012["🌱 2012: Cumbre Río+20<br/>El futuro que queremos y Economía Verde"]
+    C2015_1["🤝 2015: Agenda 2030 (ONU)<br/>Aprobación de los 17 ODS"]
+    C2015_2["🌡️ 2015: Acuerdo de París (COP21)<br/>Límite vinculante de 1,5 °C / 2 °C"]
+    C2019["🇪🇺 2019: Pacto Verde Europeo<br/>Objetivo UE Neutralidad Climática 2050"]
+    C2022["🐾 2022: Cumbre Kunming-Montreal<br/>Meta 30x30 de protección de biodiversidad"]
 
-### 4.2 Huella de carbono (introducción)
+    C1987 --> C1992 --> C2000 --> C2012 --> C2015_1 --> C2015_2 --> C2019 --> C2022
+```
 
-- **Alcance 1:** emisiones directas (combustión en instalaciones propias).
-- **Alcance 2:** emisiones indirectas por energía comprada (electricidad de data centers).
-- **Alcance 3:** resto de la cadena de valor (fabricación de componentes, uso del producto, logística). En TIC suele ser el mayor.
+### 2.1 Principales cumbres y acuerdos globales
 
-> Desarrollo completo en [`06-actividades-sostenibles-en-ti.md`](06-actividades-sostenibles-en-ti.md).
-
-### 4.3 Huella hídrica
-
-Volumen de agua consumido a lo largo del ciclo de vida. Crítico en data centers (refrigeración)
-y en minería de minerales para componentes electrónicos.
-
-### 4.4 Economía verde y circular (introducción)
-
-- **Economía lineal:** extraer → producir → usar → tirar.
-- **Economía circular:** diseñar para durar, reutilizar, reparar, reciclar, regenerar.
-- **Economía verde:** crecimiento que reduce el riesgo ambiental y mejora el bienestar.
-
-> Desarrollo completo en [`05-economia-circular-verde-y-ecodisenio.md`](05-economia-circular-verde-y-ecodisenio.md).
+| Año | Cumbre / Instrumento | Hito principal | Conexión con el Sector TIC |
+|:---:|:---|:---|:---|
+| **1992** | **Cumbre de la Tierra (Río de Janeiro)** | Nace la *Agenda 21* y las convenciones marco sobre Cambio Climático (CMNUCC) y Biodiversidad. | Inicio de la monitorización ambiental de infraestructuras globales. |
+| **2000** | **Cumbre del Milenio (ONU)** | Creación de los 8 *Objetivos de Desarrollo del Milenio (ODM)* con vigencia hasta 2015. | Inclusión por primera vez de la brecha digital y acceso a telefonía. |
+| **2012** | **Cumbre Río+20** | Informe *«El futuro que queremos»* que establece la **Economía Verde** como pilar global. | Reconocimiento de las TIC como palanca para la eficiencia energética. |
+| **2015** | **Acuerdo de París (COP21)** | Compromiso vinculante de limitar el calentamiento por debajo de **2 °C**, aspirando a **1,5 °C**. Cada país aporta sus NDC. | Compromiso de grandes tecnológicas con PPA (Power Purchase Agreements) 100% renovables. |
+| **2015** | **Cumbre de Nueva York** | Aprobación unánime de la **Agenda 2030** con sus **17 ODS** y 169 metas universales. | Eje vertebrador del diagnóstico ASG en empresas tecnológicas. |
+| **2022** | **Kunming-Montreal (COP15 Biodiversidad)** | Marco Global de Biodiversidad con la meta **30x30** (proteger el 30% de tierra y océanos). | Presión sobre la minería submarina y terrestre de litio, cobalto y tierras raras. |
 
 ---
 
-## 5. Síntesis para el alumnado (ficha resumen)
+### 2.2 El marco normativo de la Unión Europea (Pacto Verde)
+
+El **Pacto Verde Europeo (European Green Deal, 2019)** es la estrategia comunitaria para lograr que Europa sea el primer continente climáticamente neutro en 2050, reduciendo las emisiones netas en al menos un **55 % en 2030** respecto a 1990 (paquete *Fit for 55*).
+
+```mermaid
+flowchart TD
+    PVE["🇪🇺 Pacto Verde Europeo (Green Deal)"]
+    CSRD["📊 CSRD (Directiva 2022/2464)<br/>Reporte ESG obligatorio con Doble Materialidad"]
+    ESPR["⚙️ ESPR (Reglamento 2024/1781)<br/>Ecodiseño obligatorio, derecho a reparar"]
+    TAX["🏷️ Taxonomía Verde Europea<br/>Clasificación de actividades realmente sostenibles"]
+    RAEE["♻️ Directiva RAEE (2012/19/UE)<br/>Responsabilidad ampliada del productor"]
+
+    PVE --> CSRD
+    PVE --> ESPR
+    PVE --> TAX
+    PVE --> RAEE
+```
+
+!!! warning "Cambio de paradigma: De la voluntariedad a la obligación legal"
+    La sostenibilidad ha dejado de ser una simple declaración de intenciones o un apartado de marketing de Responsabilidad Social Corporativa (RSC). La directiva europea **CSRD** y el **Reglamento ESPR de Ecodiseño** imponen obligaciones civiles y de auditoría financiera a las empresas de desarrollo e infraestructura tecnológica.
+
+---
+
+## 3. La Agenda 2030 y los 17 ODS en el Sector TIC
+
+Aprobada en septiembre de 2015 por los 193 Estados miembros de la ONU, la Agenda 2030 propone **17 Objetivos de Desarrollo Sostenible (ODS)** y 169 metas para erradicar la pobreza, proteger el planeta y asegurar la prosperidad global bajo el lema: *«No dejar a nadie atrás»*.
+
+### 3.1 Los ODS prioritarios para un profesional informático
+
+No todos los ODS impactan con la misma intensidad en un proyecto de software o de infraestructura. En el módulo 1708 priorizamos los siguientes 10 objetivos:
+
+| ODS | Nombre del Objetivo | Relevancia crítica en el sector TIC |
+|:---:|:---|:---|
+| **ODS 7** | ⚡ **Energía asequible y limpia** | Suministro 100% renovable para centros de procesamiento de datos (CPD), servidores cloud e infraestructuras de computación cuántica e IA. |
+| **ODS 9** | 🚀 **Industria, innovación e infraestructura** | Despliegue de redes de fibra y 5G eficientes, green cloud, arquitecturas de software sostenibles e inversión en I+D verde. |
+| **ODS 12** | 🔄 **Producción y consumo responsables** | Fabricación modular de dispositivos, lucha contra la obsolescencia programada, ecodiseño de hardware y reutilización de RAEE. |
+| **ODS 13** | 🌍 **Acción por el clima** | Descarbonización de la cadena de valor (Alcance 1, 2 y 3), reducción de la huella de CO₂ por consulta o transacción web. |
+| **ODS 6** | 💧 **Agua limpia y saneamiento** | Minimización de la huella hídrica (métrica WUE) en la refrigeración evaporativa de macro-datacenters en zonas de estrés hídrico. |
+| **ODS 5** | ⚖️ **Igualdad de género** | Erradicación de la brecha de género en vocaciones STEM (ciencia y tecnología) y en puestos de liderazgo y desarrollo de software. |
+| **ODS 8** | 💼 **Trabajo decente y crecimiento** | Condiciones éticas y libres de explotación en la extracción de minerales y ensamblaje de componentes electrónicos. |
+| **ODS 10** | 🤝 **Reducción de las desigualdades** | Erradicación de la brecha digital de acceso y uso, precios asequibles e interfaces accesibles para personas mayores y vulnerables. |
+| **ODS 16** | 🛡️ **Paz, justicia e instituciones sólidas** | Ética de los algoritmos de IA, privacidad por diseño (RGPD), transparencia gubernamental y ciberseguridad ciudadana. |
+| **ODS 17** | 🌐 **Alianzas para lograr los objetivos** | Estándares de código abierto (Green Software Foundation), consorcios de neutralidad climática e interoperabilidad. |
+
+!!! example "Caso real en la industria: El reto del agua en la IA generativa (ODS 6 y ODS 13)"
+    Entrenar un modelo de lenguaje de gran tamaño (LLM) como GPT-4 o Gemini requiere millones de litros de agua en torres de refrigeración de centros de datos. Investigadores de la Universidad de California estiman que generar entre 20 y 50 consultas complejas a un modelo de IA consume indirectamente cerca de medio litro de agua potable. Por este motivo, gigantes tecnológicos como Google y Microsoft han establecido metas de **reposición hídrica neta positiva** para 2030.
+
+---
+
+## 4. Conceptos complementarios indispensables
+
+### 4.1 Principio de Doble Materialidad (CSRD)
+
+La directiva CSRD exige que las empresas informáticas analicen el impacto en dos direcciones complementarias:
+
+```mermaid
+flowchart LR
+    A["Impacto hacia afuera<br/>(Materialidad de Impacto)"] --- EMP["🏢 Empresa Tecnológica"] --- B["Impacto hacia adentro<br/>(Materialidad Financiera)"]
+    A -.-> C["¿Cómo impactan mis servidores,<br/>algoritmos y desechos en el planeta y la sociedad?"]
+    B -.-> D["¿Cómo impactan el cambio climático,<br/>la escasez de chips o las multas en mis finanzas?"]
+```
+
+Materialidad de Impacto (Inside-Out)
+:   Mide los efectos positivos o negativos, reales o potenciales, que la actividad de la empresa informática causa en el medio ambiente y en las personas (ej.: emisiones de CO₂ o sesgo en sus filtros de IA).
+
+Materialidad Financiera (Outside-In)
+:   Mide cómo los factores ambientales, sociales o regulatorios externos generan riesgos u oportunidades económicas que afectan a los flujos de caja, valor de las acciones o acceso al crédito de la empresa TIC (ej.: impuestos al carbono o crisis de semiconductores).
+
+---
+
+### 4.2 Los tres alcances de la huella de carbono (GHG Protocol)
+
+* **Alcance 1 (Emisiones directas):** Generadas por fuentes que son propiedad o están controladas por la empresa (ej.: generadores diésel de emergencia en un data center o vehículos de soporte).
+* **Alcance 2 (Emisiones indirectas por energía):** Derivadas del consumo de electricidad, calor o vapor comprados a la red para alimentar servidores y oficinas.
+* **Alcance 3 (Cadena de valor completa):** Todas las demás emisiones indirectas (extracción de materias primas para fabricar portátiles, transporte logístico, uso del software por los clientes y tratamiento de residuos al final de su vida útil). En el sector TIC, el **Alcance 3 representa habitualmente entre el 70 % y el 85 %** de la huella total.
+
+---
+
+## 5. Síntesis para el examen técnico
 
 ```
-SOSTENIBILIDAD = equilibrio entre PILAR AMBIENTAL + SOCIAL + GOBERNANZA/ECONÓMICO
-
-Marcos internacionales que hay que saber nombrar:
-  • Agenda 2030 y sus 17 ODS (2015)
-  • Acuerdo de París (2015): −1,5/2 °C, NDC
-  • Cumbre Río+2 (2012): economía verde
-  • Marco Global de Biodiversidad Kunming-Montreal (2022): 30x30
-  • Pacto Verde Europeo: CSRD, Taxonomía UE, Ecodiseño, RAEE
-
-Para el sector TIC los ODS prioritarios suelen ser:
-  7 (energía), 9 (innovación/infraestructura), 12 (consumo responsable),
-  13 (clima), 6 (agua), 5/8/10 (social), 16 (gobernanza tecnológica).
-
-La sostenibilidad ya es OBLIGATORIA por ley en muchas empresas (CSRD, ecodiseño UE).
+╔════════════════════════════════════════════════════════════════════════════╗
+║                   RESUMEN CLAVE: UNIDAD 01 - SOSTENIBILIDAD                ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║ 1. DESARROLLO SOSTENIBLE (Brundtland, 1987): Necesidades presentes sin     ║
+║    comprometer las futuras.                                                ║
+║ 2. TRIPLE BALANCE (ASG / ESG): Ambiental (E) + Social (S) + Gobernanza (G).║
+║    En TIC, Gobernanza (ética IA, ciberseguridad) es un pilar crítico.      ║
+║ 3. HITOS HISTÓRICOS: Río 1992 (Agenda 21) -> París 2015 (<1.5°C/2°C) ->    ║
+║    Agenda 2030 (17 ODS) -> Pacto Verde Europeo 2019.                       ║
+║ 4. REGULACIÓN UE CLAVE: CSRD (Reporte obligatorio), ESPR (Ecodiseño),     ║
+║    Taxonomía Verde (Finanzas sostenibles), Directiva RAEE (Residuos TIC).  ║
+║ 5. ODS CLAVE EN TIC: 7 (Energía), 9 (Infraestructura), 12 (Economía       ║
+║    Circular), 13 (Clima), 6 (Agua), 16 (Gobernanza/Ética).                ║
+║ 6. DOBLE MATERIALIDAD: De la empresa al planeta (Impacto) y del entorno   ║
+║    a la cuenta de resultados de la empresa (Financiera).                   ║
+╚════════════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## 6. Cuestionario de autoevaluación (RA1a–c)
+## 6. Cuestionario interactivo de autoevaluación
 
-1. Define desarrollo sostenible citando el informe Brundtland y explica los tres pilares.
-2. ¿Qué diferencia hay entre sostenibilidad, desarrollo sostenible y transición ecológica?
-3. Relaciona tres marcos internacionales con su año y su objetivo principal.
-4. Elige una empresa TIC (p. ej., Microsoft) y justifica qué 3–5 ODS son prioritarios para ella.
-5. ¿Qué obliga la CSRD a las grandes empresas y cotizadas? ¿Por qué afecta al sector TIC?
-6. Diferencia materialidad financiera de materialidad temática con un ejemplo del sector TIC.
+??? question "¿Cuál es la diferencia sustancial entre 'Sostenibilidad' y 'Desarrollo Sostenible'?"
+    ???+ success "Respuesta técnica"
+        La **sostenibilidad** es una propiedad o estado de equilibrio en el que un sistema se mantiene en el tiempo sin degradar sus recursos. El **desarrollo sostenible** es el proceso dinámico, guiado por políticas públicas y decisiones de ingeniería, orientado a alcanzar ese estado de equilibrio.
 
-> Soluciones orientativas en [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md).
+??? question "¿Por qué la directiva CSRD de la Unión Europea es tan disruptiva para las consultoras y empresas de desarrollo de software?"
+    ???+ success "Respuesta técnica"
+        Porque convierte los informes ASG en una obligación legal con validez mercantil equiparable a las cuentas financieras anuales. Exige auditar mediante el principio de **doble materialidad** tanto el impacto de la actividad digital en el planeta como los riesgos financieros climáticos sobre el negocio, erradicando el greenwashing.
+
+??? question "¿En qué consisten los 3 Alcances de emisiones de CO₂ y cuál suele ser el más voluminoso en empresas de software?"
+    ???+ success "Respuesta técnica"
+        * **Alcance 1:** Emisiones directas de fuentes propias (generadores diésel de CPD).
+        * **Alcance 2:** Emisiones indirectas por electricidad comprada de la red.
+        * **Alcance 3:** Emisiones indirectas de toda la cadena de valor (fabricación de hardware, uso del software por usuarios finales y reciclaje).  
+        En el sector tecnológico, el **Alcance 3** es con diferencia el mayor (suele superar el 75-80% del total).
 
 ---
 
-## 7. Actividad de cierre · «Ruta ODS de una empresa TIC» (parejas · RA1c)
+## 7. Actividad práctica guiada · «Ruta ODS de una empresa TIC»
 
-| | |
+| Parámetro | Detalle operativo |
 |---|---|
-| **Modalidad** | Grupos de **2 alumnos** (máx. 3). |
-| **Duración** | 1 sesión de elaboración (50 min) + 1 sesión de exposiciones (5 min por grupo). |
-| **Cubre** | RA1 (criterios b y c) · es el arranque de la selección de ODS del T1. |
-| **Entregable** | Mapa «Ruta ODS» (diagrama digital o lámina) + hoja de justificación. |
+| **Modalidad** | Parejas de trabajo (máximo 3 alumnos). |
+| **Tiempo de ejecución** | 1 sesión lectiva de investigación (50 min) + 1 sesión de defensa (5 min por pareja). |
+| **Criterios asociados** | ==RA1.b==, ==RA1.c== (arranque del Proyecto Integrador T1). |
+| **Entregables** | Lámina/Infografía digital «Ruta ODS» + Hoja de justificación y fuentes. |
 
-> **Objetivo:** que cada grupo sepa **seleccionar y argumentar** los ODS prioritarios de una
-> empresa TIC concreta. No vale con "poner todos": hay que justificar la elección y también
-> los descartes, con datos y aspectos ASG reales.
+### Enunciado del reto
 
-### Consigna
+Seleccionad una de las organizaciones tecnológicas del [Banco de Casos de Estudio](09-casos-empresas-sector-informatico.md) (ej.: *Microsoft, HP, Google, Dell, Indra/Minsait, Amazon Web Services o una startup nacional*) y construid su **Hoja de Ruta ODS**:
 
-> *"Elegid una empresa TIC del [banco de casos](09-casos-empresas-sector-informatico.md) y
-> elaborad un mapa «Ruta ODS» con la empresa en el centro, **3–5 ODS prioritarios** (número e
-> icono) justificados uno a uno con un dato o aspecto ASG de la empresa, los marcos
-> internacionales que la condicionan (Agenda 2030, Acuerdo de París, Pacto Verde/CSRD) y una
-> última nota con los ODS descartados y el motivo. Presentadlo al grupo, que os retará con la
-> pregunta: «¿y por qué no el ODS X?»."*
+1. **Selección fundamentada:** Escoged entre **3 y 5 ODS prioritarios**, vinculando cada uno a un aspecto ASG con datos numéricos verificables de su último informe de sostenibilidad.
+2. **Justificación de descartes:** Explicad formalmente por qué descartáis al menos 2 ODS que a priori parecían relevantes pero no forman parte del núcleo material de la actividad de la empresa.
+3. **Marcos regulatorios:** Identificad qué dos normativas o acuerdos internacionales (ej. Acuerdo de París, CSRD, Directiva RAEE) condicionan directamente a la empresa elegida.
 
-### Pasos
+```mermaid
+flowchart TD
+    A["1. Elegir Empresa TIC"] --> B["2. Investigar Memoria ASG / GRI"]
+    B --> C["3. Seleccionar 3–5 ODS Prioritarios"]
+    B --> D["4. Argumentar 2 Descartes de ODS"]
+    C --> E["5. Vincular Marcos Internacionales (CSRD, París)"]
+    D --> E
+    E --> F["6. Diseñar Infografía y Defensa Oral de 5 min"]
+```
 
-1. **Elegir e investigar la empresa:** actividad, tamaño e informe ASG o página de sostenibilidad (ayuda: fichas de `09`).
-2. **Listar ODS candidatos** (los §3.2 de esta unidad) y tachar los descartados con una razón por cada uno.
-3. **Seleccionar 3–5 ODS** y casar cada uno con un aspecto ASG o un dato concreto (ej.: ODS 7 ← consumo eléctrico de sus data centers).
-4. **Situar los marcos** que empujan a esa empresa (Agenda 2030, París, CSRD, Reglamento de ecodiseño…).
-5. **Dibujar el mapa** (draw.io, Canva o cartulina) con iconos y frases cortas, y preparar 1 min de justificación por ODS.
+### Rúbrica de corrección analítica (10 Puntos)
 
-### Entregables
-
-- [ ] Mapa «Ruta ODS» (PNG/PDF o foto de la lámina).
-- [ ] Hoja de justificación (1 página): ODS elegidos con razón y ODS descartados con razón.
-- [ ] Al menos 2 fuentes citadas (informe ASG, web oficial, ONU).
-
-### Presentación al grupo (5 min por grupo)
-
-- Empresa elegida y motivo de la elección.
-- Los 3–5 ODS con su vínculo a un aspecto ASG o dato verificable.
-- Los marcos internacionales aplicables.
-- 2 min de preguntas: defender los descartes.
-
-### Criterios de valoración (sobre 10)
-
-| Criterio | Qué se valora | % |
-|----------|---------------|---|
-| Selección argumentada | 3–5 ODS con razón por ODS y descartes justificados. | 35 |
-| Vínculo empresa–ODS | Cada ODS anclado a un aspecto ASG o dato verificable. | 30 |
-| Marcos internacionales | Se citan y aplican correctamente al menos 2 marcos. | 15 |
-| Entregable y presentación | Mapa claro, fuentes citadas, defensa de 5 min. | 20 |
-
-> **Conexión con los trabajos:** esta actividad es el **arranque del Trimestre 1** (ver
-> [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md) §2):
-> la selección argumentada de ODS que exige el mapa ASG se ensaya aquí por primera vez.
+* **Rigor y datos verificables (35% - 3,5 pts):** Los ODS elegidos se sustentan en cifras reales (PUE, MWh de renovables, % de reciclaje) y no en declaraciones genéricas de marketing.
+* **Coherencia en los descartes (25% - 2,5 pts):** Justificación sólida de por qué determinados ODS no resultan prioritarios para el modelo de negocio tecnológico analizado.
+* **Marcos internacionales y normativa (20% - 2,0 pts):** Correcta vinculación con la Agenda 2030, el Acuerdo de París y la directiva europea CSRD o taxonomía verde.
+* **Calidad de la infografía y defensa oral (20% - 2,0 pts):** Claridad expositiva, diseño visual limpio, capacidad de síntesis y respeto estricto del tiempo asignado (5 min).

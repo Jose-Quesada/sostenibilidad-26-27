@@ -1,0 +1,387 @@
+/* ==========================================================================
+   Sostenibilidad Aplicada al Sistema Productivo - Custom CSS (Zensical)
+   Módulo 1708 · Familias Profesionales de Informática y Comunicaciones
+   ========================================================================== */
+
+:root {
+  --md-primary-fg-color: #15803d;        /* Verde bosque sostenible */
+  --md-primary-fg-color--light: #22c55e;
+  --md-primary-fg-color--dark: #166534;
+  --md-accent-fg-color: #0284c7;         /* Azul agua / tecnología limpia */
+
+  --color-e: #10b981;                   /* Dimensión Ambiental */
+  --color-s: #3b82f6;                   /* Dimensión Social */
+  --color-g: #a855f7;                   /* Dimensión Gobernanza */
+  --color-cloud: #0284c7;               /* Infraestructura Cloud & Datacenter */
+  --color-software: #8b5cf6;            /* Green Software Engineering */
+  --color-hardware: #475569;            /* Hardware & Huella de fabricación */
+}
+
+/* 1. Diagramas Mermaid responsivos y bien encuadrados */
+.mermaid {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1.25rem;
+  background-color: var(--md-code-bg-color, #f8fafc);
+  border: 1px solid var(--md-default-fg-color--lightest, #e2e8f0);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+.mermaid svg {
+  max-width: 100% !important;
+  height: auto !important;
+  font-family: var(--md-text-font, inherit) !important;
+}
+
+/* 2. Listas de Definiciones (Definition Lists dl/dt/dd) */
+.md-typeset dl {
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.md-typeset dt {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--md-primary-fg-color--dark, #166534);
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset dt {
+  color: #86efac;
+}
+
+.md-typeset dt::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--md-primary-fg-color, #15803d);
+  flex-shrink: 0;
+}
+
+[data-md-color-scheme="slate"] .md-typeset dt::before {
+  background-color: #22c55e;
+}
+
+.md-typeset dd {
+  margin: 0 0 1.25rem 0;
+  padding: 0.85rem 1.25rem;
+  background: var(--md-code-bg-color, #f8fafc);
+  border-left: 4px solid var(--md-primary-fg-color, #15803d);
+  border-radius: 0 0.5rem 0.5rem 0;
+  color: var(--md-default-fg-color, #334155);
+  line-height: 1.65;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+[data-md-color-scheme="slate"] .md-typeset dd {
+  background: rgba(30, 41, 59, 0.5);
+  border-left-color: #22c55e;
+  color: #cbd5e1;
+}
+
+.md-typeset dd p {
+  margin: 0.5rem 0;
+}
+
+.md-typeset dd p:first-child {
+  margin-top: 0;
+}
+
+.md-typeset dd p:last-child {
+  margin-bottom: 0;
+}
+
+.md-typeset dd ol,
+.md-typeset dd ul {
+  margin: 0.5rem 0;
+  padding-left: 1.25rem;
+}
+
+/* 3. Estilizado de Admonitions (Callouts) */
+.md-typeset .admonition {
+  border-radius: 0.6rem;
+  box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.06);
+  border-width: 0 0 0 4px;
+}
+
+.md-typeset .admonition .admonition-title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* 4. Tablas técnicas con bordes redondeados, hover y cabeceras claras */
+.md-typeset table:not([class]) {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+  margin: 1.5rem 0;
+  border: 1px solid var(--md-default-fg-color--lightest, #e2e8f0);
+  width: 100%;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-code-bg-color, #f1f5f9);
+  color: var(--md-default-fg-color, #0f172a);
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid var(--md-primary-fg-color--light, #22c55e);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  background-color: rgba(30, 41, 59, 0.8);
+  color: #f1f5f9;
+  border-bottom-color: #10b981;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest, #f1f5f9);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) td {
+  border-top-color: rgba(255, 255, 255, 0.05);
+}
+
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: rgba(21, 128, 61, 0.04);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tbody tr:hover {
+  background-color: rgba(34, 197, 94, 0.08);
+}
+
+/* 5. Resaltados semánticos de texto (mark) */
+.md-typeset mark {
+  background-color: #dcfce7;
+  color: #14532d;
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .md-typeset mark {
+  background-color: rgba(34, 197, 94, 0.25);
+  color: #86efac;
+}
+
+/* 6. Pestañas de contenido (Content Tabs) */
+.md-typeset .tabbed-set {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  margin: 1.5rem 0;
+}
+
+/* 7. Badges e insignias de sector TIC y Sostenibilidad */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.badge-ra {
+  background-color: rgba(21, 128, 61, 0.12);
+  color: #15803d;
+  border: 1px solid rgba(21, 128, 61, 0.3);
+}
+
+.badge-tic {
+  background-color: rgba(2, 132, 199, 0.12);
+  color: #0369a1;
+  border: 1px solid rgba(2, 132, 199, 0.3);
+}
+
+.badge-cloud {
+  background-color: rgba(14, 165, 233, 0.12);
+  color: #0284c7;
+  border: 1px solid rgba(14, 165, 233, 0.3);
+}
+
+.badge-software {
+  background-color: rgba(139, 92, 246, 0.12);
+  color: #7c3aed;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.badge-hardware {
+  background-color: rgba(71, 85, 105, 0.12);
+  color: #334155;
+  border: 1px solid rgba(71, 85, 105, 0.3);
+}
+
+.badge-e {
+  background-color: rgba(16, 185, 129, 0.12);
+  color: #047857;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.badge-s {
+  background-color: rgba(59, 130, 246, 0.12);
+  color: #1d4ed8;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.badge-g {
+  background-color: rgba(168, 85, 247, 0.12);
+  color: #7e22ce;
+  border: 1px solid rgba(168, 85, 247, 0.3);
+}
+
+.badge-kpi {
+  background-color: rgba(20, 184, 166, 0.12);
+  color: #0f766e;
+  border: 1px solid rgba(20, 184, 166, 0.3);
+}
+
+.badge-alerta {
+  background-color: rgba(239, 68, 68, 0.12);
+  color: #b91c1c;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Variantes para tema oscuro (Slate) */
+[data-md-color-scheme="slate"] .badge-ra {
+  background-color: rgba(34, 197, 94, 0.2);
+  color: #86efac;
+}
+
+[data-md-color-scheme="slate"] .badge-tic {
+  background-color: rgba(56, 189, 248, 0.2);
+  color: #7dd3fc;
+}
+
+[data-md-color-scheme="slate"] .badge-cloud {
+  background-color: rgba(14, 165, 233, 0.2);
+  color: #38bdf8;
+}
+
+[data-md-color-scheme="slate"] .badge-software {
+  background-color: rgba(167, 139, 250, 0.2);
+  color: #c4b5fd;
+}
+
+[data-md-color-scheme="slate"] .badge-hardware {
+  background-color: rgba(148, 163, 184, 0.2);
+  color: #cbd5e1;
+}
+
+[data-md-color-scheme="slate"] .badge-e {
+  background-color: rgba(16, 185, 129, 0.2);
+  color: #6ee7b7;
+}
+
+[data-md-color-scheme="slate"] .badge-s {
+  background-color: rgba(59, 130, 246, 0.2);
+  color: #93c5fd;
+}
+
+[data-md-color-scheme="slate"] .badge-g {
+  background-color: rgba(168, 85, 247, 0.2);
+  color: #d8b4fe;
+}
+
+[data-md-color-scheme="slate"] .badge-kpi {
+  background-color: rgba(20, 184, 166, 0.2);
+  color: #5eead4;
+}
+
+[data-md-color-scheme="slate"] .badge-alerta {
+  background-color: rgba(239, 68, 68, 0.2);
+  color: #fca5a5;
+}
+
+/* 8. Tarjetas estadísticas y paneles de impacto (Stat Grids) */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.stat-card {
+  background: var(--md-code-bg-color, #f8fafc);
+  border: 1px solid var(--md-default-fg-color--lightest, #e2e8f0);
+  border-radius: 0.75rem;
+  padding: 1.25rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+}
+
+[data-md-color-scheme="slate"] .stat-card {
+  background: rgba(30, 41, 59, 0.5);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.stat-number {
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: var(--md-primary-fg-color, #15803d);
+  line-height: 1.2;
+}
+
+[data-md-color-scheme="slate"] .stat-number {
+  color: #4ade80;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light, #64748b);
+  margin-top: 0.35rem;
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+[data-md-color-scheme="slate"] .stat-label {
+  color: #94a3b8;
+}
+
+/* 9. Cuadrícula de 2 columnas para comparativas */
+.two-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .two-cols {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-box {
+  background: var(--md-code-bg-color, #f8fafc);
+  border: 1px solid var(--md-default-fg-color--lightest, #e2e8f0);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+[data-md-color-scheme="slate"] .card-box {
+  background: rgba(30, 41, 59, 0.4);
+  border-color: rgba(255, 255, 255, 0.08);
+}

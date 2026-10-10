@@ -1,299 +1,273 @@
+---
+icon: lucide/users
+title: "02 · Aspectos ASG y grupos de interés"
+description: "Identificación de aspectos ambientales, sociales y de gobernanza (ASG), mapeo de stakeholders con la matriz de Mendelow, doble materialidad y gestión de riesgos/oportunidades en el sector TIC."
+modulo: "Sostenibilidad (1708)"
+unidad: 2
+---
+
 # 02 · Aspectos ASG y grupos de interés
 
-**Resultados de aprendizaje que cubre:** RA1 (criterios b, d) · apoyo a RA6 (a, b)
+<span class="badge badge-ra">RA1 (b, d) · RA6 (a, b)</span>
+<span class="badge badge-e">Ambiental</span>
+<span class="badge badge-s">Social</span>
+<span class="badge badge-g">Gobernanza</span>
+<span class="badge badge-tic">Matriz Mendelow & Doble Materialidad</span>
 
-> **Objetivo didáctico:** identificar los asuntos ambientales, sociales y de gobernanza que
-> influyen en el desarrollo sostenible de las organizaciones empresariales, relacionarlos con
-> los grupos de interés y analizar los riesgos y oportunidades que suponen.
+**Resultados de aprendizaje:** ==RA1== (criterios b, d) · Apoyo a ==RA6== (criterios a, b)  
+**Duración orientativa:** 4 horas lectivas
 
----
+!!! note "Objetivo de la unidad"
+    Capacitar al estudiante para identificar los factores Ambientales, Sociales y de Gobernanza (**ASG / ESG**) específicos del sector tecnológico, mapear y priorizar a los grupos de interés (*stakeholders*) mediante la **Matriz de Mendelow**, y evaluar los riesgos (físicos, regulatorios, de transición) y oportunidades que determinan la viabilidad y reputación de una empresa de software o infraestructura.
 
-## 1. ¿Qué es un "aspecto ASG"?
-
-Un **aspecto ASG** (también llamado *tema* o *cuestión material*) es cualquier elemento de la
-actividad, producto o servicio de una empresa —o de su entorno— que puede:
-
-- Generar un **impacto positivo o negativo** sobre el medio ambiente, las personas o la gobernanza.
-- Afectar a la **creación de valor** económico (riesgo u oportunidad).
-
-Se clasifican en tres familias:
-
-### 1.1 Aspectos ambientales (E)
-
-| Aspecto | Ejemplo en sector TIC |
-|---------|----------------------|
-| Emisiones GEI (Alcance 1, 2 y 3) | Electricidad de data centers, logística, fabricación de componentes. |
-| Consumo energético | PUE de centros de datos, eficiencia de servidores, terminales. |
-| Consumo hídrico | Refrigeración de data centers en zonas de estrés hídrico. |
-| Residuos electrónicos (RAEE) | Fin de vida de PCs, servidores, móviles, baterías. |
-| Uso de materiales/minerales críticos | Litio, cobalto, tierras raras, oro, cobre en electrónica. |
-| Contaminación y vertidos | Procesos de fabricación de chips y placas. |
-| Pérdida de biodiversidad | Ocupación del suelo por infraestructuras. |
-
-### 1.2 Aspectos sociales (S)
-
-| Aspecto | Ejemplo en sector TIC |
-|---------|----------------------|
-| Condiciones laborales | Fábricas de componentes (cadena de suministro), horas, salarios. |
-| Igualdad y diversidad | Brecha de género en el sector TIC, inclusión, accesibilidad. |
-| Salud y seguridad | Ergonomía, teletrabajo, bienestar del personal técnico. |
-| Privacidad y protección de datos | Manejo de datos personales (RGPD), ciberseguridad. |
-| Ética de la IA | Sesgos algorítmicos, transparencia, impacto social de la automatización. |
-| Brecha digital / inclusión | Acceso a tecnología en poblaciones vulnerables. |
-| Derechos humanos en cadena de suministro | Trabajo infantil o forzado en minería de minerales. |
-
-### 1.3 Aspectos de gobernanza (G)
-
-| Aspecto | Ejemplo en sector TIC |
-|---------|----------------------|
-| Transparencia y rendición de cuentas | Informes ASG, divulgación ESG, CSRD. |
-| Ética corporativa y cumplimiento | Códigos de conducta, anticorrupción, lobby. |
-| Gobierno corporativo | Composición del consejo, comités de sostenibilidad, retribución vinculada a KPIs ESG. |
-| Ciberseguridad y resiliencia | Gobernanza de la seguridad informática (NIS2). |
-| Cadena de suministro responsable | Política de proveedores, auditorías, trazabilidad. |
-| Gestión de conflictos de interés | Uso ético de datos, IA generativa, propiedad intelectual. |
-
-> **Clave didáctica:** en el sector TIC los aspectos **G** (gobernanza) y algunos **S**
-> (privacidad, ética de la IA) son especialmente distintivos frente a otros sectores. El
-> alumnado debe saber argumentar por qué la gobernanza tecnológica es un pilar propio del sector.
+<div class="stat-grid">
+  <div class="stat-card">
+    <div class="stat-number">CSRD</div>
+    <div class="stat-label">Directiva reporte obligatorio UE</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">4 Cuadr.</div>
+    <div class="stat-label">Matriz Mendelow (Poder / Interés)</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">2 Ejes</div>
+    <div class="stat-label">Doble materialidad (Impacto + Financiera)</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">ESRS</div>
+    <div class="stat-label">Estándares europeos de reporte ASG</div>
+  </div>
+</div>
 
 ---
 
-## 2. Grupos de interés (stakeholders)
+## 1. ¿Qué es un aspecto ASG en el sector tecnológico?
 
-Criterio RA1.d: *"identificar los aspectos ASG más relevantes para los grupos de interés de
-las organizaciones relacionándolos con los riesgos y oportunidades."*
+Aspecto ASG (Cuestión material)
+:   Cualquier factor ambiental, social o de gobierno corporativo vinculado a los productos, servicios, código o infraestructuras de una empresa que genera un impacto positivo o negativo en el entorno o que altera significativamente su capacidad para generar valor económico.
 
-### 2.1 Clasificación
-
-**Stakeholders internos:**
-
-- Empleados y personal técnico.
-- Accionistas / propietarios.
-- Dirección y consejo.
-
-**Stakeholders externos:**
-
-| Stakeholder | Qué le preocupa (aspectos ASG típicos) |
-|-------------|----------------------------------------|
-| Clientes / usuarios | Privacidad, ciberseguridad, huella de carbono del producto, precio, accesibilidad. |
-| Inversores y analistas financieros | Rendimiento ESG, riesgos reputacionales, retorno a largo plazo. |
-| Proveedores (cadena de suministro) | Condiciones laborales, trazabilidad de materiales, estándares ambientales. |
-| Comunidad local | Empleo, impacto ambiental de instalaciones, programas de inclusión digital. |
-| Administración pública / reguladores | Cumplimiento normativo (CSRD, RGPD, NIS2, RAEE), impuestos. |
-| ONG y sociedad civil | Compromisos climáticos, derechos humanos, ética de la IA. |
-| Competidores y sector | Estándares comunes, innovación abierta, alianzas. |
-| Medios de comunicación | Reputación, escándalos, comunicación ESG (greenwashing). |
-
-### 2.2 Mapa de stakeholders (matriz poder/interés)
-
-Herramienta básica para priorizar:
-
-```
-                ALTO INTERÉS
-                       │
-     COLABORAR         │        GESTIONAR DE CERCA
-   (satisfacer y       │      (informar e implicar,
-    implicar)          │       mayor atención)
-                       │
-  BAJO PODER ──────────┼────────── ALTO PODER
-                       │
-     MANTENER          │        SUPERVIGILAR
-   (información        │      (monitoreo continuo,
-    básica)            │       riesgo si se descuidan)
-                       │
-                BAJO INTERÉS
-
-Ejemplo: clientes potenciales → "gestionar de cerca";
-prensa → "supervigilar"; comunidad lejana → "mantener".
+```mermaid
+flowchart TD
+    ASG["Aspectos ASG / ESG en TIC"]
+    ASG --> E["🌿 Ambientales (E)<br/>Energía, agua, RAEE, emisiones"]
+    ASG --> S["👥 Sociales (S)<br/>Laboral, privacidad, accesibilidad, sesgos IA"]
+    ASG --> G["⚖️ Gobernanza (G)<br/>Ciberseguridad, ética algorítmica, CSRD"]
 ```
 
-> **Actividad (RA1.d / RA6.a):** cada grupo elabora el mapa de stakeholders de su empresa TIC
-> colocando al menos 8 grupos en la matriz y justificando su posición.
+Explora a continuación los aspectos materiales característicos del sector informático:
+
+=== "🌿 Aspectos Ambientales (E - Environmental)"
+    | Aspecto Material | Realidad concreta en empresas TIC | Indicador técnico de control |
+    |:---|:---|:---|
+    | **Emisiones GEI (Scope 1, 2, 3)** | Huella de carbono de servidores propios, electricidad de la red y ciclo de vida de los equipos. | Toneladas de $CO_2$ equivalente ($tCO_2e$). |
+    | **Consumo energético** | Carga computacional continua 24/7 en centros de procesamiento de datos (CPD). | PUE (*Power Usage Effectiveness*), kWh/rack. |
+    | **Estrés hídrico** | Agua evaporada para enfriar procesadores y servidores de alta densidad. | WUE (*Water Usage Effectiveness*), $m^3$ de agua. |
+    | **Residuos electrónicos (RAEE)** | Obsolescencia acelerada de portátiles, servidores y terminales móviles corporativos. | Kg de RAEE por empleado, % reciclaje/reutilización. |
+    | **Minerales críticos** | Uso intensivo de litio, cobalto, cobre y tierras raras en placas y baterías. | % materiales reciclados certificados en hardware. |
+
+=== "👥 Aspectos Sociales (S - Social)"
+    | Aspecto Material | Realidad concreta en empresas TIC | Indicador técnico de control |
+    |:---|:---|:---|
+    | **Condiciones laborales en origen** | Extracción minera de minerales de conflicto y ensamblaje de componentes en Asia. | Auditorías de cadena de suministro (RBA / SA8000). |
+    | **Privacidad y derechos de usuarios** | Custodia de bases de datos de clientes, metadatos y cumplimiento del RGPD. | Incidentes de fuga de datos, multas de la AEPD. |
+    | **Ética y sesgos en IA** | Algoritmos discriminatorios de contratación, reconocimiento facial o scoring de crédito. | Auditorías de imparcialidad algorítmica (*Fairness*). |
+    | **Brecha digital y accesibilidad web** | Garantizar acceso universal a servicios digitales públicos y privados. | % cumplimiento de WCAG 2.2 nivel AA en interfaces. |
+    | **Salud mental y desconexión digital** | Presión por sprints ágiles, síndrome de *burnout* y ergonomía en teletrabajo. | Encuestas de clima laboral, índice de rotación (*turnover*). |
+
+=== "⚖️ Aspectos de Gobernanza (G - Governance)"
+    | Aspecto Material | Realidad concreta en empresas TIC | Indicador técnico de control |
+    |:---|:---|:---|
+    | **Ciberseguridad y resiliencia (NIS2)** | Protección frente a ransomware, espionaje corporativo y ataques de denegación (DDoS). | Tiempo medio de detección y resolución (MTTD/MTTR). |
+    | **Transparencia y reporte (CSRD)** | Publicación de memorias auditadas con el estándar ESRS / GRI. | Calificación crediticia ESG (MSCI, Sustainalytics). |
+    | **Propiedad intelectual y Open Source** | Cumplimiento de licencias (GPL, Apache, MIT) y respeto a derechos de autor en IA. | Auditorías de código abierto y dependencias (SCA). |
+    | **Retribución vinculada a KPIs ASG** | Bonificaciones de directivos y jefes de proyecto ligadas a métricas de descarbonización. | % de la retribución variable ligada a objetivos verdes. |
+
+!!! tip "La singularidad del sector tecnológico"
+    A diferencia de la industria pesada o el transporte, en las empresas de software e infraestructuras los aspectos **G (Gobernanza)** y **S (Social)** tienen un peso determinante: una vulnerabilidad crítica de ciberseguridad o un escándalo de manipulación de datos puede quebrar a una tecnológica en cuestión de días.
 
 ---
 
-## 3. Materialidad: qué aspectos ASG son "los más relevantes"
+## 2. Grupos de interés (*Stakeholders*) en el ecosistema TIC
 
-No todos los aspectos ASG tienen el mismo peso para una empresa concreta. La **materialidad**
-determina cuáles son prioritarios.
+Grupo de interés (Stakeholder)
+:   Cualquier individuo, colectivo o entidad que puede afectar o verse afectado directa o indirectamente por las decisiones, operaciones, software o servicios de una empresa.
 
-### 3.1 Matriz de materialidad (eje doble)
+### 2.1 Mapeo de grupos internos y externos
 
-```
-IMPACTO EN LA EMPRESA (financiero/estratégico)
-        ALTO │  ZONA CRÍTICA: temas que
-             │  afectan al valor y a la
-   ─────────┼─────────── reputación. Prioridad máxima.
-             │
-             │
-        BAJO │  Temas de menor peso relativo,
-             │  pero no despreciables.
-   ─────────┴────────────
-          BAJO        ALTO
-IMPACTO EN PERSONAS/PLANETA (temático)
-```
+```mermaid
+flowchart LR
+    subgraph Internos["Stakeholders Internos"]
+        I1["💻 Programadores y personal técnico"]
+        I2["👔 Dirección y Comité de Dirección"]
+        I3["📈 Accionistas y socios fundadores"]
+    end
 
-Los temas que caen en la **zona crítica** (alto impacto en ambas direcciones) son los
-**aspectos ASG materiales**. Son los que se gestionan con más detalle y se reportan.
-
-### 3.2 Ejemplo de aspectos materiales típicos en una empresa TIC grande
-
-- Emisiones GEI Alcance 1, 2 y 3 (clima).
-- Consumo y origen de la energía eléctrica (renovable vs fósil).
-- Residuos electrónicos y economía circular.
-- Privacidad y ciberseguridad de datos.
-- Ética y transparencia de la IA.
-- Condiciones laborales en la cadena de suministro de componentes.
-- Transparencia y gobernanza (CSRD, comité de sostenibilidad).
-
-> **Nota:** cada empresa es distinta. Un fabricante de hardware (HP, Dell) pondrá más peso en
-> residuos electrónicos y materiales; un proveedor de cloud (Microsoft, Google) en energía y
-> agua de data centers; una consultora (Indra/Minsait) en la huella de sus proyectos y del
-> personal. El alumnado debe **justificar** esta diferencia.
-
----
-
-## 4. Riesgos y oportunidades ASG
-
-Criterio RA1.d exige relacionar los aspectos con **riesgos y oportunidades**. En sostenibilidad
-se usa el marco **TRL** (Threats and Risks / Opportunities), a menudo alineado con la norma
-**ISO 31000** (gestión de riesgos) y el informe del TCFD.
-
-### 4.1 Tipos de riesgo ASG
-
-| Tipo | Descripción | Ejemplo TIC |
-|------|-------------|-------------|
-| **Físico agudo** | Daño puntual por eventos climáticos. | Inundación que daña un data center. |
-| **Físico crónico** | Cambio gradual del clima. | Aumento de temperaturas que obliga a refrigerar más (mayor consumo). |
-| **De transición** | Riesgo por el cambio hacia la economía baja en carbono. | Obsolescencia de equipos no eficientes, nuevos impuestos al carbono, pérdida de clientes por ineficiencia. |
-| **Reputacional** | Daño a la imagen por percepción ESG. | Greenwashing detectado, escándalo de privacidad. |
-| **Legal / regulatorio** | Incumplimiento de normativa ASG. | Multas por CSRD, RGPD o RAEE. |
-| **De mercado** | Pérdida de competitividad. | Competidores con producto más sostenible y eficiente. |
-
-### 4.2 Oportunidades ASG
-
-- **Eficiencia energética** que reduce costes (menor factura eléctrica).
-- **Nuevos mercados verdes:** software de descarbonización, hardware circular, servicios ESG.
-- **Acceso a capital:** inversión responsable, bonos verdes, mejores condiciones de financiación.
-- **Retención y atracción de talento** (los profesionales valoran la misión sostenible).
-- **Resiliencia operativa** ante escasez de recursos o regulación.
-
-### 4.3 Matriz riesgo-oportunidad por aspecto (plantilla)
-
-| Aspecto ASG | Riesgo (tipo) | Probabilidad | Impacto | Oportunidad asociada | Acción propuesta |
-|-------------|---------------|--------------|---------|----------------------|------------------|
-| Emisiones Alcance 2 | De transición | Alta | Alto | Reducir costes energéticos | Comprometer energía 100 % renovable en data centers |
-| Residuos electrónicos | Legal (RAEE) | Media | Medio | Modelo de reventa/reciclaje con ingresos | Programa de recogida y reacondicionado |
-| Ética de la IA | Reputacional | Media | Alto | Diferenciación por IA confiable | Auditorías de sesgo y transparencia |
-
-> **Actividad (RA1.d):** para los 3–5 aspectos materiales elegidos, el grupo completa esta
-> matriz identificando al menos un riesgo y una oportunidad por aspecto.
-
----
-
-## 5. Del diagnóstico ASG a la acción: flujo de trabajo sugerido
-
-```
-1. Elegir empresa TIC → 2. Listar aspectos E, S y G (≥3 E, ≥3 S, ≥2 G)
-   → 3. Mapear stakeholders (matriz poder/interés)
-   → 4. Priorizar por materialidad (qué afecta a la empresa y qué la afecta)
-   → 5. Relacionar con ODS prioritarios
-   → 6. Analizar riesgos y oportunidades por aspecto material
-   → 7. Proponer acciones iniciales (se desarrolla en RA6 / T3)
-```
-
-Este flujo es exactamente el que se ejecuta en el **Trimestre 1** del trabajo grupal
-(ver [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md)).
-
----
-
-## 6. Síntesis (ficha resumen)
-
-```
-ASPECTO ASG = elemento que genera impacto E/S/G o afecta al valor económico.
-  E: emisiones, energía, agua, residuos, materiales críticos.
-  S: laboral, igualdad, privacidad, ética IA, brecha digital.
-  G: transparencia, ética, ciberseguridad, cadena de suministro, gobernanza.
-
-STAKEHOLDERS = internos (empleados, accionistas) + externos (clientes, inversores,
-   proveedores, comunidad, reguladores, ONG, prensa). Se priorizan con matriz poder/interés.
-
-MATERIALIDAD = qué aspectos son "los que de verdad importan" para ESA empresa.
-   Se decide por impacto en la empresa (financiero) x impacto en personas/planeta (temático).
-
-RIESGOS ASG: físico agudo/crónico, transición, reputacional, legal, mercado.
-OPORTUNIDADES: eficiencia, nuevos mercados verdes, acceso a capital, talento, resiliencia.
+    subgraph Externos["Stakeholders Externos"]
+        E1["👥 Clientes y usuarios de las apps"]
+        E2["🏛️ Reguladores y Administraciones (AEPD, UE)"]
+        E3["🚚 Proveedores de cloud y hardware"]
+        E4["🌱 Comunidad local y medio ambiente"]
+        E5["📰 Prensa tecnológica e inversores ESG"]
+    end
 ```
 
 ---
 
-## 7. Cuestionario de autoevaluación (RA1b–d)
+### 2.2 Matriz de priorización de Mendelow (Poder vs. Interés)
 
-1. Diferencia un aspecto ambiental de uno social y de uno de gobernanza, con ejemplo TIC.
-2. ¿Por qué la gobernanza tecnológica (ciberseguridad, ética IA) es un pilar propio del sector?
-3. Construye una matriz poder/interés para una empresa cloud con 8 stakeholders.
-4. ¿Qué es materialidad y por qué no son iguales los aspectos materiales de HP y de Microsoft?
-5. Clasifica tres riesgos ASG (físico, transición, reputacional) en el contexto TIC.
-6. Propón dos oportunidades ASG para una consultora tecnológica española.
+La **Matriz de Mendelow** es la herramienta estratégica empleada para clasificar y definir el tipo de relación y comunicación que la empresa debe mantener con cada grupo de interés:
 
-> Soluciones orientativas en [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md).
+```mermaid
+flowchart TD
+    subgraph CuadranteMendelow["Matriz de Mendelow (Poder vs. Interés)"]
+        direction TB
+        subgraph FilaAlta["ALTO INTERÉS"]
+            direction LR
+            C1["🤝 MANTENER INFORMADOS / COLABORAR<br/>(Bajo Poder / Alto Interés)<br/>• Programadores y empleados<br/>• Comunidades Open Source<br/>• Usuarios activos de la plataforma"]
+            C2["⭐ GESTIONAR DE CERCA / PRIORIDAD MÁXIMA<br/>(Alto Poder / Alto Interés)<br/>• Clientes corporativos clave<br/>• Inversores mayoritarios<br/>• Reguladores normativos (UE / AEPD)"]
+        end
+        subgraph FilaBaja["BAJO INTERÉS"]
+            direction LR
+            C3["📢 MONITORIZAR / ESFUERZO MÍNIMO<br/>(Bajo Poder / Bajo Interés)<br/>• Público general<br/>• Competidores indirectos<br/>• Proveedores de suministros generales"]
+            C4["🛡️ MANTENER SATISFECHOS / SUPERVIGILAR<br/>(Alto Poder / Bajo Interés)<br/>• Grandes bancos financiadores<br/>• Prensa generalista / Medios<br/>• Proveedores monopolistas de chips"]
+        end
+        FilaAlta --- FilaBaja
+    end
+```
+
+| Cuadrante | Nivel de Poder / Interés | Estrategia de gestión | Ejemplo representativo en TIC |
+|:---|:---:|:---|:---|
+| **Gestionar de cerca** | Alto Poder / Alto Interés | Involucrar activamente en la toma de decisiones, reuniones periódicas y comités conjuntos. | El Director de Seguridad (CISO), clientes enterprise y la Agencia de Protección de Datos. |
+| **Mantener informados** | Bajo Poder / Alto Interés | Consultar regularmente, habilitar canales de feedback continuo y boletines transparentes. | Los desarrolladores junior, usuarios finales de la app y colectivos de software libre. |
+| **Mantener satisfechos** | Alto Poder / Bajo Interés | Responder estrictamente a sus requisitos legales y financieros sin saturarles de información. | Entidades bancarias de crédito, prensa financiera y proveedores clave de hardware. |
+| **Monitorizar** | Bajo Poder / Bajo Interés | Seguimiento pasivo con inversión mínima de tiempo; comunicar mediante la web corporativa. | Usuarios ocasionales de la web o proveedores de material no crítico. |
 
 ---
 
-## 8. Actividad de cierre · «Tablero de materialidad y stakeholders» (parejas o tríos · RA1b–d)
+## 3. Matriz de doble materialidad
 
-| | |
+No todas las cuestiones ASG tienen la misma trascendencia. La directiva europea **CSRD** y las normas **ESRS** exigen cruzar en una matriz de doble eje la perspectiva de impacto y la perspectiva financiera:
+
+```mermaid
+flowchart TD
+    subgraph MatrizMaterialidad["Matriz de Doble Materialidad (CSRD)"]
+        direction TB
+        Z_ALTO["🔴 ZONA CRÍTICA (MATERIALIDAD ESTRATÉGICA)<br/>• Eficiencia y descarbonización de Datacenters (Scope 2/3)<br/>• Ciberseguridad y privacidad RGPD<br/>• Ética y no discriminación en IA"]
+        Z_MEDIO["🟡 ZONA RELEVANTE (SEGUIMIENTO ACTIVO)<br/>• Gestión de RAEE y reciclaje de hardware<br/>• Brecha de género en equipos de programación<br/>• Estrés hídrico en refrigeración de servidores"]
+        Z_BAJO["🟢 ZONA SECUNDARIA (BUENAS PRÁCTICAS)<br/>• Consumo de papel en oficinas centrales<br/>• Transporte de empleados locales"]
+        Z_ALTO --> Z_MEDIO --> Z_BAJO
+    end
+```
+
+!!! example "Diferencias materiales entre modelos de negocio TIC"
+    * **Fabricante de hardware (ej.: HP, Lenovo):** Sus aspectos críticos se concentran en el diseño circular, la reciclabilidad del plástico, la eliminación de soldaduras con plomo (RoHS) y la trazabilidad de los minerales de conflicto en África (S).
+    * **Proveedor Cloud / Datacenters (ej.: AWS, Microsoft Azure):** Su prioridad absoluta es la métrica de consumo eléctrico (PUE), los contratos PPA de energía renovable 24/7 y la huella hídrica de refrigeración (E).
+    * **Consultora de desarrollo de software (ej.: Indra, Globant):** Su materialidad se centra en la atracción y retención del talento técnico (S), el ecodiseño de código (*Green Coding*), la ciberseguridad y la gobernanza de proyectos (G).
+
+---
+
+## 4. Gestión de riesgos y oportunidades ASG
+
+De conformidad con el estándar **TCFD** (*Task Force on Climate-related Financial Disclosures*) y la norma **ISO 31000**, los factores de sostenibilidad conllevan amenazas directas y palancas de rentabilidad:
+
+### 4.1 Tipología de riesgos ASG
+
+Riesgo físico agudo
+:   Daños graves derivados de eventos climáticos extremos inmediatos (ej.: una ola de calor sin precedentes o inundación que colapsa los generadores de un data center).
+
+Riesgo físico crónico
+:   Pérdidas derivadas de cambios climáticos progresivos a largo plazo (ej.: aumento continuado de temperaturas medias que encarece en un 25% la factura de aire acondicionado de los CPD).
+
+Riesgo de transición
+:   Costes derivados del ajuste del mercado hacia una economía descarbonizada (ej.: descalificación de servidores obsoletos por normativas de ecodiseño o pérdida de clientes por no certificar emisiones).
+
+Riesgo legal y regulatorio
+:   Sanciones económicas y suspensiones de actividad por incumplimiento de normativas ambientales o de derechos digitales (ej.: sanciones de hasta el 4% de la facturación global por infracción del RGPD).
+
+Riesgo reputacional
+:   Destrucción de la imagen pública corporativa provocada por acusaciones fundamentadas de greenwashing, explotación en factorías de chips o sesgos racistas en algoritmos comerciales.
+
+---
+
+### 4.2 Matriz de riesgos y oportunidades aplicadas al software e infraestructura
+
+| Aspecto Material | Tipo de Riesgo | Impacto potencial | Oportunidad estratégica | Acción de mitigación tecnológica |
+|:---|:---|:---:|:---|:---|
+| **Electricidad de servidores** | De transición / Mercado | Alto | **Reducción de costes operativos** con contratos PPA renovables y optimización de código. | Migrar cargas de trabajo a regiones cloud con factor de emisión cero e implementar auto-escalado nocturno. |
+| **Residuos de hardware (RAEE)** | Legal (Directiva RAEE) | Medio | **Nuevas líneas de negocio DaaS** (*Device-as-a-Service*) y reventa de componentes reacondicionados. | Establecer programas corporativos de recogida, borrado seguro de datos (Blancco) y donación a centros educativos. |
+| **Sesgos en algoritmos de IA** | Reputacional / Legal | Crítico | **Posicionamiento de marca en "IA Ética y Explicable"**, ganando licitaciones públicas de la UE. | Implementar pruebas de sesgo con bibliotecas como *Fairlearn* o *AIF360* antes del despliegue en producción. |
+| **Vulnerabilidad de datos (RGPD)** | Legal / Regulatorio | Crítico | **Atracción de clientes corporativos** que exigen soberanía de datos y certificaciones de ciberresiliencia. | Cifrado de extremo a extremo, auditorías de penetración regulares y formación obligatoria del equipo en ciberseguridad. |
+
+---
+
+## 5. Síntesis para el examen técnico
+
+```
+╔════════════════════════════════════════════════════════════════════════════╗
+║                   RESUMEN CLAVE: UNIDAD 02 - ASPECTOS ASG                  ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║ 1. ASPECTO ASG: Factor E (clima, agua, RAEE), S (privacidad, ética IA) o   ║
+║    G (ciberseguridad, transparencia) con impacto en personas o finanzas.   ║
+║ 2. STAKEHOLDERS: Internos (empleados, socios) y Externos (clientes, AEPD,  ║
+║    proveedores, sociedad).                                                 ║
+║ 3. MATRIZ DE MENDELOW:                                                     ║
+║    • Alto Poder + Alto Interés -> GESTIONAR DE CERCA (Clientes clave, UE). ║
+║    • Bajo Poder + Alto Interés -> MANTENER INFORMADOS (Programadores).     ║
+║    • Alto Poder + Bajo Interés -> MANTENER SATISFECHOS (Bancos, prensa).   ║
+║ 4. DOBLE MATERIALIDAD: Lo que la empresa afecta al mundo (Impacto) y lo    ║
+║    que el mundo afecta a la rentabilidad de la empresa (Financiera).       ║
+║ 5. RIESGOS: Físicos (olas de calor en CPD), Transición (obsolescencia),    ║
+║    Legales (sanciones RGPD/CSRD) y Reputacionales (greenwashing).          ║
+║ 6. OPORTUNIDADES: Ahorro energético en nube, atracción de talento y DaaS.  ║
+╚════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 6. Cuestionario interactivo de autoevaluación
+
+??? question "¿Por qué la ciberseguridad y la privacidad de datos se consideran pilares de sostenibilidad?"
+    ???+ success "Respuesta técnica"
+        Porque forman parte esencial de la **dimensión Social (S)** —protección del derecho fundamental a la intimidad y seguridad de los usuarios— y de la **dimensión de Gobernanza (G)** —resiliencia operativa y cumplimiento de normativas como el RGPD y NIS2—. Sin gobernanza de datos no puede haber un ecosistema digital sostenible.
+
+??? question "¿Dónde ubicarías a los desarrolladores de software de la empresa en la Matriz de Mendelow y qué trato estratégico requieren?"
+    ???+ success "Respuesta técnica"
+        En el cuadrante de **Alto Interés y Bajo/Medio Poder** (*Mantener informados / Colaborar*). Aunque individualmente no tienen el poder financiero de un inversor, son los que ejecutan el código y adoptan las prácticas de Green Coding; si no están informados y motivados, cualquier plan de sostenibilidad corporativo fracasará.
+
+??? question "¿Qué diferencia a un riesgo climático físico de un riesgo de transición en un data center?"
+    ???+ success "Respuesta técnica"
+        El **riesgo físico** es el daño material directo ocasionado por la climatología (ej.: una riada que inutiliza los generadores diésel de respaldo del centro de datos). El **riesgo de transición** proviene del cambio de modelo socioeconómico (ej.: la entrada en vigor de una tasa al carbono que encarece súbitamente el precio del kWh eléctrico consumido por el data center).
+
+---
+
+## 7. Actividad práctica guiada · «Tablero de materialidad y stakeholders TIC»
+
+| Parámetro | Detalle operativo |
 |---|---|
-| **Modalidad** | Grupos de **2 alumnos** (máx. 3). |
-| **Duración** | 1 sesión de elaboración (50 min) + 1 sesión de exposiciones (6 min por grupo). |
-| **Cubre** | RA1 (criterios b y d) · apoya RA6.a (el mapa de T1). |
-| **Entregable** | Un **tablero único** con tres piezas: stakeholders, aspectos ASG y materialidad. |
+| **Modalidad** | Equipos de 2 o 3 alumnos. |
+| **Tiempo de ejecución** | 1 sesión de trabajo (50 min) + 1 sesión de exposiciones ágiles (6 min por equipo). |
+| **Criterios asociados** | ==RA1.b==, ==RA1.d==, base de ==RA6.a==. |
+| **Entregables** | Tablero visual integrado (Mendelow + Lista ASG + Matriz de Materialidad). |
 
-> **Objetivo:** pasar de listar conceptos a **decidir qué importa** para una empresa TIC:
-> colocar grupos de interés en la matriz poder/interés, clasificar aspectos E/S/G y usar la
-> doble matriz de materialidad para fijar la zona crítica.
+### Enunciado del reto
 
-### Consigna
+Para la empresa tecnológica asignada en el [Banco de Casos](09-casos-empresas-sector-informatico.md):
 
-> *"Para una empresa TIC del [banco de casos](09-casos-empresas-sector-informatico.md)
-> (la misma de la U01 o una nueva), elaborad un tablero con tres piezas conectadas:
-> **(1)** matriz poder/interés con al menos **8 stakeholders** (internos y externos) y una
-> expectativa de cada uno; **(2)** al menos **8 aspectos ASG** (≥3 ambientales, ≥3 sociales,
-> ≥2 de gobernanza); **(3)** matriz de materialidad (impacto en la empresa × impacto en
-> personas/planeta) con **3 aspectos en la zona crítica**, enlazando cada uno con el
-> stakeholder que lo exige y con su ODS."*
+1. **Mapa de Grupos de Interés:** Situad al menos **8 stakeholders** concretos en la Matriz de Mendelow, explicando para cada uno su nivel de poder e interés y su expectativa prioritaria.
+2. **Inventario ASG:** Definid **8 aspectos materiales específicos** de la empresa (mínimo 3 Ambientales, 3 Sociales y 2 de Gobernanza).
+3. **Zona Crítica de Materialidad:** Construid la matriz de doble materialidad ubicando exactamente **3 aspectos clave en la zona crítica**, vinculándolos con el stakeholder que los exige y el ODS al que dan respuesta.
 
-### Pasos
+```mermaid
+flowchart TD
+    STK["1. Mapear 8 Stakeholders en Mendelow"] --> ASG["2. Identificar 8 Aspectos (3E / 3S / 2G)"]
+    ASG --> MAT["3. Cruzar Doble Materialidad (Impacto x Finanzas)"]
+    MAT --> CRI["4. Aislar 3 Aspectos Críticos + Vincular a ODS"]
+    CRI --> DEF["5. Presentación y Defensa Ejecutiva (6 min)"]
+```
 
-1. **Stakeholders:** nombrar ≥8, asignarles expectativa y colocarlos en la matriz poder/interés (§2.2).
-2. **Aspectos ASG:** listar ≥3 E, ≥3 S y ≥2 G específicos de esa empresa (no genéricos del sector).
-3. **Materialidad:** puntuar cada aspecto en los dos ejes (§3.1) y colorear la zona crítica.
-4. **Conectar:** por cada aspecto crítico, señalar stakeholder ↔ aspecto ↔ ODS.
-5. **Preparar la defensa:** explicar 2 colocaciones discutibles (ej.: ¿por qué la prensa va en "supervigilar"?).
+### Rúbrica de corrección analítica (10 Puntos)
 
-### Entregables
-
-- [ ] Tablero (digital o lámina) con las tres piezas visibles y sus enlaces.
-- [ ] Tabla de expectativas de al menos 3 stakeholders clave.
-- [ ] Lista de los 3 aspectos materiales con doble justificación (negocio / personas-planeta).
-
-### Presentación al grupo (6 min por grupo)
-
-- Quién es la empresa y su contexto.
-- Recorrido por las tres piezas del tablero.
-- Los 3 aspectos de la zona crítica y quién los exige.
-- 2 min de preguntas: defender posiciones de la matriz.
-
-### Criterios de valoración (sobre 10)
-
-| Criterio | Qué se valora | % |
-|----------|---------------|---|
-| Completitud | ≥8 stakeholders y ≥8 aspectos (3E/3S/2G) de la empresa. | 30 |
-| Clasificación | Posiciones en poder/interés razonadas; expectativas concretas. | 25 |
-| Materialidad | Zona crítica bien usada; enlace aspecto–stakeholder–ODS. | 25 |
-| Entregable y presentación | Tablero claro, defensa de 6 min y respuesta a objeciones. | 20 |
-
-> **Conexión con los trabajos:** este tablero es el **borrador del mapa ASG y de la matriz de
-> stakeholders** que se entrega en el Trimestre 1 (ver
-> [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md) §2).
+* **Rigor en la Matriz de Mendelow (30% - 3,0 pts):** Los 8 stakeholders están ubicados con lógica empresarial justificada y sus expectativas son realistas para el sector TIC.
+* **Calidad y especificidad del inventario ASG (25% - 2,5 pts):** Los temas seleccionados corresponden al modelo de negocio de la empresa y no son generalidades vacías.
+* **Coherencia de la Doble Materialidad (25% - 2,5 pts):** La justificación de los 3 aspectos en la zona crítica cruza con solvencia el impacto externo con el riesgo financiero.
+* **Capacidad expositiva y defensa (20% - 2,0 pts):** Explicación clara en 6 minutos, diseño visual comprensible y respuesta solvente a las preguntas de los compañeros.

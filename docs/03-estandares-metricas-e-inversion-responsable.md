@@ -1,279 +1,283 @@
+---
+icon: lucide/gauge
+title: "03 · Estándares, métricas e inversión responsable"
+description: "Estándares internacionales de reporte ASG (GRI, ISO, IFRS/ISSB, CDP), métricas técnicas de eficiencia TIC (PUE, WUE, SCI) y ecosistema de inversión socialmente responsable (ISR)."
+modulo: "Sostenibilidad (1708)"
+unidad: 3
+---
+
 # 03 · Estándares, métricas e inversión socialmente responsable
 
-**Resultados de aprendizaje que cubre:** RA1 (criterios e, f)
+<span class="badge badge-ra">RA1 (e, f) · RA6 (c, d)</span>
+<span class="badge badge-kpi">PUE / WUE / SCI</span>
+<span class="badge badge-cloud">Normas ISO & GHG</span>
+<span class="badge badge-tic">GRI Standards & ISR</span>
 
-> **Objetivo didáctico:** identificar los principales estándares de métricas para la evaluación
-> del desempeño en sostenibilidad y su papel en la rendición de cuentas; describir la inversión
-> socialmente responsable y el papel de analistas, inversores, agencias e índices.
+**Resultados de aprendizaje:** ==RA1== (criterios e, f) · Soporte a ==RA6== (criterios c, d)  
+**Duración orientativa:** 4 horas lectivas
 
----
+!!! note "Objetivo de la unidad"
+    Dominar los principales estándares y marcos de medición del desempeño en sostenibilidad (normas ISO, GRI, IFRS/ISSB y CDP), calcular e interpretar las métricas técnicas exclusivas del sector informático (**PUE**, **WUE**, **SCI**), y comprender el funcionamiento de la **Inversión Socialmente Responsable (ISR)** y el rol de las agencias de rating ESG en la financiación tecnológica.
 
-## 1. Panorama de estándares y marcos de reporte ASG
-
-Criterio RA1.e: *"identificar los principales estándares de métricas para la evaluación del
-desempeño en sostenibilidad y su papel en la rendición de cuentas que marca la legislación
-vigente y las futuras regulaciones en desarrollo."*
-
-### 1.1 Normas ISO (Organización Internacional de Normalización)
-
-| Norma | Ámbito | Uso en sector TIC |
-|-------|--------|-------------------|
-| **ISO 26000** | Orientaciones sobre responsabilidad social. | Marco general de comportamiento responsable. |
-| **ISO 14001** | Sistemas de gestión ambiental. | Certificación de la gestión ambiental de instalaciones/procesos. |
-| **ISO 50001** | Sistemas de gestión de energía. | Eficiencia energética en data centers y oficinas. |
-| **ISO 14064-1** | Cuantificación e informe de GEI (organización). | Inventario de huella de carbono (Alcances 1, 2, 3). |
-| **ISO 14067** | Huella de carbono de productos. | LCA / huella por producto o servicio TIC. |
-| **ISO 31000** | Gestión de riesgos. | Riesgos ASG (ver §4 del archivo 02). |
-| **ISO 14001/50001 + 14064** combinadas | Base técnica de la mayoría de inventarios. | Estándar de facto para reportes climáticos. |
-
-> **Punto clave:** ISO 14064-1 es la norma técnica sobre la que se construyen los inventarios
-> de GEI; el protocolo **GHG Protocol** (WRI/WBCSD) es su complemento más usado en empresas.
-
-### 1.2 GRI (Global Reporting Initiative)
-
-- El marco de reporte de sostenibilidad **más utilizado a nivel global**.
-- Estructura: **estándares universales** (general, aspectos temáticos) + **temas específicos**
-  (emisiones, agua, residuos, diversidad, datos, etc.).
-- Principio rector: **materialidad temática** (qué afecta a la empresa y qué la afecta).
-- El alumnado usará la lógica GRI para estructurar el informe de sostenibilidad del T3.
-
-### 1.3 SASB → ISSB (IFRS S1 y S2)
-
-- **SASB** (Sustainability Accounting Standards Board): estándares sectoriales de materialidad
-  financiera (cómo los temas ASG afectan al valor económico).
-- En 2022 SASB se integra en el **ISSB** (International Sustainability Standards Board, bajo IFRS
-  Foundation), que publica:
-  - **IFRS S1:** información general sobre sostenibilidad.
-  - **IFRS S2:** divulgación de información climática (alineada con TCFD).
-- Son la base de la futura contabilidad ESG internacional y se alinean con la CSRD europea.
-
-### 1.4 CDP (Carbon Disclosure Project)
-
-- Plataforma global de divulgación ambiental a inversores.
-- Cuestionarios por tema: **Clima, Agua, Bosques**.
-- Las empresas TIC responden al cuestionario climático; las calificaciones (A–D) influyen en la
-  percepción de inversores y clientes.
-
-### 1.5 Otros marcos
-
-- **AA1000:** estándar de aseguramiento y materialidad de la responsabilidad social.
-- **TCFD** (Task Force on Climate-related Financial Disclosures): divulgación financiera climática
-  (gobernanza, estrategia, gestión de riesgos, indicadores). Adoptado por ISSB/IFRS S2.
-- **UNGP / OIT:** principios rectores de derechos humanos y empresas.
-
-### 1.6 Cuadro comparativo rápido
-
-| Marco | Enfoque | ¿Qué mide? | Uso típico |
-|-------|---------|------------|------------|
-| ISO 14064 / GHG Protocol | Técnico-medible | Emisiones GEI (tCO₂e) | Inventario de huella |
-| GRI | Reporte integral | Aspectos materiales E/S/G | Informe de sostenibilidad |
-| IFRS S1/S2 (ISSB) | Materialidad financiera | Riesgos/oportunidades ASG que afectan al valor | Divulgación a inversores |
-| CDP | Divulgación a capital | Clima, agua, bosques | Calificación por inversores |
-| TCFD | Climático-financiero | 4 pilares (gobernanza, estrategia, riesgo, KPIs) | Reporte climático |
+<div class="stat-grid">
+  <div class="stat-card">
+    <div class="stat-number">1,1 – 1,2</div>
+    <div class="stat-label">PUE benchmark en hyperscalers</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">1,6 – 1,8</div>
+    <div class="stat-label">PUE medio en centros de datos tradicionales</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">ISO 14064</div>
+    <div class="stat-label">Estándar cuantificación de GEI</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">GRI 300</div>
+    <div class="stat-label">Métricas ambientales corporativas</div>
+  </div>
+</div>
 
 ---
 
-## 2. Métricas y KPIs típicos del sector TIC
+## 1. El mapa de los estándares y marcos de reporte ASG
 
-Criterio RA1.e / RA6.d: *"determinar las métricas de evaluación del desempeño de acuerdo con
-los estándares de sostenibilidad más ampliamente utilizados."*
+El criterio ==RA1.e== exige identificar los marcos normativos y estándares técnicos que garantizan la rendición de cuentas corporativa.
 
-### 2.1 Indicadores ambientales (E)
-
-| KPI | Unidad | Referencia/estándar |
-|-----|--------|---------------------|
-| Emisiones GEI Alcance 1 | tCO₂e | ISO 14064-1 / GHG Protocol |
-| Emisiones GEI Alcance 2 (mercado y ubicación) | tCO₂e | GHG Protocol |
-| Emisiones GEI Alcance 3 | tCO₂e | GHG Protocol |
-| Consumo eléctrico total | MWh | ISO 50001 |
-| % energía renovable | % | CDP / GRI 305 |
-| **PUE** (Power Usage Effectiveness) | ratio | Green Grid (eficiencia de data centers) |
-| **WUE** (Water Usage Effectiveness) | L/kWh | Green Grid (huella hídrica) |
-| Residuos electrónicos generados | kg o % | GRI 306 / RAEE |
-| % materiales reciclados/reutilizados | % | GRI 301 / ecodiseño UE |
-| Huella hídrica total | m³ | ISO 14046 (huella hídrica) |
-
-> **PUE** es el indicador estrella del sector: `PUE = energía total del data center / energía
-> de los sistemas IT`. Un PUE de 1,0 es ideal (toda la energía va a IT); hoy los mejores están
-> en torno a 1,1. Es perfecto para prácticas cuantitativas.
-
-### 2.2 Indicadores sociales (S)
-
-| KPI | Unidad | Referencia |
-|-----|--------|------------|
-| % mujeres en plantilla / puestos técnicos | % | GRI 405 (igualdad) |
-| Rotación de personal | % | GRI 401 |
-| Horas de formación por empleado | h | GRI 404 |
-| Incidentes de seguridad/privacidad | nº | RGPD / NIS2 |
-| Satisfacción laboral | índice | encuesta interna |
-| Diversidad e inclusión (D&I) | % / índice | GRI 405 |
-
-### 2.3 Indicadores de gobernanza (G)
-
-| KPI | Unidad | Referencia |
-|-----|--------|------------|
-| Existencia de comité de sostenibilidad | sí/no | IFRS S1 |
-| % retribución vinculada a KPIs ESG | % | GRI 207 |
-| Informes ASG asegurados (externos) | % / año | AA1000 / CSRD |
-| Cumplimiento de código ético | % / nº incidencias | GRI 205 |
-| Nº proveedores auditados en sostenibilidad | % | GRI 308 |
-
----
-
-## 3. Inversión socialmente responsable (RA1.f)
-
-Criterio RA1.f: *"describir la inversión socialmente responsable y el papel de los analistas,
-inversores, agencias e índices de sostenibilidad en el fomento de la sostenibilidad."*
-
-### 3.1 Concepto
-
-La **inversión socialmente responsable (ISR)** integra criterios ASG en las decisiones de
-inversión, más allá del retorno financiero puramente corto. Formas:
-
-- **Screening negativo:** excluir sectores/empresas problemáticas (armas, tabaco, carbón).
-- **Screening positivo (best-in-class):** seleccionar líderes ESG por sector.
-- **Inversión de impacto:** buscar un impacto social/ambiental medible y explícito.
-- **ESG integration:** incorporar sistemáticamente los factores ASG al análisis financiero.
-- **Activismo accionarial (engagement/shareholder activism):** presionar a las empresas para
-  mejorar su desempeño ESG.
-
-### 3.2 Actores del ecosistema ISR
-
-| Actor | Papel en el fomento de la sostenibilidad |
-|-------|------------------------------------------|
-| **Inversores institucionales** (fondos de pensiones, seguros, family offices) | Condicionan financiación a mejoras ESG; grandes dueños de empresas TIC. |
-| **Analistas ESG / analistas financieros** | Evalúan y califican el desempeño ASG; incorporan riesgos ASG a valoraciones. |
-| **Agencias de rating ESG** (MSCI, S&P Global, CDP, Sustainalytics, ISS) | Otorgan calificaciones (AAA–CCC) que mueven flujos de capital. |
-| **Índices de sostenibilidad** (DJSI, FTSE4Good, EcoVadis, MSCI ESG Leaders) | Recopilan empresas líderes; los fondos los usan como referencia de inversión. |
-| **Reguladores** (CSRD, SFDR, Taxonomía UE) | Obligan a reportar y a etiquetar productos financieros "verdes". |
-
-### 3.3 Principales índices y agencias (fichas breves)
-
-- **DJSI (Dow Jones Sustainability Indices):** los índices de sostenibilidad más antiguos y
-  reconocidos; incluyen a empresas líderes por tamaño y sector.
-- **MSCI ESG Ratings:** calificación AAA (líder) a CCC (alto riesgo); muy usada por fondos.
-- **S&P Global CSA / Corporate Sustainability Assessment:** evaluación que alimenta el DJSI.
-- **EcoVadis:** medalla (platino/oro/plata/bronce) por desempeño RSE; popular en cadenas de suministro (muy usado para calificar proveedores TIC).
-- **CDP:** calificación climática/hídrica A–D; referencia para riesgo climático.
-- **FTSE4Good:** índice de empresas con prácticas ASG sólidas (Londres).
-
-### 3.4 Efecto sobre las empresas TIC
-
-- Una mala calificación ESG puede encarecer el capital y perder clientes corporativos.
-- Una buena calificación abre acceso a **bonos verdes** y a fondos de inversión responsable.
-- El alumnado debe entender que la sostenibilidad es hoy un **factor financiero**, no solo ético.
-
-> **Regulación financiera vinculada:** el **SFDR** (Sustainable Finance Disclosure Regulation)
-> obliga a los gestores financieros a revelar su integración de riesgos ASG; y la **Taxonomía UE**
-> define qué actividades son "ambientalmente sostenibles" para canalizar inversión verde real
-> y evitar el *greenwashing*.
-
----
-
-## 4. Regulación que marca la rendición de cuentas (contexto RA1.e)
-
-| Norma | Qué obliga | Plazo/estado |
-|-------|-----------|--------------|
-| **CSRD** (Reg. UE 2022/2464) | Reporte de doble materialidad con estándares ESRS, con aseguramiento externo. | Aplica progresivamente desde el ejercicio 2024–2028 según tamaño. |
-| **ESRS** (Estándares Europeos de Reporte de Sostenibilidad) | 10 temas transversales + sectoriales; métricas detalladas. | Aprobados por la ESMA/Commission (2023). |
-| **Taxonomía UE** | Clasificar actividades "verdes"; evitar greenwashing. | En vigor, sectores progresivos. |
-| **SFDR** | Divulgación de sostenibilidad en productos financieros. | En vigor desde 2021–2023. |
-| **Reglamento de debida diligencia (CSDDD)** | Debida diligencia en derechos humanos y medio ambiente en cadenas de valor. | En tramitación/implantación progresiva. |
-
-> **Conclusión para el alumnado:** la "rendición de cuentas" ya no es voluntaria: CSRD +
-> aseguramiento externo + Taxonomía obligan a las grandes empresas (incluidas muchas TIC) a
-> medir, reportar y garantizar sus datos ASG. Esto da rigor y exigibilidad a todo el módulo.
-
----
-
-## 5. Síntesis (ficha resumen)
-
+```mermaid
+flowchart TD
+    subgraph EcosistemaReporte["Ecosistema de Reporte y Divulgación ASG"]
+        direction TB
+        subgraph Tecnico["1. Medición Técnica de Datos"]
+            ISO["📏 Normas ISO<br/>• ISO 14064 (GEI/CO₂)<br/>• ISO 50001 (Energía)<br/>• ISO 14040/44 (ACV)"]
+            GHG["🌍 GHG Protocol<br/>• Scope 1 (Directas)<br/>• Scope 2 (Electricidad)<br/>• Scope 3 (Cadena valor)"]
+        end
+        subgraph Divulgacion["2. Marcos de Divulgación Corporativa"]
+            GRI["📋 GRI Standards<br/>Reporte integral multi-stakeholder<br/>(Materialidad de Impacto)"]
+            ISSB["💼 IFRS S1 / S2 (ISSB)<br/>Información financiera ASG<br/>(Materialidad Financiera)"]
+            CDP["🌱 Carbon Disclosure Project<br/>Cuestionarios A-D para fondos"]
+        end
+        subgraph Regulacion["3. Regulación Legal Obligatoria"]
+            CSRD["🇪🇺 Directiva CSRD (ESRS)<br/>Obligatorio en la UE con auditoría externa"]
+        end
+        Tecnico --> Divulgacion --> Regulacion
+    end
 ```
-ESTÁNDARES DE MÉTRICAS:
-  ISO 14064/GHG Protocol → inventario GEI (tCO₂e).
-  ISO 50001 → energía; PUE/WUE → data centers.
-  GRI → informe de sostenibilidad (materialidad temática).
-  IFRS S1/S2 (ISSB) + TCFD → materialidad financiera / climático-financiero.
-  CDP → calificación a inversores (clima, agua, bosques).
 
-KPIs TIC típicos: tCO₂e por alcance, % renovables, PUE, WUE, kg RAEE, % reciclado,
-  % mujeres técnicas, nº incidentes de privacidad, % proveedores auditados.
+Compara los cuatro grandes marcos internacionales de evaluación:
 
-INVERSIÓN RESPONSABLE (ISR): screening, best-in-class, impacto, integración ESG, activismo.
-ACTORES: inversores institucionales, analistas, agencias (MSCI, S&P, CDP, EcoVadis),
-  índices (DJSI, FTSE4Good), reguladores (CSRD, SFDR, Taxonomía).
+=== "📋 GRI Standards (Global Reporting Initiative)"
+    * **Propósito:** El estándar internacional más adoptado para memorias de sostenibilidad globales.
+    * **Público objetivo:** Múltiples grupos de interés (empleados, clientes, comunidades locales, gobiernos).
+    * **Enfoque de materialidad:** **Materialidad de Impacto** (*Inside-Out*): cómo la empresa afecta a la sociedad y al medio ambiente.
+    * **Estructura modular:** Estándares Universales (GRI 1, 2, 3) y Estándares Temáticos: GRI 300 (Ambiental: emisiones, energía, agua), GRI 400 (Social: empleo, privacidad), GRI 200 (Económico/Gobernanza).
 
-Efecto: la calificación ESG mueve capital; la sostenibilidad es hoy un FACTOR FINANCIERO.
+=== "📏 Normas ISO & GHG Protocol"
+    * **Propósito:** Proporcionar metodologías científicas y verificables para medir magnitudes físicas.
+    * **Normas clave en TIC:**
+        * **ISO 14064-1 / GHG Protocol:** Cuantificación rigurosa de emisiones de Gases de Efecto Invernadero (Alcances 1, 2 y 3).
+        * **ISO 50001:** Gestión y eficiencia del consumo energético en data centers y oficinas.
+        * **ISO 27001:** Sistemas de gestión de seguridad de la información (vinculado al pilar G).
+    * **Certificación:** Auditoría externa por terceras partes independientes (AENOR, TÜV, SGS).
+
+=== "💼 IFRS S1 y S2 (ISSB / SASB)"
+    * **Propósito:** Estándares contables globales de sostenibilidad promovidos por la Fundación IFRS.
+    * **Público objetivo:** Inversores institucionales, bancos y mercados de valores.
+    * **Enfoque de materialidad:** **Materialidad Financiera** (*Outside-In*): cómo los riesgos climáticos afectan a los flujos de caja y a la valoración bursátil.
+    * **Contenido:**
+        * **IFRS S1:** Requisitos generales de divulgación financiera relacionada con la sostenibilidad.
+        * **IFRS S2:** Divulgación específica sobre riesgos climáticos (totalmente alineada con el marco TCFD).
+
+=== "🌱 CDP (Carbon Disclosure Project)"
+    * **Propósito:** Sistema voluntario de puntuación de transparencia ambiental para empresas cotizadas.
+    * **Cuestionarios temáticos:** Cambio Climático, Seguridad Hídrica y Bosques.
+    * **Calificación pública:** Escala de notas desde la **A (Liderazgo)** hasta la **D- (Divulgación deficiente)**.
+    * **Relevancia en TIC:** Los grandes fondos de inversión (BlackRock, Vanguard) exigen a proveedores cloud como Google o Amazon mantener puntuaciones de nivel A en el CDP.
+
+---
+
+## 2. Métricas técnicas e indicadores clave en el sector informático
+
+El criterio ==RA1.e== y ==RA6.d== exige determinar los KPIs numéricos exactos empleados en auditorías TIC:
+
+### 2.1 El indicador rey de los centros de datos: PUE (*Power Usage Effectiveness*)
+
+Power Usage Effectiveness (PUE)
+:   Métrica estándar desarrollada por el consorcio *The Green Grid* que cuantifica la eficiencia energética de una infraestructura de centro de procesamiento de datos (CPD).
+
+$$\mathbf{PUE} = \frac{\text{Energía Total consumida por el Centro de Datos (kWh)}}{\text{Energía consumida exclusivamente por el Equipamiento IT (kWh)}}$$
+
+```mermaid
+flowchart LR
+    TOTAL["⚡ Energía Total del CPD (100%)"] --> IT["💻 Equipos IT (Servidores, Almacenamiento, Redes)"]
+    TOTAL --> AUX["❄️ Cargas Auxiliares (Refrigeración, SAI/UPS, Iluminación, Pérdidas)"]
+```
+
+* **PUE = 1,0:** Valor teórico perfecto (el 100% de la electricidad se destina al cómputo de los servidores; cero pérdidas en aire acondicionado o transformadores).
+* **PUE típico en CPD tradicionales:** Entre **1,5 y 2,0** (por cada kWh útil de cómputo, se gasta otro kWh en enfriamiento).
+* **PUE en Hyperscalers modernos (Google, Azure, AWS):** Entre **1,10 y 1,18** (gracias a refrigeración líquida directa al chip y modelos predictivos de IA).
+
+!!! example "Cálculo práctico de examen: Auditoría energética de un CPD"
+    Un centro de datos consume mensualmente $1.400.000\text{ kWh}$ de la red eléctrica. Los analizadores de red en los racks de servidores registran un consumo directo de $1.000.000\text{ kWh}$.
+    
+    $$\mathbf{PUE} = \frac{1.400.000\text{ kWh}}{1.000.000\text{ kWh}} = \mathbf{1,40}$$
+    
+    *Interpretación técnica:* Por cada kilovatio hora que consumen los servidores, se desperdician $0,4\text{ kWh}$ adicionales en ventiladores, enfriadoras y sistemas de alimentación ininterrumpida (SAI).
+
+---
+
+### 2.2 Otras métricas críticas de hardware y software
+
+WUE (Water Usage Effectiveness)
+:   Ratio de eficiencia en el uso del agua para refrigeración de data centers.
+    $$\mathbf{WUE} = \frac{\text{Litros anuales de agua consumida}}{\text{Consumo de energía IT (kWh)}}$$
+
+CUE (Carbon Usage Effectiveness)
+:   Emisiones de $CO_2$ por unidad de consumo informático.
+    $$\mathbf{CUE} = \frac{\text{Emisiones totales de } CO_2\text{e (kg)}}{\text{Consumo de energía IT (kWh)}}$$
+
+SCI (Software Carbon Intensity)
+:   Estándar de la *Green Software Foundation* (especificación ISO/IEC 21031) para calcular la huella de una aplicación de software.
+    $$\mathbf{SCI} = \frac{(E \times I) + M}{R}$$
+    Donde:
+    * **$E$:** Energía consumida por el software (kWh).
+    * **$I$:** Intensidad de carbono de la red eléctrica local ($gCO_2e/\text{kWh}$).
+    * **$M$:** Carbono embebido del hardware asignado a la ejecución ($gCO_2e$).
+    * **$R$:** Unidad funcional del software (por usuario, por consulta a la API, por minuto de vídeo reproducido).
+
+---
+
+### 2.3 Cuadro de mando integral de KPIs ASG para una empresa tecnológica
+
+| Dimensión | Nombre del KPI | Unidad de Medida | Estándar de Referencia | Benchmark de Excelencia |
+|:---:|:---|:---:|:---|:---|
+| **E** | **PUE medio anual** | Ratio adimensional | The Green Grid / ISO 30134 | $\le 1,15$ |
+| **E** | **% Energía renovable certificada** | % sobre consumo total | GRI 302-1 / CDP | $100\%$ mediante PPA |
+| **E** | **Emisiones Alcance 1 y 2** | Toneladas $CO_2e$ | GHG Protocol / ISO 14064 | Cero neto (*Net Zero*) |
+| **E** | **Tasa de reciclaje de RAEE** | % peso de hardware retirado | GRI 306-4 / Directiva RAEE | $\ge 95\%$ valorizado |
+| **S** | **Brecha salarial de género ajustada** | % diferencia salarial | GRI 405-2 / CSRD | $< 2\%$ |
+| **S** | **Mujeres en puestos de desarrollo/IT** | % sobre plantilla técnica | GRI 405-1 | $\ge 40\%$ |
+| **S** | **Incidentes de fuga de datos (RGPD)** | Número de incidentes/año | RGPD / ISO 27001 | $0$ incidentes críticos |
+| **G** | **Retribución ejecutiva ligada a ASG** | % del bonus variable | ESRS G1 / IFRS S1 | $\ge 20\%$ |
+| **G** | **Proveedores cloud auditados en ESG** | % compras homologadas | GRI 308-1 / CSDDD | $\ge 90\%$ |
+
+---
+
+## 3. Inversión Socialmente Responsable (ISR / ESG Investing)
+
+El criterio ==RA1.f== exige describir cómo el capital financiero fomenta la transformación sostenible a través de los mercados de inversión.
+
+Inversión Socialmente Responsable (ISR)
+:   Estrategia de inversión que incorpora formalmente criterios ambientales, sociales y de gobernanza (ASG) en las decisiones de asignación de capital, combinando la rentabilidad económica con un impacto ético medible a largo plazo.
+
+### 3.1 Estrategias de selección de inversiones sostenibles
+
+```mermaid
+flowchart TD
+    ISR["Estrategias de Inversión Responsable (ISR)"]
+    ISR --> S_NEG["🚫 Screening Negativo (Exclusión)<br/>Vetar empresas de armas, carbón o tabaco"]
+    ISR --> S_POS["🏆 Best-in-Class (Screening Positivo)<br/>Invertir en las tecnológicas líderes en bajas emisiones"]
+    ISR --> S_IMP["🎯 Inversión de Impacto<br/>Financiar proyectos que resuelven retos sociales/ambientales"]
+    ISR --> S_INT["📈 Integración ESG<br/>Incluir variables de riesgo ASG en modelos financieros"]
+    ISR --> S_ENG["🗣️ Activismo Accionarial (Engagement)<br/>Votar en juntas generales para forzar planes climáticos"]
 ```
 
 ---
 
-## 6. Cuestionario de autoevaluación (RA1e–f)
+### 3.2 Los actores clave del ecosistema financiero sostenible
 
-1. Diferencia ISO 14064-1, GRI e IFRS S2: ¿qué mide cada uno y a quién va dirigido?
-2. ¿Qué es el PUE y por qué es un KPI clave en data centers? Calcula el PUE si la energía total es 1.200 MWh y la de IT es 1.000 MWh.
-3. Enumera tres KPIs ambientales, tres sociales y tres de gobernanza para una empresa cloud.
-4. ¿Qué diferencia hay entre screening negativo e inversión de impacto?
-5. Explica cómo una mala calificación MSCI puede afectar a una empresa TIC.
-6. ¿Qué obliga la CSRD y qué son los ESRS? ¿Afecta a las grandes empresas del sector?
+* **Inversores Institucionales:** Fondos de pensiones soberanos (ej.: Fondo Soberano de Noruega) y grandes gestoras (BlackRock) que exigen a las empresas tecnológicas descarbonizar sus data centers bajo amenaza de desinvertir.
+* **Agencias de Rating ESG:** Entidades especializadas que evalúan a las empresas y les asignan una calificación pública:
+    * **MSCI ESG Ratings:** Escala desde **AAA** (líder) hasta **CCC** (rezagado).
+    * **Sustainalytics (Morningstar):** Puntuación de riesgo ESG numérico (0–10 riesgo inapreciable, >40 riesgo severo).
+    * **EcoVadis:** Calificación para homologación de proveedores TIC mediante medallas (Platino, Oro, Plata, Bronce).
+* **Índices Bursátiles de Sostenibilidad:** Índices de referencia como el **DJSI (Dow Jones Sustainability Index)** o el **FTSE4Good**, que agrupan exclusivamente a las compañías con mejores prácticas ASG globales.
 
-> Soluciones orientativas en [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md).
+!!! warning "El impacto directo sobre una empresa tecnológica"
+    Una caída de calificación en el rating de MSCI (ej. de AA a BB tras una fuga de datos o un escándalo de obsolescencia programada) provoca automáticamente la expulsión de la empresa de los fondos cotizados (ETF sostenibles), desplomando el valor de sus acciones y encareciendo los tipos de interés de sus préstamos bancarios.
 
 ---
 
-## 7. Actividad de cierre · «Auditoría a un informe ASG real» (parejas · RA1e–f)
+## 4. Marco regulatorio europeo de rendición de cuentas
 
-| | |
+| Regulación Comunitaria | Obligación Legal Concreta | Empresas afectadas | Plazo de aplicación |
+|:---|:---|:---|:---:|
+| **Directiva CSRD** (UE 2022/2464) | Publicación obligatoria del Informe de Sostenibilidad aplicando los estándares **ESRS** y principio de **Doble Materialidad**, con auditoría externa obligatoria. | Grandes empresas, cotizadas y pymes cotizadas de la UE. | 2024–2028 (gradual) |
+| **Taxonomía Verde Europea** | Sistema de etiquetado técnico que define qué actividades son ambientalmente sostenibles (ej. requisitos de PUE para considerar verde un data center). | Todas las empresas bajo CSRD e instituciones financieras. | En vigor pleno |
+| **Reglamento SFDR** (UE 2019/2088) | Transparencia sobre productos financieros: clasifica los fondos de inversión en Artículo 6 (no ESG), Artículo 8 (promueven ESG) y Artículo 9 (impacto sostenible puro). | Gestoras de fondos y entidades bancarias. | En vigor pleno |
+
+---
+
+## 5. Síntesis para el examen técnico
+
+```
+╔════════════════════════════════════════════════════════════════════════════╗
+║                   RESUMEN CLAVE: UNIDAD 03 - ESTÁNDARES Y MÉTRICAS         ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║ 1. GRI: Estándar global de memorias ASG (Materialidad de impacto).         ║
+║ 2. ISO 14064 / GHG Protocol: Cuantificación rigurosa de emisiones tCO₂e.   ║
+║ 3. IFRS S1/S2 (ISSB): Divulgación a inversores (Materialidad financiera).  ║
+║ 4. CDP: Puntuación A-D sobre riesgo climático y agua para el capital.     ║
+║ 5. MÉTRICAS CLAVE EN DATACENTERS:                                         ║
+║    • PUE = Energía Total / Energía IT (Objetivo: acercarse a 1.0).        ║
+║    • WUE = Litros de agua / Consumo IT (kWh).                             ║
+║    • SCI (Green Software) = [(E * I) + M] / R (Huella por transacción).   ║
+║ 6. ISR (Inversión Responsable): Estrategias Best-in-Class, exclusión,      ║
+║    integración y activismo accionarial. Rating de agencias: MSCI, EcoVadis.║
+║ 7. CSRD / ESRS: Obligación legal comunitaria de reporte con auditoría.    ║
+╚════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 6. Cuestionario interactivo de autoevaluación
+
+??? question "Si un centro de datos tiene un PUE de 1,15 y consume 2.300.000 kWh totales al mes, ¿cuánta energía llega efectivamente a los servidores?"
+    ???+ success "Respuesta técnica"
+        Despejando de la fórmula: $\text{Energía IT} = \frac{\text{Energía Total}}{\text{PUE}} = \frac{2.300.000\text{ kWh}}{1,15} = \mathbf{2.000.000\text{ kWh}}$.  
+        Los $300.000\text{ kWh}$ restantes se consumen en sistemas auxiliares de climatización e iluminación.
+
+??? question "¿Qué diferencia fundamental separa al estándar GRI del estándar IFRS S1/S2 del ISSB?"
+    ???+ success "Respuesta técnica"
+        El **GRI** se enfoca en la **materialidad de impacto** (hacia múltiples stakeholders: sociedad, trabajadores, clientes), informando de cómo la empresa altera el entorno. El **IFRS S1/S2** se enfoca en la **materialidad financiera** (hacia inversores y accionistas), informando de cómo los riesgos ESG comprometen la rentabilidad y el valor económico del negocio.
+
+??? question "¿En qué consiste la estrategia de inversión responsable 'Best-in-Class' y cómo se aplica al sector tecnológico?"
+    ???+ success "Respuesta técnica"
+        Consiste en no excluir al sector tecnológico, sino seleccionar e invertir únicamente en aquellas empresas de software o telecomunicaciones que obtienen las calificaciones ESG más altas de su categoría (por ejemplo, premiando a los proveedores cloud con menor PUE y mayor paridad de género).
+
+---
+
+## 7. Actividad práctica guiada · «Auditoría de métricas a una memoria ASG real»
+
+| Parámetro | Detalle operativo |
 |---|---|
-| **Modalidad** | Grupos de **2 alumnos** (máx. 3). |
-| **Duración** | Investigación previa + 1 sesión de elaboración (50 min) + exposiciones (5–6 min por grupo). |
-| **Cubre** | RA1 (criterios e y f) · refuerza RA6.d (métricas). |
-| **Entregable** | Ficha-auditoría de 1–2 páginas con estándares, KPIs y veredicto. |
+| **Modalidad** | Equipos de 2 alumnos. |
+| **Tiempo de ejecución** | 1 sesión de inspección de memorias (50 min) + exposición y debate (6 min por equipo). |
+| **Criterios asociados** | ==RA1.e==, ==RA1.f==, preparación de ==RA6.d==. |
+| **Entregable** | Ficha-auditoría con inventario de estándares, tabla de 6 KPIs verificados y veredicto anti-greenwashing. |
 
-> **Objetivo:** aplicar los estándares sobre un **informe de sostenibilidad real**: distinguir
-> qué mide cada marco (ISO, GRI, ISSB, CDP), extraer KPIs con su valor y comprobar si la
-> empresa reporta lo que exige la CSRD. Aprender a leer un informe ASG con ojo crítico.
+### Enunciado del reto
 
-### Consigna
+Acceded a la memoria anual de sostenibilidad (Non-Financial Report / CSRD Report) de una compañía tecnológica real (ej. *Telefónica, Microsoft, Google, HP, Amadeus o Indra*):
 
-> *"Elegid una empresa TIC con informe de sostenibilidad o página ESG pública y elaborad una
-> **ficha-auditoría** con cuatro bloques: **(a)** estándares que usa (GRI, ISO 14064/50001,
-> CDP, IFRS S1/S2…) y qué sirve cada uno; **(b)** **6 KPIs reales** (2 ambientales, 2 sociales
-> y 2 de gobernanza) con valor, unidad y fuente; **(c)** chequeo CSRD: ¿reporta doble
-> materialidad?, ¿tiene aseguramiento externo?, ¿clasifica actividades bajo la Taxonomía UE?;
-> **(d)** veredicto en 2 conclusiones: ¿es transparente o hay indicios de greenwashing?
-> Presentad el «juicio» al grupo."*
+1. **Rastreo de Estándares:** Localizad la tabla de contenidos e identificad qué estándares internacionales declaran utilizar (GRI, ISO, SASB, CDP, TCFD).
+2. **Extracción de 6 KPIs Verificables:** Extraed con valor numérico, unidad de medida y página exacta del informe:
+    * 2 Indicadores Ambientales (ej. PUE, emisiones Scope 1-2 en $tCO_2e$, consumo en MWh).
+    * 2 Indicadores Sociales (ej. % mujeres en desarrollo de software, horas de formación, brecha salarial).
+    * 2 Indicadores de Gobernanza (ej. incidentes de ciberseguridad, proveedores auditados, % bonus ligado a ESG).
+3. **Chequeo de Rigor y Veredicto:** Comprobad si el informe cuenta con **carta de aseguramiento externo emitida por una auditora independiente** (KPMG, PwC, Deloitte, EY) y emitid un veredicto justificado sobre la transparencia de la empresa.
 
-### Pasos
+```mermaid
+flowchart TD
+    MEM["1. Descargar Memoria ASG / ESG Real"] --> STD["2. Verificar Estándares (GRI, ISO, SASB)"]
+    STD --> KPI["3. Extraer 6 KPIs (2 E / 2 S / 2 G) con Valores y Unidades"]
+    KPI --> AUD["4. Comprobar Aseguramiento Externo Independiente"]
+    AUD --> VER["5. Emitir Veredicto Técnico y Exposición Oral (6 min)"]
+```
 
-1. **Buscar el informe** (memoria de sostenibilidad, reporte ASG o web ESG de la empresa; usar `09` como punto de partida).
-2. **Identificar estándares citados** y apuntar para qué sirve cada uno (§1 de esta unidad).
-3. **Extraer 6 KPIs** con valor, unidad, familia (E/S/G) y página o sección de origen.
-4. **Contrastar con la CSRD** (§4): doble materialidad, aseguramiento, Taxonomía.
-5. **Redactar el veredicto:** 2 conclusiones argumentadas con los datos anteriores.
+### Rúbrica de corrección analítica (10 Puntos)
 
-### Entregables
-
-- [ ] Ficha-auditoría (1–2 páginas) con los cuatro bloques y hipervínculos a las fuentes.
-- [ ] Tabla de 6 KPIs (valor + unidad + familia + fuente).
-- [ ] Veredicto final de 2 conclusiones.
-
-### Presentación al grupo (5–6 min por grupo)
-
-- Empresa y estándares que utiliza.
-- Los 6 KPIs más significativos.
-- Resultado del chequeo CSRD.
-- Veredicto + 2 min de preguntas (el grupo puede impugnar el veredicto).
-
-### Criterios de valoración (sobre 10)
-
-| Criterio | Qué se valora | % |
-|----------|---------------|---|
-| KPIs extraídos | 6 KPIs con valor, unidad y fuente localizable. | 30 |
-| Fuentes verificables | Informe/web real citado; nada sin comprobar. | 25 |
-| Estándares | Identifica y diferencia correctamente ISO, GRI, ISSB/CDP. | 20 |
-| Veredicto y presentación | Conclusiones argumentadas con los datos; defensa de 5–6 min. | 25 |
-
-> **Conexión con los trabajos:** prepara las prácticas **P6 (materialidad)** y **P8
-> (greenwashing)** de [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md)
-> y el trabajo de métricas del T1/T3.
+* **Precisión en los KPIs extraídos (35% - 3,5 pts):** Los 6 KPIs contienen valores numéricos reales, unidades de medida normalizadas y cita exacta de la página de la memoria.
+* **Comprensión de los estándares (25% - 2,5 pts):** Explicación clara de para qué sirve cada estándar identificado en el informe (GRI vs ISO vs SASB).
+* **Análisis de aseguramiento y CSRD (20% - 2,0 pts):** Localización de la carta del auditor externo y verificación de la doble materialidad.
+* **Capacidad crítica y veredicto (20% - 2,0 pts):** Conclusiones argumentadas diferenciando logros reales de posibles indicios de greenwashing corporativo.

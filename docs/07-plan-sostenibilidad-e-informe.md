@@ -1,224 +1,253 @@
-# 07 · Plan de sostenibilidad e informe de sostenibilidad
+---
+icon: lucide/clipboard-check
+title: "07 · Plan de sostenibilidad e informe de rendición de cuentas"
+description: "Diseño de un plan estratégico corporativo de sostenibilidad para organizaciones TIC, matriz de doble materialidad, acciones SMART, KPIs y elaboración del informe no financiero CSRD/GRI."
+modulo: "Sostenibilidad (1708)"
+unidad: 7
+---
 
-**Resultado de aprendizaje que cubre:** RA6 (criterios a–e) · refuerza RA1–RA5
+# 07 · Plan de sostenibilidad e informe de rendición de cuentas
 
-> **Objetivo didáctico:** analizar un plan de sostenibilidad de una empresa del sector,
-> identificando grupos de interés, aspectos ASG materiales y justificando acciones para su
-> gestión y medición; elaborar un informe de sostenibilidad con el plan y los indicadores.
+<span class="badge badge-ra">RA6 (a–e) · Proyecto Integrador</span>
+<span class="badge badge-tic">Plan Estratégico ASG</span>
+<span class="badge badge-kpi">KPIs SMART</span>
+<span class="badge badge-e">Memoria CSRD / GRI</span>
+
+**Resultado de aprendizaje que cubre:** ==RA6 (criterios a–e)== · Refuerzo integrador de RA1–RA5.
+
+!!! info "Objetivo didáctico y contextualización profesional"
+    Analizar y diseñar un **plan de sostenibilidad corporativo** para una organización del sector tecnológico (desarrollo de software, infraestructura cloud o provisión de hardware). Aprender a identificar los grupos de interés prioritarios, seleccionar los aspectos ASG de mayor materialidad, estructurar metas operativas SMART, cuantificar el avance mediante métricas de estándares reconocidos (GRI, CSRD/ESRS, ISO) y redactar el **informe de sostenibilidad** con transparencia, rigor y trazabilidad frente a objeciones del consejo directivo o auditores externos.
+
+<div class="stat-grid">
+  <div class="stat-card">
+    <div class="stat-number">5 Fases</div>
+    <div class="stat-label">Del diagnóstico a la rendición auditada</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">SMART</div>
+    <div class="stat-label">Criterio metodológico para objetivos ASG</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">3 Alcances</div>
+    <div class="stat-label">Plan integral de descarbonización (GEI)</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">CSRD / ESRS</div>
+    <div class="stat-label">Marco vinculante de aseguramiento legal</div>
+  </div>
+</div>
 
 ---
 
-## 1. ¿Qué es un plan de sostenibilidad?
+## 1. Fundamentos y ciclo de vida del plan de sostenibilidad
 
-Un **plan de sostenibilidad** (también *estrategia* o *política* ASG) es el documento que:
+Un **Plan Estratégico de Sostenibilidad** (o Estrategia ASG/ESG) es el marco director que articula cómo una compañía tecnológica alinea su viabilidad financiera con la responsabilidad ambiental y social a corto, medio y largo plazo.
 
-1. Define la **visión y compromiso** de la organización con la sostenibilidad.
-2. Identifica los **aspectos materiales** (ASG prioritarios).
-3. Establece **objetivos e indicadores** medibles (KPIs) y metas a corto/medio/largo plazo.
-4. Asigna **acciones, responsables, recursos y plazos**.
-5. Define el mecanismo de **seguimiento, reporte y mejora continua**.
+Plan de sostenibilidad
+: Documento estratégico vinculante que diagnostica los impactos de la empresa, formaliza compromisos cuantitativos en materias ambientales, sociales y de gobernanza (ASG), asigna recursos presupuestarios y establece mecanismos auditables de medición y mejora continua.
 
-> Es la pieza central del Trimestre 3: el alumnado elabora un plan realista para una empresa TIC
-> concreta (ver [`09-casos-empresas-sector-informatico.md`](09-casos-empresas-sector-informatico.md)).
+Doble materialidad
+: Principio metodológico exigido por la directiva europea CSRD que obliga a evaluar tanto el impacto de las actividades empresariales en el planeta y la sociedad (*materialidad de impacto o temática*) como el impacto de las variables ambientales y sociales en las finanzas del negocio (*materialidad financiera*).
 
----
+KPI ESG (*Key Performance Indicator*)
+: Métrica cuantitativa estandarizada utilizada para evaluar el rendimiento no financiero de la entidad respecto a sus compromisos declarados y límites normativos.
 
-## 2. Paso a paso del plan (RA6.a–d)
-
-### 2.1 Identificar grupos de interés (RA6.a)
-
-Criterio RA6.a: *"identificar los principales grupos de interés de la empresa."*
-
-- Usar la matriz poder/interés (archivo 02 §2).
-- Para una empresa TIC típica, al menos: empleados, accionistas/inversores, clientes, proveedores,
-  comunidad local, reguladores, ONG, prensa.
-- Documentar qué espera cada uno (ver tabla de expectativas, §2.2).
-
-### 2.2 Aspectos ASG materiales y su relación con los objetivos (RA6.b)
-
-Criterio RA6.b: *"analizar los aspectos ASG materiales, las expectativas de los grupos de interés
-y la importancia de los aspectos ASG en relación con los objetivos empresariales."*
-
-| Stakeholder | Expectativa | Aspecto ASG material vinculado | Objetivo empresarial afectado |
-|-------------|-------------|-------------------------------|------------------------------|
-| Inversores | Retorno + gestión del riesgo climático | Emisiones GEI (Alcance 1-2-3) | Valoración, coste de capital. |
-| Clientes corporativos | Proveedores con compromiso ESG verificable | Huella de carbono del servicio, privacidad | Retención y nuevos contratos. |
-| Empleados | Misión con sentido, diversidad | Igualdad, condiciones, ética IA | Atracción/retención de talento. |
-| Regulador | Cumplimiento CSRD/RGPD/NIS2 | Transparencia, ciberseguridad | Evitar sanciones; licencia social. |
-| Comunidad local | Empleo e impacto local positivo | Energía/agua de instalaciones, inclusión digital | Reputación local; permisos. |
-
-> **Clave:** cada aspecto material debe poder responder a *"¿por qué es importante para el negocio?"*
-> (materialidad financiera) y *"¿qué impacto genera en personas/planeta?"* (materialidad temática).
-
-### 2.3 Definir acciones de mitigación y aprovechamiento (RA6.c)
-
-Criterio RA6.c: *"definir acciones encaminadas a minimizar los impactos negativos y aprovechar
-las oportunidades que plantean los principales aspectos ASG."*
-
-Plantilla por aspecto material:
-
-| Aspecto material | Acción de mitigación (impacto negativo) | Acción de aprovechamiento (oportunidad) | Meta cuantitativa |
-|------------------|----------------------------------------|----------------------------------------|-------------------|
-| Emisiones GEI | Comprometer energía 100 % renovable en data centers. | Vender servicios "carbon neutral" como diferenciador. | −50 % GEI alcance 1-2 vs 2020 para 2030. |
-| Residuos electrónicos | Programa de recogida + reciclaje certificado. | Línea de reacondicionado con ingresos. | 90 % RAEE fuera de vertedero en 2027. |
-| Privacidad/IA | Auditorías de sesgo y transparencia; RGPD by design. | Producto "IA confiable" premium. | 100 % modelos críticos auditados en 2026. |
-| Igualdad | Plan de paridad en puestos técnicos. | Marca empleadora con propósito. | 40 % mujeres en roles técnicos en 2030. |
-
-### 2.4 Determinar métricas e indicadores (RA6.d)
-
-Criterio RA6.d: *"determinar las métricas de evaluación del desempeño de acuerdo con los
-estándares de sostenibilidad más ampliamente utilizados."*
-
-- Seleccionar KPIs según archivo 03 §2 (PUE, WUE, tCO₂e por alcance, % renovables, kg RAEE,
-  % reciclado, % mujeres técnicas, nº incidentes de privacidad, % proveedores auditados).
-- Alinear cada KPI con un estándar (GRI, ISO 14064, CDP) para dar rigor.
-- Definir **línea base**, **meta** y **periodicidad** (trimestral/anual) y **responsable**.
-
-Ejemplo de tabla de indicadores:
-
-| KPI | Estándar | Línea base | Meta 2030 | Frecuencia | Responsable |
-|-----|----------|-----------|-----------|------------|-------------|
-| Emisiones Alcance 1-2 (tCO₂e) | ISO 14064 / GHG | X | −50 % vs 2020 | Anual | Dirección ESG |
-| PUE medio data centers | Green Grid / GRI 305 | 1,5 | ≤ 1,2 | Trimestral | Infraestructuras |
-| % energía renovable | GRI 305 / CDP | 60 % | 100 % | Anual | Compras |
-| kg RAEE reciclados | GRI 306 / RAEE | — | +30 %/año | Anual | Operaciones |
-
----
-
-## 3. Estructura del informe de sostenibilidad (RA6.e)
-
-Criterio RA6.e: *"elaborar un informe de sostenibilidad con el plan y los indicadores propuestos."*
-
-### 3.1 Estructura recomendada (lógica GRI / ESRS-CSRD)
-
-```
-1. Carta de la dirección (compromiso, visión).
-2. Quiénes somos (modelo de negocio, sector, magnitudes).
-3. Materialidad (método + mapa de aspectos materiales + stakeholders).
-4. Estrategia y plan de sostenibilidad (objetivos, acciones, metas).
-5. Desempeño ASG con indicadores:
-   5.1 Ambiental (GEI por alcance, energía, agua, residuos, materiales).
-   5.2 Social (empleo, diversidad, privacidad/IA, cadena de suministro).
-   5.3 Gobernanza (comité, ética, cumplimiento, retribución ESG).
-6. Avance y brechas (qué se ha logrado, qué falta).
-7. Metas futuras y visión de largo plazo (2030/2050).
-8. Aseguramiento / limitaciones (si aplica) y glosario.
+```mermaid
+flowchart TD
+    subgraph F1 ["Fase 1: Diagnóstico"]
+        A["Mapeo de Stakeholders<br/>(Matriz Poder/Interés)"] --> B["Identificación de Aspectos ASG"]
+    end
+    subgraph F2 ["Fase 2: Materialidad"]
+        B --> C["Matriz de Doble Materialidad<br/>(Impacto + Financiera)"]
+    end
+    subgraph F3 ["Fase 3: Estrategia"]
+        C --> D["Definición de Objetivos SMART"]
+        D --> E["Planes de Acción<br/>(Mitigación y Oportunidad)"]
+    end
+    subgraph F4 ["Fase 4: Medición"]
+        E --> F["Métricas e Indicadores ESG<br/>(GRI, ISO 14064, PUE/WUE)"]
+    end
+    subgraph F5 ["Fase 5: Rendición"]
+        F --> G["Informe de Sostenibilidad<br/>(CSRD / ESRS o GRI)"]
+        G --> H["Auditoría y Aseguramiento"]
+    end
 ```
 
-### 3.2 Consejos de calidad para el informe del alumnado
-
-- **Cuantificar** siempre que sea posible (KPIs con línea base y meta).
-- **Ser honesto** con las brechas (un informe que solo cuenta lo bueno no es creíble).
-- **Vincular cada aspecto a un ODS** (ODS 7, 9, 12, 13…).
-- **Citar fuentes** (informes ASG reales de la empresa, estándares GRI/ISO).
-- **Diseño claro:** tablas, gráficas de tendencia, mapa de materialidad.
-
-### 3.3 Ejemplo de redacción (fragmento tipo)
-
-> *"En 2024 nuestro PUE medio fue 1,4 frente a 1,5 en 2023, gracias a la implantación de
-> free cooling en dos data centers (ODS 7, 9). Para 2030 nos comprometemos con PUE ≤ 1,2 y
-> energía 100 % renovable. El seguimiento es trimestral bajo el estándar GRI 305 y la
-> responsabilidad recae en Infraestructuras."*
+!!! tip "La regla de oro del informe técnico"
+    La sostenibilidad no es un departamento de márqueting: es una disciplina de **gestión de riesgos y optimización operativa**. Todo objetivo que no tenga asignado un presupuesto, un responsable directo, una línea base verificable y una métrica de estándar reconocido es una declaración vacía vulnerable a acusaciones de *greenwashing*.
 
 ---
 
-## 4. Del plan al role-play (presentación T3)
+## 2. Metodología paso a paso del plan (RA6.a–d)
 
-La presentación final simula una defensa ante:
+### 2.1 Identificar y mapear grupos de interés (RA6.a)
 
-- **Consejo de dirección** (¿es viable económicamente?).
-- **Inversores** (¿mejora el riesgo/retorno ESG?).
-- **Stakeholders externos** (¿responde a sus expectativas?).
+El criterio ==RA6.a== exige identificar rigurosamente los principales grupos de interés de la empresa. En el ecosistema tecnológico, los stakeholders clave y sus expectativas típicas se articulan en torno a la matriz de Mendelow (Poder vs. Interés):
 
-El grupo debe preparar respuestas a preguntas-tipo: coste, viabilidad, impacto medible,
-aceptación social, cumplimiento normativo. Ver rúbrica en
-[`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md).
-
----
-
-## 5. Síntesis (ficha resumen)
-
-```
-PLAN DE SOSTENIBILIDAD = visión + aspectos materiales + objetivos/KPIs + acciones + seguimiento.
-
-PASOS: (a) stakeholders → (b) ASG materiales y su peso en el negocio → (c) acciones de
-   mitigación y aprovechamiento con metas → (d) KPIs alineados a GRI/ISO/CDP → (e) informe.
-
-INFORME (lógica GRI/ESRS): carta dirección, modelo negocio, materialidad, estrategia,
-   desempeño E/S/G con KPIs, brechas, metas 2030/2050, aseguramiento.
-
-REGLAS DE ORO: cuantificar, ser honesto con brechas, vincular a ODS, citar fuentes, diseño claro.
+```mermaid
+flowchart LR
+    subgraph AltaInfluencia ["Alta Influencia / Poder"]
+        G1["Inversores y Fondos ESG<br/>(Riesgo financiero, ROI, CSRD)"]
+        G2["Reguladores Públicos<br/>(AEPD, CNMC, Directiva RAEE)"]
+        G3["Clientes Corporativos B2B<br/>(Huella Scope 3, SLAs, RGPD)"]
+    end
+    subgraph MediaInfluencia ["Interés Elevado / Influencia Colectiva"]
+        G4["Desarrolladores y Empleados<br/>(Conciliación, Ética IA, Salarios)"]
+        G5["Comunidades de Código Abierto<br/>(Licenciamiento, Green Software)"]
+        G6["Comunidades Locales y ONGs<br/>(Consumo hídrico de Data Centers)"]
+    end
 ```
 
+### 2.2 Aspectos ASG materiales y doble materialidad (RA6.b)
+
+El criterio ==RA6.b== demanda analizar los aspectos ASG materiales en relación con la estrategia de negocio. Cada tema seleccionado debe justificarse en ambas dimensiones de la doble materialidad:
+
+| Stakeholder prioritario | Expectativa operativa | Aspecto ASG material | Materialidad de impacto (Planeta/Sociedad) | Materialidad financiera (Riesgo/Negocio) |
+|---|---|---|---|---|
+| **Inversores institucionales** | Descarbonización verificable y mitigación de multas climáticas. | **Emisiones GEI (Alcances 1, 2 y 3)** | Calentamiento global, huella energética de clusters GPU/CPU. | Coste del impuesto al carbono, valoración en bolsa, coste de capital crediticio. |
+| **Clientes corporativos (B2B)** | Cumplimiento estricto de RGPD, NIS2 y directivas de privacidad. | **Ciberseguridad y Privacidad de Datos** | Vulneración de derechos fundamentales, exposición de datos sensibles. | Litigios millonarios, rescisión de contratos marco, daño reputacional severo. |
+| **Desarrolladores y técnicos** | Transparencia algorítmica y conciliación laboral. | **Ética en IA y Atracción de Talento** | Sesgos algorítmicos discriminatorios, impacto social de la automatización. | Fuga de ingenieros clave, rechazo comercial de productos con sesgo. |
+| **Reguladores (UE / MITECO)** | Gestión responsable de fin de vida de hardware. | **Economía Circular y RAEE** | Contaminación por metales pesados en vertederos, escasez de tierras raras. | Sanciones por infracción de Ley 7/2022 y costes de gestión de residuos. |
+| **Comunidades locales** | Sostenibilidad de los recursos hídricos compartidos. | **Huella Hídrica de Centros de Datos** | Agotamiento de acuíferos locales por torres de refrigeración evaporativa. | Denegación de licencias de obra o permisos de ampliación municipal. |
+
 ---
 
-## 6. Cuestionario de autoevaluación (RA6)
+### 2.3 Formulación de acciones con objetivos SMART (RA6.c)
 
-1. Dibuja el mapa de stakeholders de una empresa cloud y coloca 8 grupos en la matriz poder/interés.
-2. Elige tres aspectos ASG materiales y justifica su importancia para el negocio (materialidad financiera).
-3. Propón, por cada aspecto, una acción de mitigación y una de aprovechamiento con meta cuantitativa.
-4. Selecciona cuatro KPIs, alinéales a un estándar y define línea base, meta y frecuencia.
-5. Estructura el índice de tu informe de sostenibilidad (mínimo 8 secciones).
-6. Redacta un párrafo tipo que cuantifique un avance con su ODS, KPI, estándar y responsable.
+El criterio ==RA6.c== exige diseñar acciones concretas tanto para **mitigar impactos adversos** como para **aprovechar oportunidades de negocio verde**:
 
-> Soluciones orientativas en [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md).
+=== "Dimensión Ambiental (E)"
+    - **Acción de Mitigación:** Migración de cargas de computación a regiones cloud alimentadas al 100 % por energía renovable certificada (PPA) e implantación de refrigeración líquida directa (*Direct-to-Chip*).
+        - *Meta SMART:* Reducir el PUE promedio de las instalaciones de 1,52 a $\le 1,18$ para diciembre de 2026.
+    - **Acción de Oportunidad:** Lanzamiento de una plataforma SaaS con monitorización en tiempo real de emisiones de Alcance 3 para clientes corporativos.
+        - *Meta SMART:* Captar 40 clientes corporativos en el primer año fiscal, generando una nueva línea de ingresos recurrente.
+
+=== "Dimensión Social (S)"
+    - **Acción de Mitigación:** Auditoría continua de sesgos algorítmicos en modelos de aprendizaje automático y establecimiento de un comité ético multidisciplinar.
+        - *Meta SMART:* 100 % de los pipelines de IA en producción auditados bajo el marco ético de la *EU AI Act* antes de Q3 2025.
+    - **Acción de Oportunidad:** Creación de programas de mentoría técnica para fomentar la diversidad de género en puestos de arquitectura de software y DevOps.
+        - *Meta SMART:* Incrementar la representación de mujeres en puestos técnicos sénior del 18 % al 35 % para 2028.
+
+=== "Dimensión Gobernanza (G)"
+    - **Acción de Mitigación:** Homologación obligatoria de proveedores de hardware y servicios cloud bajo criterios de debida diligencia de derechos humanos y minerales de conflicto (Directiva CSDDD).
+        - *Meta SMART:* Exigir y verificar la certificación ISO 14001 o EcoVadis Gold al 90 % de los proveedores críticos para 2026.
+    - **Acción de Oportunidad:** Vinculación del 20 % de la retribución variable del equipo directivo a la consecución de objetivos de reducción de huella de carbono.
+        - *Meta SMART:* Aprobación en junta general de accionistas de la política de bonus ESG para el próximo ejercicio.
 
 ---
 
-## 7. Actividad de cierre · «Extracto ejecutivo y defensa ante el consejo» (tríos · RA6)
+### 2.4 Matriz de indicadores y cuadro de mando ESG (RA6.d)
 
-| | |
+El criterio ==RA6.d== exige asociar cada acción estratégica con un indicador de desempeño alineado a marcos reconocidos:
+
+| Dimensión | Indicador (KPI) | Estándar de reporte | Línea base (Año 0) | Meta (Año 3 / 2030) | Frecuencia | Responsable operativo |
+|---|---|---|---|---|---|---|
+| **E** | Emisiones totales Alcance 1 y 2 ($tCO_2e$) | GHG Protocol / ISO 14064 | $4.200\text{ }tCO_2e$ | $-60\text{ }\%$ ($1.680\text{ }t$) | Trimestral | Responsable de Infraestructura |
+| **E** | PUE medio de centros de datos propios | Green Grid / GRI 302-1 | 1,48 | $\le 1,18$ | Mensual | Arquitecto de Sistemas Cloud |
+| **E** | Tasa de reutilización y reciclaje de RAEE (%) | GRI 306-4 / RD 110/2015 | 42 % | $\ge 95\text{ }\%$ | Anual | Gestor de Activos IT |
+| **S** | Porcentaje de mujeres en puestos técnicos (%) | GRI 405-1 / ESRS S1-9 | 16 % | $\ge 35\text{ }\%$ | Semestral | Dirección de Personas (HR) |
+| **S** | Brecha salarial de género ajustada (%) | ESRS S1-16 | 11,4 % | $< 3\text{ }\%$ | Anual | Dirección Financiera |
+| **G** | Empleados formados en ciberseguridad y RGPD (%) | GRI 418 / NIS2 | 58 % | 100 % certificado | Trimestral | CISO (Seguridad de la Información) |
+| **G** | Proveedores de hardware auditados en ESG (%) | GRI 308 / GRI 414 | 20 % | $\ge 85\text{ }\%$ | Anual | Dirección de Compras |
+
+---
+
+## 3. Estructura y redacción del informe de sostenibilidad (RA6.e)
+
+El informe de sostenibilidad es el vehículo formal de rendición de cuentas ante la sociedad, los inversores y las autoridades regulatorias.
+
+=== "Estructura según Directiva CSRD (ESRS)"
+    1. **Declaración estratégica:** Carta del Director General (CEO) avalando el compromiso corporativo.
+    2. **Perfil corporativo y modelo de negocio:** Cadena de valor tecnológica, mercados y filiales.
+    3. **Gobernanza de la sostenibilidad:** Composición del consejo, supervisión de riesgos climáticos y políticas retributivas ligadas a ESG.
+    4. **Evaluación de Doble Materialidad:** Metodología empleada, matriz de impacto y matriz financiera.
+    5. **Desempeño ESRS E1-E5 (Medio Ambiente):** Inventario de gases de efecto invernadero (Alcances 1, 2 y 3), PUE, gestión de agua, residuos electrónicos.
+    6. **Desempeño ESRS S1-S4 (Personas):** Derechos de los trabajadores propios, diversidad, formación y comunidades impactadas.
+    7. **Desempeño ESRS G1 (Gobernanza):** Código de conducta ética, prevención de la corrupción y ciberseguridad.
+    8. **Dictamen de aseguramiento independiente:** Informe emitido por un auditor externo acreditado.
+
+=== "Estructura según GRI Standards 2021"
+    1. **Contenidos Generales (GRI 2):** Estructura organizativa, prácticas de gobierno, vinculación con stakeholders y debida diligencia.
+    2. **Temas Materiales (GRI 3):** Proceso de determinación de materialidad y desglose de impactos significativos.
+    3. **Estándares Temáticos Ambientales:** GRI 302 (Energía), GRI 303 (Agua), GRI 305 (Emisiones), GRI 306 (Residuos).
+    4. **Estándares Temáticos Sociales:** GRI 403 (Salud y seguridad), GRI 405 (Diversidad e igualdad de oportunidades), GRI 418 (Privacidad del cliente).
+    5. **Índice de contenidos GRI:** Tabla de correspondencias con números de página, estado de verificación y omisiones justificadas.
+
+---
+
+## 4. El protocolo Anti-Greenwashing en tecnología
+
+Con la aprobación de la directiva europea sobre declaraciones ecológicas (*Green Claims Directive*), toda afirmación ambiental en el sector TIC debe cumplir con estándares estrictos de veracidad y comprobación:
+
+!!! warning "Checklist de verificación anti-greenwashing"
+    - [ ] **Prohibición de afirmaciones vagas:** Expresiones como *"Cloud 100% verde"* o *"Software eco-friendly"* son ilegales si no van acompañadas de la metodología exacta y del estándar empleado.
+    - [ ] **Límites a la compensación de carbono:** No se puede publicitar un servicio como *"climáticamente neutro"* basándose únicamente en la compra de créditos de reforestación dudosos; la reducción de emisiones directas debe ser prioritaria.
+    - [ ] **Alcance completo:** Si una empresa publicita neutralidad pero oculta las emisiones de sus centros de datos subcontratados (Alcance 3), comete publicidad engañosa por omisión de datos materiales.
+    - [ ] **Acceso público a los datos primarios:** Los factores de emisión y las fórmulas de cálculo deben estar documentados en un informe público accesible.
+
+---
+
+## 5. Ficha resumen de la unidad
+
+```
++----------------------------------------------------------------------------------+
+|                     PLAN ESTRATÉGICO DE SOSTENIBILIDAD (RA6)                     |
++----------------------------------------------------------------------------------+
+| 1. DIAGNÓSTICO: Mapeo de grupos de interés (Matriz Poder/Interés).               |
+| 2. DOBLE MATERIALIDAD:                                                           |
+|    - Impacto (Inside-Out): Impacto de los servidores/código en el planeta.       |
+|    - Financiera (Outside-In): Riesgos climáticos y regulatorios sobre el negocio.|
+| 3. ACCIONES SMART: Mitigación de riesgos + Aprovechamiento de oportunidades.     |
+| 4. CUADRO DE MANDO: KPIs con línea base, meta numérica, plazo y estándar.        |
+| 5. INFORME ANUAL: Estructura estandarizada (CSRD/ESRS o GRI) + Auditoría externa.|
++----------------------------------------------------------------------------------+
+```
+
+---
+
+## 6. Autoevaluación interactiva (RA6)
+
+??? question "Pregunta 1: ¿Por qué la doble materialidad es obligatoria bajo la CSRD?"
+    **Respuesta:** Porque los inversores y la sociedad civil necesitan conocer no solo el impacto económico que el cambio climático y las regulaciones tienen sobre los activos de la empresa (*materialidad financiera*), sino también cómo los procesos productivos, la huella energética y los algoritmos de la empresa impactan en los derechos humanos y el medio ambiente (*materialidad de impacto*).
+
+??? question "Pregunta 2: ¿Qué diferencia una acción de mitigación de una de aprovechamiento en una empresa TIC?"
+    **Respuesta:** La **acción de mitigación** busca reducir o neutralizar un daño o riesgo preexistente (por ejemplo, reducir el consumo eléctrico de los racks de servidores implementando *free cooling*), mientras que la **acción de aprovechamiento** convierte la sostenibilidad en una ventaja competitiva o nueva vía de ingresos (por ejemplo, vender servicios de auditoría de *software verde* o comercializar un ERP con módulo de huella de carbono).
+
+??? question "Pregunta 3: ¿Qué datos mínimos debe contener la ficha de un indicador ESG para ser auditable?"
+    **Respuesta:** Debe contener: (1) Nombre descriptivo del KPI y unidad de medida; (2) Estándar internacional de cálculo (ej. ISO 14064, GRI 305); (3) Línea base histórica con fecha; (4) Meta cuantitativa a alcanzar y año límite; (5) Frecuencia de medición y monitorización; (6) Responsable del dato dentro de la empresa.
+
+---
+
+## 7. Actividad práctica de aula: «Defensa ejecutiva ante el consejo de administración»
+
+| Parámetro | Especificación didáctica |
 |---|---|
-| **Modalidad** | Grupos de **3 alumnos** (máx. 3; también en parejas). |
-| **Duración** | Investigación previa + 1 sesión de elaboración (50 min) + 1 sesión de defensas (10 min por grupo). |
-| **Cubre** | RA6 (criterios a–e) · refuerza RA1–RA5. |
-| **Entregable** | Mini-plan de 2–3 páginas + defensa en role-play de 7 min con preguntas. |
+| **Modalidad** | Equipos de **3 alumnos** (roles: Director/a de Sostenibilidad, CTO y CFO). |
+| **Duración** | 1 sesión de trabajo en equipo (50 min) + 1 sesión de simulación de defensas (10 min por equipo). |
+| **Resultado cubierto** | ==RA6== (criterios a–e) · Integración práctica con RA1–RA5. |
+| **Entregables** | Mini-informe ejecutivo (3 páginas) + Presentación de diapositivas (máximo 4 láminas). |
 
-> **Objetivo:** ejecutar por primera vez el flujo completo del plan (stakeholders →
-> materialidad → acciones con meta → KPIs con estándar → informe) en formato breve, y
-> defenderlo ante un "consejo de dirección". Es el **ensayo general del Trimestre 3**.
+### Consigna y dinámica de role-play
 
-### Consigna
+1. **Selección del caso:** El equipo elige una compañía tecnológica del [banco de casos](09-casos-empresas-sector-informatico.md) (ej. Microsoft, HP, Indra o una startup de IA).
+2. **Construcción del plan:**
+    - Elaborar la matriz con 8 stakeholders priorizados.
+    - Seleccionar 3 temas materiales justificados bajo doble materialidad.
+    - Proponer 4 acciones SMART (2 ambientales, 1 social, 1 gobernanza) con sus respectivos KPIs alineados a estándares.
+3. **Simulación de la junta directiva:**
+    - Cada equipo dispone de **7 minutos** para presentar su propuesta al consejo (formado por el docente y compañeros de clase que asumirán el papel de accionistas exigentes).
+    - Los evaluadores plantearán 3 objeciones clave:
+        1. *¿Cuál es el retorno de inversión (ROI) estimado de esta medida ambiental?*
+        2. *¿Cómo garantizamos que este dato no sea considerado greenwashing por los auditores?*
+        3. *¿Qué impacto operativo tendrá la medida en el rendimiento de los sistemas en producción?*
+    - El equipo dispone de **3 minutos** para defender con rigor técnico sus decisiones.
 
-> *"Para una empresa TIC del [banco de casos](09-casos-empresas-sector-informatico.md),
-> elaborad un **mini-plan de sostenibilidad de 2–3 páginas** con: **(a)** mapa de ≥8
-> stakeholders priorizados; **(b)** **3 aspectos ASG materiales** con doble materialidad (¿por
-> qué importan al negocio? ¿qué impacto generan?); **(c)** **4 acciones** de mitigación y
-> aprovechamiento con **meta cuantitativa**; **(d)** tabla de **4 KPIs** con estándar, línea
-> base, meta, frecuencia y responsable. Después, **defendedlo en role-play de 7 min ante el
-> consejo** (asignad roles: dirección, inversores y stakeholders externos) + 3 min de
-> preguntas del grupo."*
+### Rúbrica de evaluación de la actividad
 
-### Pasos
-
-1. **Elegir la empresa** y recuperar el trabajo de las unidades 01–06 (stakeholders, ASG, ODS, métricas).
-2. **Completar el bloque (a)** con la matriz poder/interés y el **(b)** con la doble materialidad (§2.2).
-3. **Definir las 4 acciones** con meta cuantitativa (§2.3) y los **4 KPIs** con estándar, línea base, meta, frecuencia y responsable (§2.4).
-4. **Redactar** el extracto con estructura de informe (§3.1) en 2–3 páginas.
-5. **Preparar la defensa:** máx. 4 slides, roles del consejo y respuestas a 3 preguntas-tipo (coste, viabilidad, impacto/aceptación, §4).
-
-### Entregables
-
-- [ ] Mini-plan de 2–3 páginas (stakeholders, materialidad, acciones, tabla de KPIs).
-- [ ] Slides de defensa (máximo 4).
-- [ ] 1 página de respuestas preparadas a las 3 preguntas-tipo del consejo.
-
-### Presentación al grupo (7 min + 3 min de preguntas)
-
-- Defensa en role-play con roles asignados dentro del grupo.
-- Preguntas del "consejo" (profesorado y resto de grupos).
-- Resumen de mejoras tras las preguntas.
-
-### Criterios de valoración (sobre 10)
-
-| Criterio | Qué se valora | % |
-|----------|---------------|---|
-| Stakeholders y materialidad | ≥8 stakeholders; 3 aspectos con doble materialidad argumentada. | 25 |
-| Acciones con meta | ≥4 acciones con meta cuantitativa y viabilidad razonable. | 25 |
-| KPIs con estándar | 4 KPIs con estándar, línea base, meta, frecuencia y responsable. | 20 |
-| Defensa y respuestas | Role-play claro, respuestas sólidas a las preguntas-tipo. | 20 |
-| Estructura y fuentes | Mini-plan ordenado, estilo informe, fuentes citadas. | 10 |
-
-> **Conexión con los trabajos:** es el **ensayo general del Trimestre 3** (ver
-> [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md) §4),
-> que amplía este extracto a un plan e informe de sostenibilidad completos con la rúbrica T3.
+| Criterio evaluado | Nivel 1: Insuficiente (<5) | Nivel 2: Suficiente (5–6,9) | Nivel 3: Notable (7–8,9) | Nivel 4: Excelente (9–10) | Ponderación |
+|---|---|---|---|---|---|
+| **Stakeholders y materialidad** | Mapeo incompleto (<5) y justificación superficial. | 6–7 stakeholders; materialidad descrita sin distinguir dimensiones. | $\ge 8$ stakeholders; doble materialidad bien diferenciada. | Mapa exhaustivo; análisis cuantitativo de riesgos financieros y de impacto. | 25 % |
+| **Acciones y objetivos SMART** | Medidas abstractas sin metas concretas ni fechas. | Acciones descritas pero con metas cualitativas o poco viables. | 4 acciones estructuradas con metas numéricas y plazos definidos. | Acciones innovadoras en TIC, perfectamente balanceadas (E/S/G) y costeables. | 25 % |
+| **Cuadro de mando y KPIs** | KPIs inventados sin unidades ni estándares formales. | Indicadores con unidad pero sin estándar de reporte claro. | KPIs alineados a GRI/ISO con línea base y meta definidas. | Cuadro de mando profesional con responsables asignados y fuentes trazables. | 20 % |
+| **Defensa técnica y solvencia** | Respuestas evasivas o sin respaldo en datos técnicos. | Responde con dudas a las objeciones del consejo directivo. | Defensa clara y articulada frente a preguntas financieras y técnicas. | Argumentación brillante, solvencia ante el tribunal y roles bien coordinados. | 20 % |
+| **Calidad formal del informe** | Documento descuidado con erratas o formato inadecuado. | Formato aceptable pero con carencias de estilo ejecutivo. | Informe limpio, estructurado y con redacción profesional. | Acabado corporativo impecable, diseño sobrio, tablas y diagramas claros. | 10 % |
