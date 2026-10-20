@@ -23,6 +23,7 @@ nav = [
   { "08 · Prácticas y trabajos del sector informático" = "08-practicas-y-trabajos-sector-informatico.md" },
   { "09 · Casos de empresas del sector informático" = "09-casos-empresas-sector-informatico.md" },
   { "10 · Glosario, recursos y bibliografía" = "10-glosario-recursos-bibliografia.md" },
+  { "11 · Material complementario" = "11-material-complementario.md" },
 ]
 
 extra_css = ["stylesheets/extra.css"]

@@ -58,6 +58,9 @@ flowchart LR
 * **Intensidad de carbono embebida:** Hasta el **75-80% de la huella de carbono de un portátil o smartphone** se genera antes de que el usuario lo encienda por primera vez (durante la minería, refinado y fabricación de obleas de silicio en sala blanca).
 * **Obsolescencia acelerada artificial:** Retirada de soporte de software, pegado irreversible de componentes con resina y falta de esquemas técnicos que fuerzan la sustitución de hardware funcional cada 2 o 3 años.
 
+!!! tip "Recurso audiovisual y debate ético en el aula: «Comprar, tirar, comprar»"
+    Para analizar en profundidad la historia secreta de la obsolescencia programada (desde el cártel de bombillas Phoebus hasta los chips contadores en impresoras) y debatir sobre la **ética del desarrollador de software y el derecho a reparar**, consulta la unidad de [**11 · Material complementario: Debate audiovisual**](11-material-complementario.md).
+
 ---
 
 ## 2. Los principios de la Economía Circular y el marco de las 9R

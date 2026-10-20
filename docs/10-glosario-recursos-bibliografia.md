@@ -144,6 +144,9 @@ Taxonomía UE (*EU Taxonomy Regulation*)
     - **iFixit Repairability Scores ([es.ifixit.com](https://es.ifixit.com)):** Evaluaciones técnicas y desmontajes independientes de ordenadores, tablets y smartphones para medir su índice real de reparabilidad.
     - **OfiRaee (España) ([ofiraee.es](https://www.ofiraee.es)):** Plataforma de coordinación de los SCRAPs en España con estadísticas y normativa de entrega de residuos electrónicos.
 
+=== "Documentales y Debate Audiovisual"
+    - **«Comprar, tirar, comprar» (The Light Bulb Conspiracy - RTVE / Arte):** Documental imprescindible sobre la obsolescencia programada, el cártel Phoebus, vertederos de RAEE en Ghana y alternativas de diseño circular. Incluye batería de debate y guía didáctica para desarrolladores de software en [11 · Material complementario](11-material-complementario.md).
+
 ---
 
 ## 3. Marco normativo y bibliografía jurídica

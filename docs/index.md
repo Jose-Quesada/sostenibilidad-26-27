@@ -69,6 +69,7 @@ flowchart TD
         P["08. Prácticas, Proyectos y Rúbricas"]
         C["09. Banco de Casos de Empresas TIC"]
         G["10. Glosario, Normativa y Solucionario"]
+        M["11. Material Complementario (Debate y Cine)"]
     end
     B1 -.-> Recursos
     B2 -.-> Recursos
@@ -102,6 +103,7 @@ flowchart TD
     - [`08-practicas-y-trabajos-sector-informatico.md`](08-practicas-y-trabajos-sector-informatico.md): Catálogo de 10 prácticas individuales (P1–P10), rúbricas de evaluación y trazabilidad curricular.
     - [`09-casos-empresas-sector-informatico.md`](09-casos-empresas-sector-informatico.md): Fichas de análisis corporativo de HP, Microsoft, Google, Dell, Indra/Minsait, AWS y Telefónica con datos de referencia y plantilla descargable.
     - [`10-glosario-recursos-bibliografia.md`](10-glosario-recursos-bibliografia.md): Glosario técnico bilingüe, herramientas web, legislación aplicable (BOE/DOUE) y solucionario interactivo para autoevaluación.
+    - [`11-material-complementario.md`](11-material-complementario.md): **Material complementario**: Propuesta de debate para DAW/DAM a partir del documental *«Comprar, tirar, comprar»* (ética del programador, obsolescencia por software y Cradle to Cradle).
 
 ---
 
