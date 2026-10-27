@@ -81,7 +81,167 @@ Para facilitar el seguimiento o la preparación previa de los alumnos, se destac
 
 ---
 
-## 3. Batería de cuestiones para el debate en clase
+## 3. Cuestionario preparatorio para el debate: Preguntas de investigación y trabajo
+
+Este apartado reúne todas las cuestiones clave del debate estructuradas como una **guía de trabajo y reflexión previa para el alumnado**. Su objetivo es que los estudiantes dispongan de un espacio unificado para leer las preguntas con calma, indagar en fuentes y materiales de apoyo (documental, prensa tecnológica, directivas europeas y estándares de la industria) y redactar sus argumentos antes de la puesta en común en el aula.
+
+!!! info "Instrucciones de trabajo para el estudiante"
+    * **Objetivo:** Preparar de manera individual o por parejas los argumentos técnicos, éticos y ambientales que se defenderán en el debate posterior.
+    * **Metodología de preparación:**
+        1. Consulta las marcas temporales del documental indicadas en la **línea de tiempo del punto 2**.
+        2. Apóyate en los recursos y enlaces complementarios del **punto 6** (Green Software Foundation, Right to Repair, iFixit).
+        3. Anota tus respuestas, datos empíricos y fuentes en los espacios habilitados en cada una de las cuestiones.
+
+---
+
+### Bloque 1: Ética profesional y el dilema del desarrollador
+
+#### Pregunta 1.1 · El papel del programador: ¿Quién programa la obsolescencia?
+> **Contexto y cuestión:**  
+> En el documental se aprecia cómo la avería de la impresora de Marcos no fue un accidente mecánico, sino la ejecución de un algoritmo contador en un chip EEPROM programado expresamente para bloquear el aparato tras un número prefijado de impresiones ([25:43](https://www.youtube.com/watch?v=fzwT1GGY0Ds&t=1543)). Ese código fue diseñado y escrito por un equipo de desarrolladores de software.
+> 
+> * Como futuro programador/a en una empresa o consultora tecnológica, ¿qué dilema ético te plantearía si tu responsable de producto o cliente te ordena implementar una limitación artificial, una ralentización intencionada o un *kill switch* en una app para obligar a los usuarios a pagar por una suscripción superior o sustituir su dispositivo?
+> * ¿Dónde termina el deber de obediencia laboral a la empresa y dónde comienza tu responsabilidad deontológica y social como profesional de la informática?
+
+???+ note "Espacio de respuesta y notas del estudiante — Pregunta 1.1"
+    * **Argumentación y postura personal:**  
+      
+    * **Casos reales conocidos en el sector TIC (ej. Dieselgate en automoción, ralentización de smartphones):**  
+      
+    * **Conexión con códigos deontológicos profesionales (ej. ACM, IEEE, CCII):**  
+      
+
+#### Pregunta 1.2 · El «hackeo» ético y el derecho a reparar
+> **Contexto y cuestión:**  
+> Para sortear el bloqueo de su impresora, Marcos utilizó un freeware ruso creado mediante ingeniería inversa para resetear el chip EEPROM ([43:04](https://www.youtube.com/watch?v=fzwT1GGY0Ds&t=2584)), devolviendo la máquina a la vida al margen del canal oficial del fabricante.
+> 
+> * ¿Consideras legítimo que usuarios particulares o talleres independientes recurran a la ingeniería inversa, firmwares libres o parches de terceros para eludir restricciones impuestas por el fabricante en aparatos que han adquirido legalmente?
+> * ¿Debería la legislación proteger y blindar el derecho del usuario a modificar el software interno de sus dispositivos (tractores, móviles, electrodomésticos) o debe prevalecer el derecho de propiedad intelectual y monopolio de reparación de la marca?
+
+???+ note "Espacio de respuesta y notas del estudiante — Pregunta 1.2"
+    * **Argumentación y postura personal:**  
+      
+    * **Iniciativas y leyes investigadas (ej. Directiva Europea Right to Repair, legislación de reparabilidad en EE. UU.):**  
+      
+    * **Conclusión para defender en el debate:**  
+      
+
+#### Pregunta 1.3 · La obsolescencia programada por software en la actualidad
+> **Contexto y cuestión:**  
+> Hoy en día, la mayor parte de la obsolescencia que sufrimos los usuarios ya no reside en el desgaste de las piezas físicas, sino en el abandono o degradación del software: aplicaciones bancarias que dejan de funcionar en móviles con 4 o 5 años, actualizaciones de sistema que saturan la memoria RAM o el cierre unilateral de servidores que deja inservibles bombillas inteligentes o consolas (*bricking*).
+> 
+> * ¿Qué ejemplos concretos de obsolescencia provocada por software conoces o has experimentado directamente en tu entorno cotidiano?
+> * ¿Dónde se sitúa la frontera legítima entre una actualización estrictamente necesaria por motivos de ciberseguridad y una decisión comercial deliberada para empujar al usuario a renovar su terminal?
+
+???+ note "Espacio de respuesta y notas del estudiante — Pregunta 1.3"
+    * **Ejemplos cotidianos documentados:**  
+      
+    * **Criterios técnicos para distinguir seguridad informática de estrategia de recambio:**  
+      
+    * **Propuestas de solución (ej. desacoplar parches de seguridad de versiones de sistema):**  
+      
+
+---
+
+### Bloque 2: Impacto ambiental y materialidad de lo digital
+
+#### Pregunta 2.1 · El peso del código: La huella material del software ineficiente
+> **Contexto y cuestión:**  
+> Existe la falsa creencia de que el software es una industria «limpia» e inmaterial porque opera en la nube. Sin embargo, en el documental se documenta cómo millones de toneladas de chatarra electrónica del mundo occidental acaban contaminando vertederos del Sur Global como Agbogbloshie en Ghana ([38:13](https://www.youtube.com/watch?v=fzwT1GGY0Ds&t=2293)).
+> 
+> * Si los desarrolladores web (DAW) y móviles (DAM) programamos aplicaciones pesadas, saturadas de dependencias superfluas (*bloatware*) o con algoritmos ineficientes que agotan la batería y saturan la memoria, ¿estamos acelerando de forma directa el desecho prematuro de dispositivos perfectamente funcionales?
+> * ¿Somos los profesionales del desarrollo de software corresponsables éticos de la basura electrónica que se acumula en los países en vías de desarrollo?
+
+???+ note "Espacio de respuesta y notas del estudiante — Pregunta 2.1"
+    * **Postura razonada sobre la corresponsabilidad del programador:**  
+      
+    * **Conceptos técnicos investigados (Green Coding, métricas SCI de la Green Software Foundation):**  
+      
+    * **Medidas concretas aplicables en frontend y backend para alargar la vida del hardware:**  
+      
+
+#### Pregunta 2.2 · El coste invisible: ¿Hardware desgastado o software desbordado?
+> **Contexto y cuestión:**  
+> En centros educativos, empresas y administraciones públicas es habitual reemplazar ordenadores de hace 6 u 8 años porque «se quedan colgados» o «no pueden con las aplicaciones modernas».
+> 
+> * Cuando un equipo informático de esa antigüedad se retira del servicio, ¿el motivo real es el deterioro físico de sus circuitos integrados de silicio o la exigencia desmedida y falta de optimización de los nuevos sistemas operativos, navegadores y frameworks?
+> * ¿Qué papel juegan el desprecio a la retrocompatibilidad y la cultura de la abundancia de recursos (asumir que todo usuario dispone de procesadores de última generación) en esta espiral de residuos?
+
+???+ note "Espacio de respuesta y notas del estudiante — Pregunta 2.2"
+    * **Diagnóstico técnico del problema (hardware vs. software):**  
+      
+    * **Estrategias alternativas antes del desecho (ej. distribuciones Linux ligeras, refactorización de código):**  
+      
+    * **Postura para el debate:**  
+      
+
+---
+
+### Bloque 3: Economía, consumo y alternativas
+
+#### Pregunta 3.1 · Modelos de negocio sostenibles: ¿Es el SaaS una solución o un consumo perpetuo?
+> **Contexto y cuestión:**  
+> El documental recuerda cómo en los años 30 Bernard London propuso hacer obligatoria por ley la caducidad de los productos para sostener la economía ([14:59](https://www.youtube.com/watch?v=fzwT1GGY0Ds&t=899)). En la actualidad, el sector TIC ha transitado hacia el modelo de Software as a Service (SaaS) con suscripciones mensuales indefinidas (Microsoft 365, Adobe, plataformas cloud).
+> 
+> * El modelo SaaS, donde el usuario nunca es propietario del software sino un mero arrendatario continuo, ¿es un avance ecológico (al eliminar soportes físicos y embalajes) o constituye una forma moderna de dependencia económica y consumo perpetuo donde el usuario pierde la soberanía sobre sus herramientas digitales?
+> * ¿Qué ventajas y riesgos identificas tanto para los clientes como para las empresas que adoptan este modelo?
+
+???+ note "Espacio de respuesta y notas del estudiante — Pregunta 3.1"
+    * **Puntos a favor del modelo SaaS en términos de sostenibilidad y eficiencia:**  
+      
+    * **Puntos críticos (dependencia, soberanía tecnológica, coste acumulado a largo plazo):**  
+      
+    * **Balance final y conclusiones para el debate:**  
+      
+
+#### Pregunta 3.2 · Filosofía «Cradle to Cradle» aplicada a la informática
+> **Contexto y cuestión:**  
+> El químico Michael Braungart defiende en el documental el paradigma *Cradle to Cradle* (De la cuna a la cuna) ([46:05](https://www.youtube.com/watch?v=fzwT1GGY0Ds&t=2765)): un diseño industrial donde no existan residuos y todo componente se conciba como nutriente biológico o técnico para ciclos futuros.
+> 
+> * Si trasladamos la filosofía Cradle to Cradle al desarrollo de software y sistemas de información, ¿cómo definirías una aplicación informática verdaderamente circular y libre de residuos?
+> * ¿Qué papel juegan en este modelo el software libre y de código abierto (FLOSS), las APIs retrocompatibles, la arquitectura desacoplada y modular y el *Green Coding*?
+
+???+ note "Espacio de respuesta y notas del estudiante — Pregunta 3.2"
+    * **Definición de "software circular" o C2C:**  
+      
+    * **Mecanismos clave investigados (código abierto, modularidad, retrocompatibilidad de APIs):**  
+      
+    * **Ejemplo práctico de diseño C2C aplicable a un proyecto de DAW o DAM:**  
+      
+
+---
+
+### Bloque 4: Compromiso personal y criterio profesional
+
+#### Pregunta 4.1 · Transformación de hábitos de consumo personal
+> **Contexto y cuestión:**  
+> El documental invita a reflexionar sobre nuestra propia complicidad como consumidores en la rueda de la obsolescencia.
+> 
+> * A partir de las evidencias analizadas, ¿cambiarás algún criterio a la hora de comprar o mantener tus próximos dispositivos tecnológicos (portátil, teléfono móvil, periféricos)?
+> * ¿Valorarás aspectos como el índice de reparabilidad oficial, la disponibilidad de piezas de repuesto, la adquisición de equipos reacondicionados o la posibilidad de instalar sistemas operativos alternativos para alargar su vida útil?
+
+???+ note "Espacio de respuesta y notas del estudiante — Pregunta 4.1"
+    * **Compromisos personales concretos de consumo responsable:**  
+      
+    * **Criterios de compra que priorizaré a partir de ahora:**  
+      
+
+#### Pregunta 4.2 · Criterio deontológico en tu futuro como desarrollador/a
+> **Contexto y cuestión:**  
+> Como futuros profesionales que pronto estarán diseñando bases de datos, escribiendo código en producción o configurando infraestructuras cloud:
+> 
+> * ¿De qué manera influirá lo reflexionado a la hora de seleccionar librerías, diseñar la arquitectura de tus proyectos y optimizar el consumo de recursos de tus aplicaciones?
+> * ¿Estarías dispuesto/a a defender criterios de sostenibilidad y ética profesional frente a presiones comerciales de plazos cortos o decisiones de negocio contrarias al interés de los usuarios?
+
+???+ note "Espacio de respuesta y notas del estudiante — Pregunta 4.2"
+    * **Principios rectores para mi futura práctica profesional:**  
+      
+    * **Decálogo personal de buenas prácticas de programación sostenible:**  
+      
+
+---
+
+<!-- ## 4. Batería de cuestiones para el debate en clase
 
 A continuación se detalla la batería de preguntas organizada en tres bloques temáticos fundamentales, orientados a situar al estudiante de informática en el centro de la toma de decisiones profesionales.
 
@@ -202,7 +362,7 @@ El documental contrapone las tesis del crecimiento ilimitado impulsado por el co
 
 ---
 
-## 4. Guía didáctica y propuesta metodológica de aula
+## 5. Guía didáctica y propuesta metodológica de aula
 
 Para el profesorado que dinamice esta actividad en el módulo de Sostenibilidad, se sugieren las siguientes pautas organizativas:
 
@@ -228,10 +388,10 @@ Para el profesorado que dinamice esta actividad en el módulo de Sostenibilidad,
 
 ---
 
-## 5. Recursos complementarios y lecturas recomendadas
+## 6. Recursos complementarios y lecturas recomendadas
 
 - **Green Software Foundation:** [greensoftware.foundation](https://greensoftware.foundation) — Estándares internacionales de ingeniería de software sostenible y especificación *Software Carbon Intensity* (SCI).
 - **Iniciativa Europea por el Derecho a Reparar:** [repair.eu](https://repair.eu) — Campaña comunitaria para legislar la disponibilidad de repuestos, documentación y actualizaciones de software libres de bloqueos.
 - **iFixit Smartphone & Laptop Repairability:** [es.ifixit.com](https://es.ifixit.com) — Guías de desmontaje, índice de reparabilidad y denuncias públicas de chips y pegamentos que bloquean la reparación independiente.
 - **The Restart Project:** [therestartproject.org](https://therestartproject.org) — Red internacional de talleres ciudadanos de reparación comunitaria de dispositivos electrónicos contra la cultura del usar y tirar.
-- **Software Heritage:** [softwareheritage.org](https://www.softwareheritage.org) — Archivo global universal para preservar el código fuente del software como patrimonio cultural y bien común de la humanidad.
+- **Software Heritage:** [softwareheritage.org](https://www.softwareheritage.org) — Archivo global universal para preservar el código fuente del software como patrimonio cultural y bien común de la humanidad. -->
